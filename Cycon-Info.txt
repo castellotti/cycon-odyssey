@@ -31,7 +31,7 @@ Layout Defaults
 ---------------
 
 Preferred Room Graphic Dimensions (x,y) : 640, 480
-Show Statistal Display : true
+Show Statistical Display : true
 Show Inventory Display : true
 Show Command Line : true
 Show Compass : true

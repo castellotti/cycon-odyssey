@@ -66,7 +66,7 @@ Modifies Room<Ref> <RoomAttributes>
 Modifies Item<Ref> <ItemAttributes>
 Modifies Obstruction<Ref> <ObstructionAttributes>
 TextMessage'[' string Message ']' 
-GraphicMessage'['URL, int, int ']' // [Graphic URL, X-coordinate, Y-coordinate]
+GraphicMessage'[' URL, int, int ']' // [Graphic URL, X-coordinate, Y-coordinate]
 
 ItemLocations:
 Inventory
