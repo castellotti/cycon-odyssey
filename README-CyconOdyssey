@@ -1,8 +1,8 @@
-README - Cycon Odyssey 0.96
+README - Cycon Odyssey 0.97
 
                              The Cycon Odyssey
 
-                                Version 0.96
+                                Version 0.97
 
                    Copyright (C) 1999-2002 Steven M. Castellotti
                             <SteveC@innocent.com>
@@ -21,38 +21,63 @@ No Warranty
 -----------
 
 The Cog Engine comes with ABSOLUTELY NO WARRANTY.  See the COPYING file
-for details. The Cog Engine is Beta software. This means that while it
-will work most of the time, it will not work all of the time. See the
-section "Reporting Bugs" Below for more information.
+for details. The Cog Engine is software under heavy development. This 
+means that while it will work most of the time, it will not work all of 
+the time. See the section "Reporting Bugs" Below for more information.
 
 
 Quick Installation Instructions
 -------------------------------
 
-	There is no automated install process available for The Cog
-Engine, so a manual install is necessary. The engine itself is merely a
-series of java class files, you will need some sort of game data file in
-order to actually try out the engine. "The Cycon Odyssey" is provided for
-this purpose. The Cycon Odyssey is currently a game in beta, but there
-is enough in place for a new user to get a feel for how the engine works.
+	The Cycon Odyssey is a game module for the Cog Engine Program. 
+This release includes version 1.0 of the Cog Engine, which requires a Java 
+environment to be executed. Fortunately, most modern browsers include the 
+ability to view Java applets, although the current release of Microsoft's 
+Internet Explorer includes a non-standard (and broken!) version of Java. 
+The Netscape browser works much better with the Cog Engine.
 
-1) Download the data and image files for the Cycon Odyssey. The data
-file archive also will contain a recent release of the Cog Engine,
-which is required to play the Cycon Odyssey.
 
-3) Extract the downloaded files into a directory. The "Images" archive
-should be a subdirectory of this directory.
+The following Instructions work for all Operating Systems (Windows 98, 
+Windows 2000, Windows XP, Linux, MacOS, etc.)
 
-4) Load the "CogEngine.html" file into your favorite web browser, or the
+
+If you have a Netscape Browser:
+
+1) Download the Cycon Odyssey zip file for the Cog Engine homepage:
+
+http://cogengine.sourceforge.net/
+
+
+2) Extract all of the files from the zip file. Be careful to maintain the 
+file's directory structure (all images should end up in the "Images" 
+subdirectory)
+
+
+3) Load the "CogEngine.html" file into your Netscape web browser, or the
 Java Appletviewer.
 
 
-Example (Under Linux):
+For Microsoft Internet Explorer 5 or 6:
 
-tar xvzf CyconOdyssey-0.95-data.tar.gz
-tar xvzf CyconOdyssey-0.95-images.tar.gz
-cd CyconOdyssey-0.95
-appletviewer CogEngine.html
+1) Download and Install the Java Plug-In from Sun.com. The following page 
+has the Download link for the Plug-In, as well as Installation 
+Instructions:
+
+http://java.sun.com/getjava/download.html
+
+2) Download the Cycon Odyssey zip file for the Cog Engine homepage:
+
+http://cogengine.sourceforge.net/
+
+
+3) Extract all of the files from the zip file. Be careful to maintain the 
+file's directory structure (all images should end up in the "Images" 
+subdirectory)
+
+
+4) Load the "CogEngine.html" file into your web browser, or the Java 
+Appletviewer.
+
 
 
 FOR MORE INFORMATION
