@@ -1,0 +1,833 @@
+
+                                  The Cycon
+                                   Odyssey
+
+(Introduction:) You awaken and everything is blurry. You sit up, rub your 
+eyes and notice that you somehow have arrived in the middle of a beach. Your 
+clothes are torn, and your throat is a little sore. Slowly you get up to your 
+feet and look around. This is the start of a long and wonderful journey. You 
+must use logic, as well as wits and courage. You don't know how you got here, 
+but maybe you can get home.`
+001"You are standing on a large beachfront. In front of you lies a huge forest 
+with a wide assortment of trees, including a few abnormally large ones. You 
+notice that the western portion of this island is made up of a series of 
+cliffs and rocky terrain."
+B"on a beachfront."
+D"You can see a shady spot to under a tree the NorthWest, a forest starts to 
+the NorthEast, and the beach extends both SouthWest and SouthEast. There is 
+also a path that leads into the forest to the North."`
+002"From where you are standing, there are waves crashing to the south, and you 
+can see something being pushed up and down the beach by waves just northeast 
+of here."
+B"on a beach."
+I"You can see the beginning of a forest to the North, and the beach extends 
+both NorthEast and NorthWest."`
+003"There is a very large oak tree here, one of the largest in the forest. 
+One of its lower branches is within your reach, although there is no reason 
+for you to climb it."
+B"at the base of a large oak."
+I"You think you hear something rustling in the leaves on the North side of 
+the tree. It sounds like a small squirrel or rabbit. Towards the East you can 
+see the sun casting shadows on the ground, and the beach runs SouthWest and 
+SouthEast of here."`
+004"You have come to the edge of the beach, and the abruptness of it's ending 
+is due to the fact that there is an extremely large cliff here. It is much 
+too steep for you to climb up, but maybe coming down would be a bit 
+easier..."
+B"at the bottom of a cliff."
+I"Because of the cliff, you can only go NorthEast along the coastline, or 
+head North towards a shady spot."`
+005"The many limbs of the trees that hang far above you easily block out
+the sun and make the sand more comfortable, since it is less hot."
+B"in a shady spot."
+I"The beach ends to the South and continues to the SouthEast. There is a huge 
+oak tree to the East, and it looks as though you can climb up an old rock 
+slide just West of here."`
+006"The ocean's waves are crashing far below you, and your loose footing here 
+makes you nervous. You'd like to leave this area as soon as possible."
+B"halfway up a cliff."
+I"You can either move along the cliff to the North, or slide Downwards to the 
+beach below."`
+007"Apparently there once was a rock-slide here some time ago, making for 
+loose footing. It is impossible to continue up the cliff from this direction."
+B"on top of a rockslide."
+I"You have the choice of either working your way along the edge of the 
+rockslide Southward, or simply sliding East and down to the shady spot
+below."`
+008"You are at the start of a long path, which winds through the forest that 
+now surrounds you on both sides."
+B"at the start of a path."
+I"You can either go South to the beach, or follow the path to the North."`
+009" There is a piece of wreckage being pushed up and down the beach by the 
+waves here. At first you thought it was just driftwood, but after closer 
+look, you recognize it as once being something of your own, and you remember 
+it had something to do with your getting here...but you can remember no more."
+B"on the beach."
+"The beach continues SouthWest and NorthEast, and there is a large tree to 
+the NorthWest."`
+010"The woods on either side of the path are very close together and almost 
+no light can get through."
+B"on a path."
+I"Rather than wander away, you'd prefer to stay on the path; therefore you 
+can go either North or South."`
+011"As you look toward the South, your eyes widen, and your mouth gapes, for 
+before you stands a huge temple that was built into the rockface behind it!"
+B"at the bottom of a temple."
+I"Your choices are either going Up the steps to the top of the temple, East 
+to a river bank, or West to the start of a rope bridge."`
+012"It is very dark here, since most of the light is blocked out by the 
+trees."
+B"surrounded by trees."
+I"The only direction to go is East, where there is more light."`
+013"The path forks here, in three directions."
+B"in front of a fork in the road."
+I"You can either head West towards the largest tree in the forest, North to 
+where the path forks again, or follow the path to the East or South."`
+014"You are now behind the oak tree, and whatever made
+that noise is gone. Instead, someone has left behind a rope that goes (-where
+else-) up!"
+B"behind the large oak tree."
+I"You can either go up the rope, or South to the other side of the tree. "`
+015"You are standing on one of the lower branches of the tree. There is no 
+way to go back, so you have to climb down."
+B"on a low branch."
+I"You may only climb Down to a shady cove."`
+016"A huge tree blocks the rest of the path, so you can't continue in this 
+direction. You do however, notice a large platform far up above you, in the
+trees. By no means can you get to it from here, but there has to be a way..."
+B"at the base of a huge tree."
+I"You may only go East."`
+017"You are on a path."
+B"on a path."
+I"The path ends to the North, continues to the NorthWest, and there is an 
+open field to the East."`
+018"When you peer over the edge of the platform, you immediately notice just 
+how high up you really are, well over 40 feet. There is not much to do here,
+so you might as well continue your journey."
+B"on a platform."
+I"You can probably jump to (and hope to reach in time) either of the branches 
+that are both North and South of here."`
+019"This long and wide branch extends far out from the tree. There is also a 
+vine hanging here which looks sturdy enough to hold your weight."
+B"on a large branch."
+I"You can climb Down the tree, follow the limb off to the West, where it 
+hangs over a wall, or swing on the vine over to a platform, just South of 
+here."`
+020"You are near the end of the beach."
+B"on a beach."
+I"The beach extends both South and SouthWest, and ends off to the East."`
+021"The road forks here, in two directions."
+B"at a fork in the road."
+I"You can go along the trail to the West, South, or SouthEast."`
+022"You are on the north side of the huge tree, where there an arrow is 
+lodged into its trunk so far that you cannot possibly budge it."
+B"behind the huge tree."
+I"You may go East to a fork in the road, or North towards a huge boulder."`
+023"You are in an open field."
+B"in an open field."
+I"Because of the trees, you can only go North or West, along a winding path."`
+024"You have come to the end of the path, where it becomes surrounded by 
+groups of trees huddled very close together. Just north of the trees you can
+see a few of the many huge cliffs and other mountainous regions that make up 
+the western and northern portions of the island."
+B"at the end of the path."
+I"You have to go back to the South."`
+025"The field begins to break down into sand, and you can see a lagoon off 
+in the distance."
+B"within sight of a lagoon."
+I"There is a sandbank to the North, the southern shore of a lagoon to the 
+NorthEast, and a field to the South."`
+026"You make it onto one of the farther limbs of the tree. Since the wind 
+keeps shaking the end of the beach, you'd like to continue on your journey 
+just as soon as possible."
+B"on a far limb."
+I"You can go back to the North, or climb Down to a lower branch."`
+027"You caught the limb and are now swinging back and forth. The friction is 
+starting to hurt your bare hands, so you'd like to move on."
+B"swinging on a branch."
+I"You can try to swing over, release and try to land in either the massive 
+bird's nest south of you, or onto a platform just North of here."`
+028"You are now standing in the middle of huge nest that is nuzzled in the 
+place where this branch meets the trunk of the tree."
+B"in a huge nest."
+I"You can jump and grab for either of the limbs just North and South of 
+here."`
+029"You are at the southern shore of a lagoon that's glimmering in the 
+sunlight. Far ahead lies a rope bridge that crosses it."
+B"south of a lagoon."
+I"You can go North to the edge of the water, West towards a sandbank, or 
+SouthWest towards a field."`
+030"You are standing on a sandbank which is home to many exotic species of 
+flora."
+B"on a sandbank."
+I"You can head North to the southwestern bank of the lagoon, East to the 
+it's southern bank, South towards a field, or West towards one of this 
+island's many cliffs."`
+031"There is a wide assortment of seashells here, ranging from large conches, 
+to small muscles and clams."
+B"standing admist many seashells."
+I"Apparently, you can only go North along the beach."` 
+032"You have come to the edge of the cliff, and are enjoying a spectacular 
+view of your surroundings."
+B"at the edge of the cliff."
+I"You can probably climb Down along the cliff, but you won't be able to get 
+back up. You also may go North or SouthWest."`
+033"The tree has a large knothole in it here, probably even large enough for 
+you to crawl into. The hole leads downward through the trunk, which you now 
+realize has been hollowed out. Also, there is a branch with a rope tied to it
+that is within your reach."
+B"at the entrance to the tree."
+I"You can go East and down through the hollow trunk, or climb Down the rope 
+hanging from the branch to where you think you can hear something rustling 
+in the leaves."`
+034"You are at the bottom of the large hollow tree, which is apparently just 
+camouflage for a series of underground tunnels. Light is pouring in through
+an enlarged knothole above you."
+B"inside a large hollow tree."
+I"You can follow this tunnel to the East, or climb Up through the tree to the 
+wide knothole."`
+035"You have come to the end of the beach, so you'll have to go back the way 
+you came."
+B"at the end of the beach."
+I"You can only go back East."`
+036"You are on an overpass that reaches out over the beaches below. You are 
+enjoying the view, but the ground isn't very stable."
+B"on an overpass."
+I"You may go South to the edge of the cliff, or SouthWest towards a pathway 
+up the volcano."`
+037"You are on a pathway that leads up a volcano that seems to have erupted 
+recently."
+B"on a pathway up the volcano."
+I"You can go Up the volcano towards a small dugout, West where there is more 
+hardened lava, East to an overpass, or down the path to the South."`
+038"From where you now stand, you face north towards a huge volcano, looming 
+in the distance. Behind you the rockface begins to drop off towards the 
+crashing sea below."
+B"south of a looming volcano."
+I"You can head North up a path to the top of the volcano, or follow the cliff 
+to the SouthWest or NorthEast."`
+039"This area is mostly covered with hardened lava, from a recent eruption."
+B"walking on hardened lava."
+I"You may go East towards a pathway that leads up the volcano, West to the 
+southwestern tip of the island, or South towards an ocean viewpoint."`
+040"Your current position allows you to gaze out across the ocean, and relish 
+the magnificent view."
+B"at an ocean viewpoint."
+I"You can go North toward some hardened lava, NorthEast to the southwestern 
+tip of the island, or NorthEast towards a steep drop-off point."`
+041"You are on top of a wide wall, struggling to keep your balance."
+B"on top of a wall."
+I"You can go North where to where the wall is higher up off the ground, West 
+along the wall, or climb up onto a branch that hangs over the wall to the 
+East."`
+042"You have come across an area that looks as though someone has recently 
+camped here."
+B"at a campsite."
+I"You may only go back East, to the edge of the cliff."`
+043"You are standing on a very weak portion of the wall."
+B"on a weak part of a wall."
+I"You can go East to the far end of the wall, West to the western edge of 
+the wall, or jump Down towards the pasture below."`
+044"You are standing at the water's edge. Strangly, the lagoon would appear 
+to be salt-water, so you can't drink it. However, what may be of more 
+importance, any sort of sea-creature could be lying within the water's murky 
+depths."
+B"at the edge of the water."
+I"You could go Down into the water (if you had something that would allow you 
+to breathe underwater), West to the southwest end of the lagoon, South to the 
+beginning of the sand, or swim North and under the bridge towards a coral 
+reef on the other side."`
+045"You are standing next to a large cliff, which blocks all passages to the 
+north."
+B"next to a large cliff."
+I"You can go either East to a sandbank at the edge of a lagoon, or West 
+towards a large boulder."`
+046"A large passageway has been cut sheer through the cliffs on either side 
+of you. Whoever made the passageway, however, probably didn't want anyone 
+going through, because they also left a large boulder here to block the path."
+B"in front of a passageway through the cliffs."
+I"You can go East along the cliff, South behind a huge tree, or North (once 
+you find a way to remove that boulder)."`
+047"This area is where the deliberate presence of the tunnel becomes very 
+obvious. The roots of the tree surrounds you, almost as if they were meant to 
+go around the tunnel in the first place. The most interesting thing, however,
+is that the tunnel itself does not seem to have been dug with tools, but the 
+dirt simply pushed aside with a great deal of force."
+B"surrounded by roots."
+I"You can crawl to the North where the tunnel forks, or West towards the 
+hololwed trunk of a large tree."`
+048"You are traveling along a path that leads upwards."
+B"on a path leading upwards."
+I"The path splits to the East and West."`
+049"You are on the edge of a small overhang. There is something down there, 
+but you can neither see it, nor hear anything."
+B"on a ledge."
+I"You could probably jump Down below without breaking any bones, but there is 
+absolutely no possible way to get back up here. You can also head back East."`
+050"After you place your lips around the small end of the conch, you close 
+your eyes and blow. You think that you can hear something and your eyelids 
+snap open. Before you stands a huge winged unicorn. It doesn't look 
+frightened, so you walk over, pet its long mane, and climb up onto its back.  
+     You are now riding on the back of a beautiful winged unicorn. It reminds
+you of the mythological creature 'Pegasus'. You can see most of the island 
+from up here. Apparently the western part of the island drops off about 100 
+feet or so, and most of the plant life is on the lower and eastern half. You 
+can see a lagoon on the northeastern part of the island, and a volcano on the 
+southwestern portion.                                                         
+     The unicorn is descending now.(Please return your seats to an upright 
+position.)"
+B"on the back of a winged unicorn."
+I" "`
+051"The path ends here, so you'll have to head back."
+B"facing an unclimbable hill."
+I"You can only go back to the East."`
+052"It feels as though this area has a magical aura all around it. The sun's 
+rays of light shining down into the water seem to cause everything to 
+sparkle. It's a shame that the saltwater hurts your eyes so much."
+B"underwater."
+I"You can barely make out what appears to be an underwater cave, far below 
+you. You can swim Down and into it, North towards a coral reef, or up to the 
+edge of the water."`
+053"You have come across a large hole where the ground has caved in. It looks 
+as though this was once a trap made to catch unsuspecting animals. A 
+makeshift ladder leads into the depths of the pit."
+B"in front of a pitfall."
+I"You can climb Down the ladder, and into the pit, or go North to one of the 
+banks of the lagoon."`
+054"As you look around you notice that this was indeed once a trap to catch 
+animals. It looks like it was used recently, but there is no immediate 
+evidence of what was caught."
+B"in a pit."
+I"You may only climb back Up the ladder."`
+055"This side of the lagoon is seems less tranquil than the opposite bank. 
+There is less plant-life here and it is much more quiet. You would prefer to 
+move on as soon as possible."
+B"on the other side of the bridge that crosses the lagoon."
+I"You can go West across the bridge, North to the east shore of the lagoon, 
+South towards a pit, or East towards a large patch of sand, which seems 
+out-of-place in its forest surroundings."`
+056"You are in the middle of a long rope bridge that crosses the lagoon. You 
+stare down at the water, to try to see what's at the bottom, but its too 
+murky and there is too much reflection from the sun for you to be able to see
+much of anything."
+B"in the middle of a long rope bridge."
+I"The bridge extends both East and West across the lagoon. You could also 
+dive Down into the waters of the lagoon below you."`
+057"You are at the southwest bank of the lagoon. A path winds along the cliff 
+to the East. You can also hear a river that is not too far from here."
+B"at the southwest bank of the lagoon."
+I"You can go North or South alongside of the cliff, or East to the edge of 
+the water."`
+058"Walking side-by-side along the cliff, you continue through the patch of 
+sand. You're almost positive that you can hear a river nearby."
+B"west of the lagoon."
+I"You can go South to the southwest bank of the lagoon, or North towards a 
+bridge that crosses the middle of the lagoon."`
+059"You are standing next to a long rope bridge that spans the width of the 
+lagoon. It appears to be the only way across the lagoon, but at least you're 
+sure that it is more than strong enough to hold your weight."
+B"standing next to the rope bridge." 
+I"You can go North to the western shore, cross the bridge by going East, or 
+walk alongside fo the cliff to the South. "`
+060"You are on the east shore of the lagoon. To the north and east of you are 
+some of those patches of sand. You can't go west because of a coral reef 
+which is blocking your path." 
+B"on the east shore of the lagoon."
+I"You only may go South to the rope bridge, or East and find out what that 
+sand doing there."`
+061"As you glance over your shoulder, you notice that the cliffs start 
+bending around to the west, allowing you to head over towards a river that 
+has eroded a small passage way through the rockface."
+B"on the west shore of the lagoon."
+I"You can head West to where a group of rocks would allow you to cross the 
+river, North to a small sand dune, or South to the rope bridge that crosses 
+the lagoon."`
+062"You've come across a large coral reef which blocks your passage forward. 
+It is covered by a wide assortment of seaweed and crushed shells. The lagoon 
+was probably a part of the ocean at one time, which would explain the 
+saltwater."
+B"treading water in front of a coral reef."
+I"You can only swim over to the South because the coral reef blocks further 
+passage."`
+063"The sand in this area has piled up to create a small dune. The dune 
+doesn't look like it was formed naturally, and a closer look confirms this 
+because you notice that a tunnel with carved stone steps going downward have 
+been built into the other side of the sand dune."
+B"standing on a small sand dune."
+I"You can go North to the other side of the dune, West toward a river, East 
+to the north shore of the lagoon, or South to it's west shore."`
+064"The most interesting thing here is the large coral reef that blocks you 
+from the lagoon. It seems like the strip of land that you're standing on was 
+placed here artificially, which explains why the lagoon has saltwater instead 
+of fresh, and in fact how that lagoon got there in the first place."
+B"on the north shore of the lagoon."
+I"You can go Noth to the end of the beach, West to a small sand dune, or East 
+to where a patch of reeds are growing in the sand."`
+065"You are standing in the middle of a patch of reeds and other knee-high 
+plants. It would be very easy to lose something around here."
+B"standing in a patch of high weeds."
+I"You can go West to the north shore of the lagoon, NorthWest to the edge of 
+the beach, or South or East towards some odd patches of sand."`
+066"The strip of land that you're now standing on was probably put here 
+artificially, in order to create the lagoon." 
+B"on the end of the beach."
+I"You can go South to the north shore of the lagoon, or SouthEast to a patch 
+of knee-high weeds."`
+067"You are behind a large sand dune. A tunnel with a carved stone staircase 
+leads downward into the earth."
+B"behind the sand dune."
+I"You can go Down the staircase, North to a peninsula, or South to the other 
+side of the dune."`
+068"You're treading water in the ocean below the dock, and the saltwater is 
+stinging your eyes." 
+B"in the ocean."
+I"You can either climb Up onto the dock, or swim Down towards the bottom of 
+the ocean (if you have something that would allow you to breathe while 
+underwater)."`
+069"As you continue to crawl through the tunnel, it occurs to you that 
+although you can still see, you should have run out of light a long time ago. 
+You simply dismiss it, and continue. After a few feet you notice that the 
+tunnel's ceiling is getting almost high enough for you to stand up straight 
+and walk. You stop moving when you see reach a point where the tunnel forks."
+B"at a point where the tunnel forks."
+I"One passage continues North and heads at a slightly downward tilted angle, 
+another goes NorthEast to where you can see some sort of wall-painting, and 
+the other passage continues to the South."`
+070"You are crawling along an underground passageway that leads downward. It 
+would seem that the light is provided by the room at the end of the tunnel."
+B"in an underground tunnel that leads downward."
+I"You can go North to the room at the end of the tunnel, or South to where 
+the tunnel forks."`
+071"The walls of this room themselves cast an eerie glow, perhaps from either 
+a bizarre element imbedded in the rock, or some sort of phosphorous fungus. 
+That eerie glow is what has been providing you with light. There is a large 
+stone placed in the middle of the room."
+B"in the room at the end of the tunnel."
+I"The only direction that you can go is back South through the tunnel that 
+led you here."`
+072"The only thing in this room of any interest is the huge painting which is 
+taking up most of the wall." 
+B"in a tunnel, looking at a large wall painting."
+I"You can either follow the tunnel that goes North, the one that goes 
+SouthWest, or the one to the South that leads towards a cave-in."`
+073"The tunnel is blocked by a cave-in which appears to have occurred 
+recently. You can't remove the rubble left behind by the cave-in by hand, but
+maybe some 'leverage' would help."
+B"standing near a cave-in."
+I"You can only go North towards a large wall-painting, or South (once you've 
+removed the rubble left behind by the cave-in)."`
+074"As you continue through the tunnel, you think you hear sounds all around 
+you, but it's probably just some sort of echo."
+B"in an underground tunnel."
+I"You can see a dim light to the North, and a huge wallpainting to the 
+South."`
+075"The tunnel spreads out into an immense room here. There's a stone table 
+in the middle, with a deep pit behind it. The walls themselves seem to glow 
+with an un-earthly inner light."
+B"in an underground room."
+I"You can only head North towards a stone wall or South through a series of 
+underground tunnels. Unless of course, you have some sort of death-wish and 
+want to jump Down that hole."`
+076"You have uncovered a tunnel that leads downward, to a large cavern. You 
+slowly crawl through it, and upon reaching the end, your eyes widen and you 
+feel you jaw almost hit the floor. Much to your amazement, there is a huge 
+flat wooden platform ahead of you. On top of the platform is a wide 
+assortment of gears and switches and levers. Behind and above the panels 
+is a huge plate of glass. Astonished and amazed at finding something 
+resembling a computer on an island that seemed so primal you step forward 
+and pull the red handle in front of you..."
+B"in the middle of a huge cavern."
+I"You may only go North, and Up to the place where the cave-in took place."`
+077"You are standing on a small strip of land in the middle of a wide river 
+that takes in water from the ocean. After years of erosion, the river has 
+eroded a small passway through the rockface."
+B"in the middle of a river."
+I"You can wade North towards the mouth of the river, South to a set of 'rock 
+steps' that cross the river, West to the opposite bank, or East to a small 
+sand dune."`
+078"You edge your way along the portion of the wall that splits off to the 
+north. The ground below you drops off rather rapidly. There is a pasture far 
+below to the left, and to the right lies the remains of a small building."
+B"on top of a high wall."
+I"Since the wall is much too high on either side for you to jump down, and 
+since to the north the path on top of the wall ends where a gate begins, you 
+can only go back to the South."`
+079"You are standing admist the ruins of an old, small building. It would 
+appear that it was once an old toolshed, but simply crumbled from lack of 
+upkeep."
+B"standing admist the ruins of an old toolshed."
+I"You may only go back North to the narrow passageway."`
+080"The peninsula that you're standing on curves to the right, where a dock 
+made of wood stretches out over the ocean."
+B"standing on a peninsula."
+I"You can go to the North where the peninsula turns right, or South to the 
+back of a small sand dune."`
+081"The peninsula curves to the right here, leading towards a wooden dock 
+extends out over the water."
+B"on a peninsula."
+I"You may head East to the start of a wooden dock, or South, to the start of 
+the peninsula."`
+082"Where the peninsula ends, a wooden dock begins stretching out over the 
+water."
+B"at the start of a wooden dock."
+I"You can either go East onto the dock, Down into the water, or West where 
+the peninsula turns."`
+083"A rope bridge starts here, spaning the deep gully far below you."
+Description B:"You are at the start of a rope bridge."
+I"You can travel West to cross the rope bridge, or East to the bottom of a 
+huge temple that has been built into the rockface."`
+084"Oops! due to a serious lack of intelligence...You are dead."
+B"dead."
+I" "`
+085"The path that you were walking along is being blocked by a large metallic 
+gate which has been built into the huge wall in front of you. It has a lock 
+and heyhole that are within your reach." 
+B"in front of a large gate."
+I"You can go SouthWest towards a pasture, or once you find a way around that 
+lock, East through the gate."`
+086"At this point the wall that you have been walking on top of winds around 
+into a staircase leading downward. They twist at the bottom and turn towards 
+the back of a volcano."
+B"at the western end of a large wall."
+I"You can travel Down the staircase, or East along the top of the wall."`
+087"You are standing in the middle of a large pasture. To the west, south, 
+and east are walls blocking you. The pasture begins to slope downward."
+B"in the middle of a pasture."
+I"You can go Down the hill, NorthEast to a gate built into one of the walls, 
+or climb Up onto the top of the wall behind you."`
+088"You are walking down a hill in a large pasture. At the bottom of the hill 
+is a path that leads to a well." 
+B"on a hill, in a pasture."
+I"You can either go Down to the bottom of the hill, or walk Up to the top of 
+it."`
+089"You are standing at the bottom of a hill in a large pasture. A path just 
+East of here leads to a well."
+B"at the bottom of the hill."
+I"You can go East to the path that leads to a well, or walk Up the hill."`
+091"You are standing on top of a small group of rocks that lead across the 
+river. This river, after years of constant pressure, has eroded a small 
+passway through the huge cliffs that make up most of the northern and western 
+portions of the island. The river takes water in from the ocean and follows 
+a winding route through the rock."
+B"standing on top of a few  rocks in the middle of a river."
+I"You can go North or South along the river, or East or West to either bank."`
+091"You are standing on a path, just south of a water-well. Mist from the 
+ocean below you blows comfortingly across your face."
+B"south of a well."
+I"You can go North to the well, or West to the bottom of a hill."`
+092"You're walking down a narrow passageway with huge walls on either side. 
+At the end of the passage is an old building lays in ruins."
+B"walking down a narrow passway."
+I"You can go South towards the old building, or West towards the gateway."`
+093"You are standing on a set of stairs that lead into the top of a wall. 
+They twist at the bottom, turning in the direction of a volcano."
+B"on a staircase that leads into the top of a wall."
+I"You can either go Down to where the stairs twist, or Up to where they lead 
+into the top of a wall."`
+094"You are in an underground tunnel, which was formed by a river that eroded 
+its way through the cliffs which make up most of the western portion of the 
+island. The current is pulling you away from the entrance."
+B"in an underground tunnel."
+I"You may go West towards the middle of the tunnel, or East towards its 
+entrance."`
+095"Someone has built a stone wall here, and it will have to be removed 
+before you can continue."
+B"standing in front of a large stone wall."
+I"Unless you've removed the wall, you'll have to go back the way you came. 
+Other wise, you can go North or South."`
+096"As you wade along the river, you notice that the undergrowth is growing 
+thicker here."
+B"wading along, in a river."
+I"You can go South where the river turns, or North where a set of rocks 
+crosses it."`
+097"At this point, the river turns sharply to the west. You can also see a 
+tunnel further down to the west, where the river must go underground."
+B"at a point where the river turns."
+I"You can follow the river North or West."`
+098"As you glance upwards at the cliffs on the north side of the river, you 
+notice that they're somewhat lower than the ones on the south side. An old 
+tree stump, which is on top of the northern cliff, looks like you could climb 
+up to it, if only you could somehow get a rope up there."
+B"You are in the river that runs through the mountains."
+I"If you could get a rope up to that tree stump, you could climb Up to it. 
+Otherwise, you can only follow the river to the East, ot to the West where 
+the river goes underground."`
+099"The river takes in its water from the sea here. The current is a bit 
+stronger than before, and it pushes you backwards." 
+B"at the mouth of a river."
+I"Since the current is so strong, you may only go South."`
+100"You are standing on a wooden dock that stretches out over the ocean. You 
+glance out towards the ocean as the waves crash all around you. You can't 
+help but to feel a little homesick."
+B"standing on a wooden dock."
+I"You may dive Down into the water, or go back to the West where the dock 
+starts."`
+101"The river enters an tunnel here. You can hear the echo of the water 
+trickling. Otherwise, it is pitch black, and you can't see any light at the 
+end. You'll need some sort of portable light source to go in there."
+B"standing in a river, at the entrance to a tunnel."
+I"You can only go East, unless you have a torch or a flashlight of some kind, 
+in which case you can enter the tunnel to the West."`
+102"The river begins to turn North here."
+B"in the middle of an underground tunnel."
+I"The tunnel turns both North and East here."`
+103"You are standing at the southwestern point of the island, taking in the 
+magnificent view. Below you the waves crash against the craggy rocks. Enough 
+sight-seeing, it's time to move on."
+B"at the southwestern-most point of the island."
+I"You can either go NorthEast towards some hardened lawn, or SouthEast to an 
+ocean viewpoint."`
+104"After all of that climbing to get up here, you realize that this would be 
+a perfect place to take a short rest. Apparently, someone else had the same 
+idea, for there is a small campsite off to the east. In the meantime, you sit 
+back and relax, taking in the view."
+B"on top of a cliff"
+I"You can either go East to a campsite, or Down the rope into a river."`
+105"You are standing on the staircase in between a stone wall and the back of 
+a small sand dune."
+B"on a small set of stairs."
+I"You can either go South to the stone wall, or Up to the back of a small 
+sand dune."`
+106"You are standing on a staircase that twists downwards. At the other end, 
+it leads into the top of a wall."
+B"on a twisting staircase."
+I"You can either go Up the staircase, North to a small overlook that reaches 
+out over a deep pit, or East towards the back of a volcano."`
+107"In front of you stands a rather large well, with a crank on one end, and 
+a rope with a bucket on the other. The bucket is now at the bottom of the 
+well. You can hear water flowing at the bottom, and you can smell the ocean."
+B"in front of a well."
+I"You can go North to one end of a rope bridge, South to a path that leads to 
+a large hill, or Down the rope that the bucket hangs on, if you had some way 
+to see once you got down there."`
+108"You are leaning over the edge of a small overpass that extends over a 
+deep pit. You try squinting a bit, but you still can not see the bottom. You
+pick up a small rock, and drop it into the pit. You wait a few moments, but 
+don't hear it hit the bottom."
+B"an a small overpass."
+I"Unless you really want to find out what's at the bottom of the pit, you can 
+only go South."`
+109"You are standing on the bank of a river, behind a large cliff. This bank 
+of the river leads upward somehow, in an eastern direction." 
+B"on the opposite bank of a river."
+I"You can either go West up the hill, or East and across the river."`
+110"The tunnel turns again, this time east and south. The waterlevel seems to 
+have lowered. You can see light to the east, where there must be a hole in 
+the ceiling of the tunnel."
+B"in an underground river."
+I"You can go East towards the light, or South towards the middle of the 
+tunnel."`
+111"You are now standing on the northern side of a large volcano that takes 
+up the majority of the southwestern portion of the island."
+B"behind volcano."
+I"You can either go Up to the top of the volcano, or East towards a set of 
+winding stairs."`
+112"You are treading water next to a short wooden dock."
+B"treading water."
+I"You can only go Up onto the dock, unless you have some means of breathing 
+while underwater, you can't go Down."`
+113"You are swimming along the bottom of the ocean, looking for anything 
+interesting or out of the ordinary." 
+B"at the bottom of the ocean."
+I"You can only swim Upward, to the top of the water."`
+114"The level of the water in the tunnel has dropped down to only five or six 
+inches. A large hole under the water running through the tunnel, it looks 
+just about big enough for you to fit through."
+B"in a river, underground."
+I"Unless you have some way of breathing while underwater, you can't go Down 
+through the hole, and therefore will have to go West towards the light, and 
+through the tunnel."`
+115"You now standing knee-deep in an underground river. Above you is a large 
+round 'tunnel' going straight up. At first you're confused, but after 
+noticing the rope and bucket, you realise that its just a normal water-well. 
+The bucket is now down, and the rope looks thick enough to climb up. You 
+suddenly realize that the water is saltwater and you have to wonder why 
+someone would want to build a well here."
+B"below a well."
+I"Since the bucket (and rope) is down, you can climb Up to the top of the 
+well. You also can follow the tunnel to the East or West."`
+116"In front of you is one end of a rope bridge that spans a deep gulley far 
+below you."
+B"at one end of a rope bridge."
+I"You may go West to the northwestern point of the island, South to a well, 
+or East across the rope bridge."`
+117"You are now standing on the northwestern point of the island. There is a 
+series of short ledges that are not totally unsimular to a gigantic 
+staircase."
+B"at the top of huge set of short ledges."
+I"You may climb Down to the first ledge, or go East to the start of a rope 
+bridge."`
+118"You are resting inside a naturally-formed dugout, probably shaped and 
+molded by the lava the last time the volcano erupted. The dugout resemble a 
+very small cave, about seven feet deep into the volcano, six feet high, and 
+six feet wide. Its deep enough to block out the sun, and wide enough to let 
+in the refreshing sea breeze."
+B"in a dugout."
+I"You can go Up to the top of the volcano, Down to a pathway that leads up 
+the volcano, East to a deadend, or West into the middle of a patch of 
+boiling-hot lava."`
+119"You are now walking across a rickety old bridge. Below you is a deep 
+gulley with the ocean's waves crashing at the bottom."
+B"in the middle of a rope bridge."
+I"The bridge goes East and West"`
+120"The top level of this tunnel seems to be covered with some kind of mirror 
+that shines incredibly bright white light all around you, almost blinding you. 
+You try squinting, but it is no use, the light is simply too bright."
+B"at the top of a temple."
+I"You may only go back Down the steps to the base of the temple."`
+121"While standing on the small ledge inside the volcano, you have to keep 
+yourself from looking towards the lava, because the heat that it casts 
+against your face is virtually unbearable. You had best be moving on soon."
+B"on a small ledge, inside a volcano."
+I"You may only climp back Up the rope."`
+122"You now stand on the top of a volcano, peering down at the lava flowing 
+deep within it. To your right, sticking out of the ground, is a small metal 
+rod. Also, not too far below it is what looks like a small ledge."
+B"on top of a volcano."
+I"If you could find some way to get Down to that ledge, you might be able to 
+see if there's anything there of interest. Otherwise, you can go down the 
+North or South sides of the volcano."`
+123"After this ledge the other start becoming much larger, making it 
+impossible to go any lower."
+B"on a huge ledge."
+I"You can only climb back Up to the top of the huge stairs."`
+124"A large boulder blocks your path in this direction, so you'll have to go 
+back."
+B"at a dead end."
+I"You may only go back West"`
+125"You now stand before a huge cave entrance that leads underground. You 
+hear some sort of mechanism shirring and clicking deep below the earth. You 
+sigh, take a deep breathe, and step forward. You've come a long way, and 
+there's no turning back now."
+B" "
+I"This concludes the first session of The Cycon Oddyssey. You have overcome 
+many obstacles and mental challanges. I regret that you had to come so far, 
+and you still don't know where you are, how you go here, why you were brought 
+here, or even what the name means. You don't even know where 'here' is. If 
+you enjoyed this game (or even if you didn't) look for The Cycon Odyssey II, 
+'Tracing Roots', possibly coming soon to a Hard Drive near you."`[
+008,000,000,000,003,005,002,004,000,000
+003,000,000,000,009,001,000,000,000,000
+014,002,005,000,000,000,009,001,000,000
+005,000,000,000,001,000,000,000,000,000
+000,004,003,150,000,000,001,000,000,000
+007,000,000,000,000,000,000,000,000,004
+000,006,005,000,000,000,000,000,000,005
+010,001,000,000,000,000,000,000,000,000
+000,000,000,000,020,003,000,002,000,000
+013,008,000,000,000,000,000,000,000,000
+000,000,109,083,000,000,000,000,000,000
+000,000,010,000,000,000,000,000,000,000
+021,010,017,016,000,000,000,000,000,000
+000,003,000,000,000,000,000,000,033,000
+000,000,000,000,000,000,000,000,000,012
+000,000,013,000,000,000,000,000,000,000
+024,000,023,000,000,021,000,000,000,000
+019,027,000,000,000,000,000,000,000,000
+000,018,000,041,000,000,000,000,000,022
+000,031,035,000,000,000,000,009,000,000
+000,013,000,022,000,000,017,000,000,000
+046,000,021,000,000,000,000,000,019,000
+025,000,000,017,000,000,000,000,000,000
+000,017,000,000,000,000,000,000,000,000
+030,023,000,000,029,000,000,000,000,000
+028,000,000,000,000,000,000,000,000,015
+018,028,000,000,000,000,000,000,000,000
+027,026,000,000,000,000,000,000,000,000
+044,000,000,030,000,000,000,025,000,000
+057,025,029,045,000,000,000,000,000,000
+020,000,000,000,000,000,000,000,131,000
+036,000,000,000,000,000,000,038,000,006
+000,000,034,000,000,000,000,000,000,014
+000,000,047,000,000,000,000,000,033,000
+000,000,020,000,000,000,000,000,000,000
+000,032,000,000,000,000,000,037,000,000
+000,038,000,039,036,000,000,000,000,118
+037,000,000,000,032,000,000,040,000,000
+000,040,037,103,000,000,000,000,000,000
+039,000,000,000,038,103,000,000,000,000
+078,000,019,043,000,000,000,000,019,000
+000,000,104,000,000,000,000,000,000,000
+000,000,041,086,000,000,000,000,000,087
+052,029,000,057,000,000,000,000,000,052
+000,000,030,046,000,000,000,000,000,000
+048,022,045,000,000,000,000,000,000,000
+069,000,000,034,000,000,000,000,000,000
+000,000,051,049,000,000,000,000,000,000
+000,000,048,000,000,000,000,000,000,125
+000,000,040,031,000,000,000,000,000,000
+000,000,048,000,000,000,000,000,000,000
+062,000,000,000,000,000,000,000,044,114
+055,000,000,000,000,000,000,000,000,054
+000,000,000,000,000,000,000,000,053,000
+060,053,084,056,000,000,000,000,000,000
+000,000,055,059,000,000,000,000,000,062
+058,030,044,000,000,000,000,000,000,000
+059,057,000,000,000,000,000,000,000,000
+061,058,056,000,000,000,000,000,000,000
+084,055,084,000,000,000,000,000,000,000
+063,059,000,090,000,000,000,000,000,000
+000,052,000,000,000,000,000,000,000,000
+067,061,064,077,000,000,000,000,000,000
+066,000,065,063,000,000,000,000,000,000
+000,084,084,064,000,066,000,000,000,000
+000,064,000,000,000,000,065,000,000,000
+080,063,000,000,000,000,000,000,000,105
+000,000,000,000,000,000,000,000,100,113
+070,049,000,000,072,000,000,000,000,000
+071,069,000,000,000,000,000,000,000,000
+000,070,000,000,000,000,000,000,000,000
+074,073,000,000,000,000,000,069,000,000
+072,076,000,000,000,000,000,000,000,000
+075,072,000,000,000,000,000,000,000,000
+095,074,000,000,000,000,000,000,000,084
+073,000,000,000,000,000,000,000,073,000
+099,090,063,109,000,000,000,000,000,000
+000,041,000,000,000,000,000,000,000,000
+092,000,000,000,000,000,000,000,000,000
+081,067,000,000,000,000,000,000,000,000
+000,080,082,000,000,000,000,000,000,000
+000,000,100,081,000,000,000,000,000,112
+000,000,011,119,000,000,000,000,000,000
+000,000,000,000,000,000,000,000,000,000
+000,000,092,000,000,000,000,087,000,000
+000,000,043,000,000,000,000,000,000,093
+000,000,000,000,085,000,000,000,043,088
+000,000,000,000,000,000,000,000,087,089
+000,000,091,000,000,000,000,000,088,000
+077,096,061,109,000,000,000,000,000,000
+107,000,000,089,000,000,000,000,000,000
+000,079,000,085,000,000,000,000,000,000
+000,000,000,000,000,000,000,000,086,106
+000,000,101,102,000,000,000,000,000,000
+105,075,000,000,000,000,000,000,000,000
+090,097,000,000,000,000,000,000,000,000
+096,000,000,098,000,000,000,000,000,000
+000,000,097,101,000,000,000,000,104,000
+000,077,000,000,000,000,000,000,000,000
+000,000,000,082,000,000,000,000,000,068
+000,000,098,094,000,000,000,000,000,000
+110,000,094,000,000,000,000,000,000,000
+000,000,000,000,039,000,040,000,000,000
+000,000,042,000,000,000,000,000,000,098
+000,095,000,000,000,000,000,000,061,000
+108,000,111,000,000,000,000,000,093,000
+116,091,000,000,000,000,000,000,000,115
+000,106,000,000,000,000,000,000,000,000
+000,000,090,011,000,000,000,000,000,000
+000,102,115,000,000,000,000,000,000,000
+000,000,106,000,000,000,000,000,122,000
+000,000,000,000,000,000,000,000,082,113
+000,000,000,000,000,000,000,000,068,000
+000,000,000,115,000,000,000,000,000,052
+000,000,114,110,000,000,000,000,107,000
+000,107,119,117,000,000,000,000,000,000
+000,000,116,000,000,000,000,000,000,123
+000,000,124,084,000,000,000,000,122,037
+000,000,083,116,000,000,000,000,000,000
+000,000,000,000,000,000,000,000,000,011
+000,000,000,000,000,000,000,000,122,084
+111,118,000,000,000,000,000,000,000,121
+000,000,000,000,000,000,000,000,117,000
+000,000,000,118,000,000,000,000,000,000
+000,000,000,000,000,000,000,000,000,000]

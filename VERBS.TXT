@@ -1,0 +1,11 @@
+List of current verbs available in The Cycon Oddyssey:
+Climb              Down (d)            East (e)            Go
+
+Help (?)           Load                Look (l)            North (n)
+
+NorthEast (ne)     NorthWest (nw)      Save                South (s)
+
+SouthEast (se)     SouthWest (sw)      Read (r)            Up (u)
+
+VerbList           West (w)
+`
