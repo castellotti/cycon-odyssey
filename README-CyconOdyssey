@@ -1,8 +1,8 @@
-README - Cycon Odyssey 0.92
+README - Cycon Odyssey 0.93
 
                              The Cycon Odyssey
 
-                                Version 0.92
+                                Version 0.93
 
                    Copyright (C) 1999-2001 Steven M. Castellotti
                             <SteveC@innocent.com>
@@ -49,9 +49,9 @@ Java Appletviewer.
 
 Example (Under Linux):
 
-tar xvzf CyconOdyssey-0.92-data.tar.gz
-tar xvzf CyconOdyssey-0.92-images.tar.gz
-cd CyconOdyssey-0.92
+tar xvzf CyconOdyssey-0.93-data.tar.gz
+tar xvzf CyconOdyssey-0.93-images.tar.gz
+cd CyconOdyssey-0.93
 appletviewer CogEngine.html
 
 
