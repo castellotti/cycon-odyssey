@@ -17,6 +17,7 @@ Total Items : 63
 Total Obstructions : 8
 Total Verbs : 9
 Show All Verbs : true
+Image Loading Graphic : Images/CyconLoading.jpg
 Introduction Graphic : Images/CyconTemplate.jpg
 Introduction (Text) : You awaken and everything is blurry. You sit up,
  rub your eyes and notice that you somehow have arrived in the middle
@@ -35,6 +36,7 @@ Show Inventory Display : true
 Show Command Line : true
 Show Compass : true
 Center Button Indicates Items : true
+Load All Compass Images : true
 
 
 Player Defaults
