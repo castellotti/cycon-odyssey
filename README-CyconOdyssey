@@ -1,8 +1,8 @@
-README - Cycon Odyssey 0.97
+README - Cycon Odyssey 0.98.0
 
                              The Cycon Odyssey
 
-                                Version 0.97
+                                Version 0.98.0
 
                    Copyright (C) 1999-2002 Steven M. Castellotti
                             <SteveC@innocent.com>
@@ -30,61 +30,19 @@ Quick Installation Instructions
 -------------------------------
 
 	The Cycon Odyssey is a game module for the Cog Engine Program. 
-This release includes version 1.0 of the Cog Engine, which requires a Java 
-environment to be executed. Fortunately, most modern browsers include the 
-ability to view Java applets, although the current release of Microsoft's 
-Internet Explorer includes a non-standard (and broken!) version of Java. 
-The Netscape browser works much better with the Cog Engine.
 
+	This release is to be used with the Development releases of the 
+Cog Engine and the Cog Development Application, version 1.1.3 or greater.
 
-The following Instructions work for all Operating Systems (Windows 98, 
-Windows 2000, Windows XP, Linux, MacOS, etc.)
-
-
-If you have a Netscape Browser:
-
-1) Download the Cycon Odyssey zip file for the Cog Engine homepage:
-
-http://cogengine.sourceforge.net/
-
-
-2) Extract all of the files from the zip file. Be careful to maintain the 
-file's directory structure (all images should end up in the "Images" 
-subdirectory)
-
-
-3) Load the "CogEngine.html" file into your Netscape web browser, or the
-Java Appletviewer.
-
-
-For Microsoft Internet Explorer 5 or 6:
-
-1) Download and Install the Java Plug-In from Sun.com. The following page 
-has the Download link for the Plug-In, as well as Installation 
-Instructions:
-
-http://java.sun.com/getjava/download.html
-
-2) Download the Cycon Odyssey zip file for the Cog Engine homepage:
-
-http://cogengine.sourceforge.net/
-
-
-3) Extract all of the files from the zip file. Be careful to maintain the 
-file's directory structure (all images should end up in the "Images" 
-subdirectory)
-
-
-4) Load the "CogEngine.html" file into your web browser, or the Java 
-Appletviewer.
-
+	You will need to download and install one of those application 
+from the Cog Engine website (address listed below). 
 
 
 FOR MORE INFORMATION
 --------------------
 
 Website:           <http://cogengine.sourceforge.net/>.
-Developement site: <https://sourceforge.net/projects/cogengine/>.
+Developement site: <http://sourceforge.net/projects/cogengine/>.
 Mailing lists:     <http://lists.sourceforge.net/lists/listinfo/cogengine-devel>.
  
 
@@ -95,4 +53,4 @@ Feedback from users is an essential part of the open source model of
 software development.  If you would like to report a bug, please access
 the development website for The Cog Engine, hosted by SourceForge.net at:
 
-https://sourceforge.net/projects/cogengine/
+http://sourceforge.net/projects/cogengine/

@@ -1,97 +1,212 @@
-(iCogObjects
+S'1.1.3'
+p1
+.(iCogObjects
 GameInformationObject
 p1
 (dp2
-S'game_title'
+S'graphical_inventory_x_icons'
 p3
-S'The Cycon Odyssey'
-sS'total_directions'
+I4
+sS'show_graphical_object_panel'
 p4
-I11
-sS'introduction_text'
+I1
+sS'show_graphical_object_panel_scrollbars'
 p5
-S"You awaken and everything is blurry. You sit up, rub your eyes and notice that you somehow have arrived in the middle of a beach. Your clothes are torn, and your throat is a little sore. Slowly you get up to your feet and look around. This is the start of long and wonderful journey. You must use logic, as well as wits and courage. You don't know how you got here, but maybe you can get home."
-sS'total_obstructions'
+I1
+sS'object_panel_scroll_down_unavailable_icon'
 p6
-I8
+S'COG-Scroll-Unavailable-Small(Down).gif'
 sS'show_text_output_area'
 p7
 I1
 sS'total_rooms'
 p8
 I132
-sS'last_update'
+sS'object_panel_panel_Yoffset'
 p9
-S'May 8, 2002'
-sS'show_inventory'
+I538
+sS'preferred_graphic_size_X'
 p10
-I1
-sS'show_graphic_area'
+I640
+sS'graphical_inventory_graphic_not_available_icon'
 p11
-I1
-sS'show_all_verbs'
+S'COG-Panel-Icon(GraphicNotAvailable).jpg'
+sS'object_panel_x_icons'
 p12
-I1
-sS'show_command_line'
+I4
+sS'show_all_verbs'
 p13
 I1
-sS'version_number'
+sS'graphical_compass_button_image_y_dimension'
 p14
-S'0.97'
-sS'load_all_compass_images'
+I37
+sS'version_number'
 p15
-I1
-sS'total_items'
+S'0.98.0'
+sS'load_all_compass_images'
 p16
-I63
-sS'center_button_indicates_items'
+I1
+sS'graphical_display_window_x_dimension'
 p17
-I1
-sS'preferred_graphic_size_X'
-p18
 I640
-sS'preferred_graphic_size_Y'
+sS'graphical_inventory_panel_Yoffset'
+p18
+I488
+sS'object_panel_scroll_up_available_icon'
 p19
-I480
-sS'game_url'
+S'COG-Scroll-Available-Small(Up).gif'
+sS'object_panel_y_icons'
 p20
-S'http://cogengine.sourceforge.net/CogEngine/CogEngine.html'
-sS'menu_button_graphic_url'
-p21
-NsS'image_loading_graphic_url'
-p22
-S'CyconLoading.jpg'
-sS'debug_mode'
-p23
-I0
-sS'database_url'
-p24
-S'http://cogengine.sourceforge.net/CogEngine/Cycon-COG.dat'
-sS'show_compass'
-p25
 I1
-sS'game_information_notes'
+sS'preferred_graphic_size_Y'
+p21
+I480
+sS'object_panel_x_icon_dimension'
+p22
+I50
+sS'game_url'
+p23
+S'http://cogengine.sourceforge.net/CogEngine/CogEngine.html'
+sS'game_title'
+p24
+S'The Cycon Odyssey'
+sS'inventory_panel_scroll_up_unavailable_icon'
+p25
+S'COG-Scroll-Unavailable(Up).gif'
+sS'inventory_panel_scroll_up_available_icon'
 p26
-S'Item[18 - Grappling Hook]\nItem[21 - Sledgehammer]\nItem[19 - Flask (Empty)]\nItem[23 - Golden Coin]\nItem[50 - The White Orb]\nItem[51 - The Black Orb]\nItem[52 - The Blue Orb]\nItem[53 - The Red Orb]\nItem[45 - Exotic Seashell (Filled with Luminescent Liquid)]\nItem[22 - Oxoplant]\nItem[25 - Brick]\nItem[16 - Metal Cable]\nItem[1 - Dagger]\nItem[72 - Skinned Meat (with Dagger)]\ntem[36 - Leaves]\nItem[31 - Tree Branch]\nItem[12 - Small Key]\nItem[68 - Large key]'
-sS'introduction_graphic_url'
+S'COG-Scroll-Available(Up).gif'
+sS'object_panel_blank_icon'
 p27
-S'CyconTemplate.jpg'
-sS'game_designer'
+S'COG-Panel-Icon(Empty).jpg'
+sS'debug_mode'
 p28
-S'Steven M. Castellotti'
-sS'show_stats'
+I0
+sS'inventory_panel_scroll_down_available_icon'
 p29
+S'COG-Scroll-Available(Down).gif'
+sS'inventory_panel_scroll_down_unavailable_icon'
+p30
+S'COG-Scroll-Unavailable(Down).gif'
+sS'object_panel_scroll_up_unavailable_icon'
+p31
+S'COG-Scroll-Unavailable-Small(Up).gif'
+sS'object_panel_panel_Xoffset'
+p32
+I5
+sS'menu_button_graphic_url'
+p33
+S'COG-Compass-Menu.gif'
+sS'object_panel_y_icon_dimension'
+p34
+I50
+sS'show_stats'
+p35
 I1
 sS'total_verbs'
-p30
+p36
 I9
 sS'game_designer_email_address'
-p31
+p37
 S'SteveC@innocent.com'
+sS'object_panel_scroll_down_available_icon'
+p38
+S'COG-Scroll-Available-Small(Down).gif'
+sS'graphical_compass_display_x_coordinate'
+p39
+I246
+sS'introduction_text'
+p40
+S"You awaken and everything is blurry. You sit up, rub your eyes and notice that you somehow have arrived in the middle of a beach. Your clothes are torn, and your throat is a little sore. Slowly you get up to your feet and look around. This is the start of a long and wonderful journey. You must use logic, as well as wits and courage. You don't know how you got here, but maybe you can get home."
+sS'total_directions'
+p41
+I11
+sS'command_history'
+p42
+(lsS'total_obstructions'
+p43
+I8
+sS'graphical_compass_button_image_x_dimension'
+p44
+I37
+sS'last_update'
+p45
+S'June 8, 2002'
+sS'show_inventory'
+p46
+I1
+sS'show_graphic_area'
+p47
+I1
+sS'graphical_inventory_y_icons'
+p48
+I2
+sS'graphical_inventory_x_icon_dimension'
+p49
+I50
+sS'graphical_inventory_blank_icon'
+p50
+S'COG-Panel-Icon(Empty).jpg'
+sS'introduction_graphic_url'
+p51
+S'CyconTemplate.jpg'
+sS'total_items'
+p52
+I63
+sS'center_button_indicates_items'
+p53
+I1
+sS'graphical_inventory_panel_Xoffset'
+p54
+I415
+sS'graphical_display_y_coordinate'
+p55
+I0
+sS'show_graphical_inventory_panel'
+p56
+I1
+sS'graphical_display_x_coordinate'
+p57
+I0
+sS'image_loading_graphic_url'
+p58
+S'CyconLoading.jpg'
+sS'show_graphical_inventory_panel_scrollbars'
+p59
+I1
+sS'database_url'
+p60
+S'http://cogengine.sourceforge.net/CogEngine/CyconOdyssey.cog'
+sS'graphical_display_window_y_dimension'
+p61
+I595
+sS'text_to_speech_enabled'
+p62
+I1
+sS'game_information_notes'
+p63
+S'Item[18 - Grappling Hook]\012Item[21 - Sledgehammer]\012Item[19 - Flask (Empty)]\012Item[23 - Golden Coin]\012Item[50 - The White Orb]\012Item[51 - The Black Orb]\012Item[52 - The Blue Orb]\012Item[53 - The Red Orb]\012Item[45 - Exotic Seashell (Filled with Luminescent Liquid)]\012Item[22 - Oxoplant]\012Item[25 - Brick]\012Item[16 - Metal Cable]\012Item[1 - Dagger]\012Item[72 - Skinned Meat (with Dagger)]\012tem[36 - Leaves]\012Item[31 - Tree Branch]\012Item[12 - Small Key]\012Item[68 - Large key]'
+sS'show_command_line'
+p64
+I1
+sS'game_designer'
+p65
+S'Steven M. Castellotti'
+sS'object_panel_graphic_not_available_icon'
+p66
+S'COG-Panel-Icon(GraphicNotAvailable).jpg'
+sS'graphical_inventory_y_icon_dimension'
+p67
+I50
+sS'show_compass'
+p68
+I1
+sS'graphical_compass_display_y_coordinate'
+p69
+I482
 sS'image_directory'
-p32
+p70
 S'Images'
-p33
 sb.(iCogObjects
 PlayerInformationObject
 p1
@@ -108,9 +223,10 @@ I-1
 sS'current_bulk'
 p6
 I-1
-sS'items'
+sS'mp'
 p7
-(lsS'intelligence'
+I-1
+sS'intelligence'
 p8
 I-1
 sS'points'
@@ -125,10 +241,9 @@ I-1
 sS'facing'
 p12
 I1
-sS'mp'
+sS'items'
 p13
-I-1
-sS'experience'
+(lsS'experience'
 p14
 I-1
 sS'hp'
@@ -143,18 +258,17 @@ I1
 sS'name'
 p18
 S'Player'
-p19
 sS'strength'
-p20
+p19
 I-1
 sS'agility'
-p21
+p20
 I-1
 sS'dexterity'
-p22
+p21
 I-1
 sS'armor_level'
-p23
+p22
 I-1
 sb.(dp1
 I11
@@ -164,9 +278,9 @@ DirectionInformationObject
 S'compass_graphic_available_url'
 p3
 S'COG-Compass-Available(Down).jpg'
-sS'number'
+sS'compass_graphic_last_direction_traveled'
 p4
-I11
+S''
 sS'compass_graphic_unavailable_url'
 p5
 S'COG-Compass-Unavailable(Down).jpg'
@@ -177,183 +291,229 @@ sS'name'
 p7
 S'Down'
 p8
-sS'abbreviation'
+sS'compass_graphic_never_traveled'
 p9
+S''
+sS'number'
+p10
+I11
+sS'abbreviation'
+p11
 S'D'
 sbsI10
 (iCogObjects
 DirectionInformationObject
-(dp10
+(dp12
 g3
 S'COG-Compass-Available(Up).jpg'
 sg4
-I10
+S''
 sg5
 S'COG-Compass-Unavailable(Up).jpg'
 sg6
 S'COG-Compass-Obstructed(Up).jpg'
 sg7
 S'Up'
-p11
+p13
 sg9
+S''
+sg10
+I10
+sg11
 S'U'
 sbsI9
 (iCogObjects
 DirectionInformationObject
-(dp12
+(dp14
 g3
 S'COG-Compass-Available(SE).jpg'
 sg4
-I9
+S''
 sg5
 S'COG-Compass-Unavailable(SE).jpg'
 sg6
 S'COG-Compass-Obstructed(SE).jpg'
 sg7
 S'SouthEast'
-p13
+p15
 sg9
+S''
+sg10
+I9
+sg11
 S'SE'
-p14
+p16
 sbsI8
 (iCogObjects
 DirectionInformationObject
-(dp15
+(dp17
 g3
 S'COG-Compass-Available(S).jpg'
 sg4
-I8
+S''
 sg5
 S'COG-Compass-Unavailable(S).jpg'
 sg6
 S'COG-Compass-Obstructed(S).jpg'
 sg7
 S'South'
-p16
+p18
 sg9
+S''
+sg10
+I8
+sg11
 S'S'
 sbsI7
 (iCogObjects
 DirectionInformationObject
-(dp17
+(dp19
 g3
 S'COG-Compass-Available(SW).jpg'
 sg4
-I7
+S''
 sg5
 S'COG-Compass-Unavailable(SW).jpg'
 sg6
 S'COG-Compass-Obstructed(SW).jpg'
 sg7
 S'SouthWest'
-p18
+p20
 sg9
+S''
+sg10
+I7
+sg11
 S'SW'
-p19
+p21
 sbsI6
 (iCogObjects
 DirectionInformationObject
-(dp20
+(dp22
 g3
 S'COG-Compass-Available(E).jpg'
 sg4
-I6
+S''
 sg5
 S'COG-Compass-Unavailable(E).jpg'
 sg6
 S'COG-Compass-Obstructed(E).jpg'
 sg7
 S'East'
-p21
+p23
 sg9
+S''
+sg10
+I6
+sg11
 S'E'
 sbsI5
 (iCogObjects
 DirectionInformationObject
-(dp22
+(dp24
 g3
 S'COG-Compass-Available(Center).jpg'
 sg4
-I5
+S''
 sg5
 S'COG-Compass-Unavailable(Center).jpg'
 sg6
 S'COG-Compass-Special(Center).jpg'
 sg7
 S'Center'
-p23
+p25
 sg9
+S''
+sg10
+I5
+sg11
 S'C'
 sbsI4
 (iCogObjects
 DirectionInformationObject
-(dp24
+(dp26
 g3
 S'COG-Compass-Available(W).jpg'
 sg4
-I4
+S''
 sg5
 S'COG-Compass-Unavailable(W).jpg'
 sg6
 S'COG-Compass-Obstructed(W).jpg'
 sg7
 S'West'
-p25
+p27
 sg9
+S''
+sg10
+I4
+sg11
 S'W'
 sbsI3
 (iCogObjects
 DirectionInformationObject
-(dp26
+(dp28
 g3
 S'COG-Compass-Available(NE).jpg'
 sg4
-I3
+S''
 sg5
 S'COG-Compass-Unavailable(NE).jpg'
 sg6
 S'COG-Compass-Obstructed(NE).jpg'
 sg7
 S'NorthEast'
-p27
+p29
 sg9
+S''
+sg10
+I3
+sg11
 S'NE'
-p28
+p30
 sbsI2
 (iCogObjects
 DirectionInformationObject
-(dp29
+(dp31
 g3
 S'COG-Compass-Available(N).jpg'
 sg4
-I2
+S''
 sg5
 S'COG-Compass-Unavailable(N).jpg'
 sg6
 S'COG-Compass-Obstructed(N).jpg'
 sg7
 S'North'
-p30
+p32
 sg9
+S''
+sg10
+I2
+sg11
 S'N'
 sbsI1
 (iCogObjects
 DirectionInformationObject
-(dp31
+(dp33
 g3
 S'COG-Compass-Available(NW).jpg'
 sg4
-I1
+S''
 sg5
 S'COG-Compass-Unavailable(NW).jpg'
 sg6
 S'COG-Compass-Obstructed(NW).jpg'
 sg7
 S'NorthWest'
-p32
+p34
 sg9
+S''
+sg10
+I1
+sg11
 S'NW'
-p33
+p35
 sbs.(dp1
 I133
 (iCogObjects
@@ -717,10 +877,23 @@ sg9
 I0
 sg10
 (dp44
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp45
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I107
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp46
 g13
 Nsg14
 Nsg15
@@ -733,7 +906,7 @@ Nsg19
 NsbsI4
 (iCogObjects
 DirectionObject
-(dp46
+(dp47
 g13
 S''
 sg14
@@ -747,19 +920,6 @@ I117
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp47
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I107
-sg18
-Nsg19
 Nsbssg21
 S'You are walking along the cliffs that make up the northern portion of the island.'
 sg22
@@ -825,9 +985,9 @@ sg9
 I0
 sg10
 (dsg21
-S"You now stand before a huge cave entrance that leads underground. You hear some sort of mechanism whirring and clicking deep below the earth. You sigh, take a deep breathe, and step forward. You've come a long way, and there's no turning back now."
+S"You now stand before a huge cave entrance that leads underground. You hear some sort of mechanism churning deep below the earth. You sigh, take a deep breathe, and step forward. You've come a long way, and there's no turning back now."
 sg22
-S"This concludes the first chapter of The Cycon Oddyssey. You have sucessfully overcome many obstacles and mental challanges. I regret that you had to come so far, and you still don't know where you are, how you go here, why you were brought here, or even what the name means. You don't even know where 'here' is. If you enjoyed this game (or even if you didn't) look for The Cycon Odyssey II, 'Tracing Roots', possibly coming soon to a server near you."
+S'This concludes the first chapter of The Cycon Oddyssey. You have sucessfully overcome many obstacles and mental challanges. I regret that you had to come so far, and you still don\'t know where you are, how you go here, or why you were brought here You don\'t even know what the name "Cycon" means. If you enjoyed this game (or even if you didn\'t) look for The Cycon Odyssey II, \'Tracing Roots\', possibly coming soon to a server near you.'
 sbsI124
 (iCogObjects
 RoomObject
@@ -1032,7 +1192,7 @@ sg18
 S''
 sg19
 Nsbssg21
-S"You are standing at the top of the hand-carved staircase that leads up the side of a mountain. You have reached a wide open, flat, circular area which is covered with square stone tiles. Pilliars of various heights and widths are placed around the vicinity.\n\tAt the center of a partiuclar square on the ground are four smaller stone tiles, shaped into quarter-circles, providing a stark geometric contrast to the square tiles. Behind four quarter-circle tiles stands another circular pillar, this one much thicker than the others that encircle this area.\n\n\tOn top of each of the pillars that line the area are situated various three-dimensional geometric shapes that have been carved out of either glass or crystal, something which you can not be sure about due to their height above you. Regardless of the material, each work is an elaborate and beautiful piece, whose delicate curves catch and reflect the sun's light. Rainbows of varying hues are cast all about this area, but especially upon the center pillar.\n\n\tIn the center of the large center pillar, a large sphereical container (made from a material similar to the geomtric shapes that line the other pillars) is half-filled with a clear liquid that glissens in the rays of light. Directly before you is a short and stubby cylindrical column with extremely elaborate marks and patterns etched onto its surface. Behind you to the south, the hand-carved staircase leads Down the mountain to the clifftops below."
+S"You are standing at the top of the hand-carved staircase that leads up the side of a mountain. You have reached a wide open, flat, circular area which is covered with square stone tiles. Pilliars of various heights and widths are placed around the vicinity.\012\011At the center of a partiuclar square on the ground are four smaller stone tiles, shaped into quarter-circles, providing a stark geometric contrast to the square tiles. Behind four quarter-circle tiles stands another circular pillar, this one much thicker than the others that encircle this area.\012\012\011On top of each of the pillars that line the area are situated various three-dimensional geometric shapes that have been carved out of either glass or crystal, something which you can not be sure about due to their height above you. Regardless of the material, each work is an elaborate and beautiful piece, whose delicate curves catch and reflect the sun's light. Rainbows of varying hues are cast all about this area, but especially upon the center pillar.\012\012\011In the center of the large center pillar, a large sphereical container (made from a material similar to the geomtric shapes that line the other pillars) is half-filled with a clear liquid that glissens in the rays of light. Directly before you is a short and stubby cylindrical column with extremely elaborate marks and patterns etched onto its surface. Behind you to the south, the hand-carved staircase leads Down the mountain to the clifftops below."
 sg22
 S''
 sbsI119
@@ -1263,7 +1423,7 @@ I115
 sg4
 S'You are standing under a small shaft of light, knee-deep in a river that flows through an underground tunnel.'
 sg5
-S'Up should lead to room 107 - Waterhole (Well) after crank is moved\n'
+S'Up should lead to room 107 - Waterhole (Well) after crank is moved\012'
 sg6
 S'23'
 p89
@@ -1412,7 +1572,7 @@ sg18
 S''
 sg19
 Nsbssg21
-S'You are swimming along the bottom of the ocean, observing various species of fish that you have never seen before. Many exotic forms of\t\t coral grow here as well.'
+S'You are swimming along the bottom of the ocean, observing various species of fish that you have never seen before. Many exotic forms of\011\011 coral grow here as well.'
 sg22
 S'You can only swim back towards the surface.'
 sbsI112
@@ -1536,7 +1696,7 @@ I110
 sg4
 S'You are in an underground river.'
 sg5
-S"Might want to change direction river flows. Too many turns.\nCan't go North unless you have light."
+S"Might want to change direction river flows. Too many turns.\012Can't go North unless you have light."
 sg6
 Nsg7
 S'Cycon-Room(110).jpg'
@@ -1689,7 +1849,7 @@ I107
 sg4
 S'You are in front of a well.'
 sg5
-S'The rope and bucket will later be detatchable, the crank will not. Bucket Starts UP!\nDown will lead to Room 115 - Bottom of Waterhole after crank is used'
+S'The rope and bucket will later be detatchable, the crank will not. Bucket Starts UP!\012Down will lead to Room 115 - Bottom of Waterhole after crank is used'
 sg6
 S'27, 28'
 sg7
@@ -1757,7 +1917,7 @@ sg9
 I0
 sg10
 (dp128
-I6
+I10
 (iCogObjects
 DirectionObject
 (dp129
@@ -1767,10 +1927,10 @@ Nsg15
 Nsg16
 I0
 sg17
-I111
+I93
 sg18
 Nsg19
-NsbsI10
+NsbsI6
 (iCogObjects
 DirectionObject
 (dp130
@@ -1780,7 +1940,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I93
+I111
 sg18
 Nsg19
 NsbsI2
@@ -2168,7 +2328,7 @@ sg9
 I0
 sg10
 (dp160
-I6
+I10
 (iCogObjects
 DirectionObject
 (dp161
@@ -2178,7 +2338,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I97
+I129
 sg18
 Nsg19
 NsbsI4
@@ -2198,7 +2358,7 @@ I101
 sg18
 S''
 sg19
-NsbsI10
+NsbsI6
 (iCogObjects
 DirectionObject
 (dp163
@@ -2208,7 +2368,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I129
+I97
 sg18
 Nsg19
 Nsbssg21
@@ -2502,23 +2662,10 @@ sg9
 I0
 sg10
 (dp187
-I8
+I4
 (iCogObjects
 DirectionObject
 (dp188
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I79
-sg18
-Nsg19
-NsbsI4
-(iCogObjects
-DirectionObject
-(dp189
 g13
 S''
 sg14
@@ -2532,6 +2679,19 @@ I85
 sg18
 S''
 sg19
+NsbsI8
+(iCogObjects
+DirectionObject
+(dp189
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I79
+sg18
+Nsg19
 Nsbssg21
 S'You are standing on a cobblestone path that leads in between a tall greyish-white wall and the immense ruins of a once-great manor. The odor of decaying wood drifts radiates through the air from the remains of the old building to the east. You have absolutely no desire to crawl around that dirty heap of debris. The cobblestone path continues south, towards the partial remains of a much smaller building, nestled in between the wall and a few bushes, overgrown with weeds.'
 sg22
@@ -3045,10 +3205,23 @@ sg9
 I0
 sg10
 (dp230
-I6
+I11
 (iCogObjects
 DirectionObject
 (dp231
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I68
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp232
 g13
 Nsg14
 Nsg15
@@ -3061,7 +3234,7 @@ Nsg19
 NsbsI4
 (iCogObjects
 DirectionObject
-(dp232
+(dp233
 g13
 S''
 sg14
@@ -3075,19 +3248,6 @@ I81
 sg18
 S''
 sg19
-NsbsI11
-(iCogObjects
-DirectionObject
-(dp233
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I68
-sg18
-Nsg19
 Nsbssg21
 S'The peninsula ends where a wooden dock stretches out over the water.'
 sg22
@@ -3374,7 +3534,7 @@ S''
 sg19
 S'9'
 sbssg21
-S"You have removed the cave-in left behind in the tunnel to the south of you, and followed it into an enormous underground cavern, something that presents a spectacle unlike anything that you've ever seen before. \n\n\tThe tunnel leads out onto a ledge that reaches halfway out into the cavern. There are various holes far above your head in the stone ceiling of the cavern, which filter in shafts of light that fall at obscure angles onto various locations throughout the entire area.\n\n\tThe far wall of the cavern reaches down from the top of the ceiling to far beyond your range of vision, down into the depths below. There is a steady stream of water cascading down the far wall, and in certain areas small mechanisms which resemble the balances of a scale capture some of the streams running down the rockface into small cups, which cause the opposite sides of the balance to rise and pour water into other devices. The reaction is that when water runs down a certain area of the wall, a chain reaction between the devices is enacted in one direction, and then as the water spills out from the cups, a new chain reaction develops across another portion of the large chamber.\n\n\tThe air is fill with the sound of gushing water, and the rapid clicking of many of these devices, as their cups fill and the balances switch to the other side. In a few places, some sort of crystal is placed upon the top of the balance. If the water falls in a particular pattern, the crystal will cross into the path of a beam of light that falls from the ceiling above, causing new rays of light to refract in other directions, sometimes touching other scales, and sometimes refracting off stationary crystals imbeded directly into the various walls of the cavern. Such activities continue all the way down the far cavern wall, for as far as your eye can  see.\n\n\tAcross the abyss below you lies another platform to the west. On this ledge a series of gears and levers are imbeded into the rock, perhaps to control the flow of the water above, and therefore the visual patterns created by the balances and beams of light.\n\n\tThe overall effect of this grandeous machincal process quickly begins to overwhelm you senses with a sense of awe and appreciation for the machine's beauty.\n\n\tAt the end of the platform on which you are standing are four different pedestools, each with a consistent height approximately equal to the level of your shoulders. There is a beam of light falling from the ceiling above that crosses just above the top of each of these pedestools, at varying angles. Each of the pedestools is of a slightly differnt hue, one white, one black, one blue, and one red."
+S"You have removed the cave-in left behind in the tunnel to the south of you, and followed it into an enormous underground cavern, something that presents a spectacle unlike anything that you've ever seen before. \012\012\011The tunnel leads out onto a ledge that reaches halfway out into the cavern. There are various holes far above your head in the stone ceiling of the cavern, which filter in shafts of light that fall at obscure angles onto various locations throughout the entire area.\012\012\011The far wall of the cavern reaches down from the top of the ceiling to far beyond your range of vision, down into the depths below. There is a steady stream of water cascading down the far wall, and in certain areas small mechanisms which resemble the balances of a scale capture some of the streams running down the rockface into small cups, which cause the opposite sides of the balance to rise and pour water into other devices. The reaction is that when water runs down a certain area of the wall, a chain reaction between the devices is enacted in one direction, and then as the water spills out from the cups, a new chain reaction develops across another portion of the large chamber.\012\012\011The air is fill with the sound of gushing water, and the rapid clicking of many of these devices, as their cups fill and the balances switch to the other side. In a few places, some sort of crystal is placed upon the top of the balance. If the water falls in a particular pattern, the crystal will cross into the path of a beam of light that falls from the ceiling above, causing new rays of light to refract in other directions, sometimes touching other scales, and sometimes refracting off stationary crystals imbeded directly into the various walls of the cavern. Such activities continue all the way down the far cavern wall, for as far as your eye can  see.\012\012\011Across the abyss below you lies another platform to the west. On this ledge a series of gears and levers are imbeded into the rock, perhaps to control the flow of the water above, and therefore the visual patterns created by the balances and beams of light.\012\012\011The overall effect of this grandeous machincal process quickly begins to overwhelm you senses with a sense of awe and appreciation for the machine's beauty.\012\012\011At the end of the platform on which you are standing are four different pedestools, each with a consistent height approximately equal to the level of your shoulders. There is a beam of light falling from the ceiling above that crosses just above the top of each of these pedestools, at varying angles. Each of the pedestools is of a slightly differnt hue, one white, one black, one blue, and one red."
 sg22
 S'You may only return North, to the area where the cave-in took place.'
 sbsI75
@@ -4010,36 +4170,10 @@ sg9
 I0
 sg10
 (dp306
-I6
+I2
 (iCogObjects
 DirectionObject
 (dp307
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I65
-sg18
-Nsg19
-NsbsI4
-(iCogObjects
-DirectionObject
-(dp308
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I63
-sg18
-Nsg19
-NsbsI2
-(iCogObjects
-DirectionObject
-(dp309
 g13
 S''
 sg14
@@ -4053,6 +4187,32 @@ I66
 sg18
 S''
 sg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp308
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I65
+sg18
+Nsg19
+NsbsI4
+(iCogObjects
+DirectionObject
+(dp309
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I63
+sg18
+Nsg19
 Nsbssg21
 S'The majority of the northern beach of the lagoon is taken up by a small coral reef that stretches across this side of the lagoon. To the east grows a thick patch of reeds that becomes less and less dense as it wraps around to the north. Beyond the reeds to the north, the beach extends towards the ocean.'
 sg22
@@ -4076,10 +4236,23 @@ sg9
 I0
 sg10
 (dp311
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp312
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I61
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp313
 g13
 Nsg14
 Nsg15
@@ -4092,7 +4265,7 @@ Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp313
+(dp314
 g13
 S''
 sg14
@@ -4106,19 +4279,6 @@ I67
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp314
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I61
-sg18
-Nsg19
 Nsbssg21
 S'The sand in this area has piled up to create a small dune. You are standing on the southern side of the dune gazing out over the lagoon to the southwest.'
 sg22
@@ -4182,7 +4342,7 @@ sg9
 I0
 sg10
 (dp319
-I4
+I8
 (iCogObjects
 DirectionObject
 (dp320
@@ -4192,7 +4352,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I90
+I59
 sg18
 Nsg19
 NsbsI2
@@ -4212,7 +4372,7 @@ I63
 sg18
 S''
 sg19
-NsbsI8
+NsbsI4
 (iCogObjects
 DirectionObject
 (dp322
@@ -4222,7 +4382,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I59
+I90
 sg18
 Nsg19
 Nsbssg21
@@ -4288,10 +4448,23 @@ sg9
 I0
 sg10
 (dp327
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp328
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I58
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp329
 g13
 S''
 sg14
@@ -4306,11 +4479,11 @@ sg18
 S''
 sg19
 S'10'
-p329
+p330
 sbsI2
 (iCogObjects
 DirectionObject
-(dp330
+(dp331
 g13
 S''
 sg14
@@ -4324,19 +4497,6 @@ I61
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp331
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I58
-sg18
-Nsg19
 Nsbssg21
 S"You are standing next to a long wooden bridge that spans the width of the lagoon. It appears to be the only way across the lagoon. There is a gate at the entrance  to the bridge, with a gnarled face of something that looks like a troll in it's center."
 sg22
@@ -4414,10 +4574,23 @@ sg9
 I0
 sg10
 (dp338
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp339
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I30
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp340
 g13
 Nsg14
 Nsg15
@@ -4430,7 +4603,7 @@ Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp340
+(dp341
 g13
 S''
 sg14
@@ -4444,19 +4617,6 @@ I58
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp341
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I30
-sg18
-Nsg19
 Nsbssg21
 S'You are at the southwest bank of a lagoon. To the west of you, stretching northwards to the horizon runs a series of cliffs that divide the eastern and western portions of the island.'
 sg22
@@ -4481,10 +4641,23 @@ sg9
 I0
 sg10
 (dp344
-I6
+I11
 (iCogObjects
 DirectionObject
 (dp345
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I62
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp346
 g13
 S''
 sg14
@@ -4501,7 +4674,7 @@ sg19
 NsbsI4
 (iCogObjects
 DirectionObject
-(dp346
+(dp347
 g13
 S''
 sg14
@@ -4515,21 +4688,8 @@ I59
 sg18
 S''
 sg19
-g329
-sbsI11
-(iCogObjects
-DirectionObject
-(dp347
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I62
-sg18
-Nsg19
-Nsbssg21
+g330
+sbssg21
 S'You are in the middle of a long wooden bridge that crosses the lagoon. You stare down at the water, trying to see the bottom, but its too murky, and there is too much reflection from the sun for you to be able to see much of anything.'
 sg22
 S'The bridge extends both East and West across the lagoon. You could also dive Down into the waters of the lagoon below you.'
@@ -4552,7 +4712,7 @@ sg9
 I0
 sg10
 (dp349
-I4
+I8
 (iCogObjects
 DirectionObject
 (dp350
@@ -4562,7 +4722,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I56
+I53
 sg18
 Nsg19
 NsbsI2
@@ -4582,7 +4742,7 @@ I60
 sg18
 S''
 sg19
-NsbsI8
+NsbsI4
 (iCogObjects
 DirectionObject
 (dp352
@@ -4592,7 +4752,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I53
+I56
 sg18
 Nsg19
 Nsbssg21
@@ -4917,10 +5077,23 @@ sg9
 I0
 sg10
 (dp376
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp377
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I46
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp378
 g13
 S''
 sg14
@@ -4937,7 +5110,7 @@ sg19
 NsbsI4
 (iCogObjects
 DirectionObject
-(dp378
+(dp379
 g13
 S''
 sg14
@@ -4951,19 +5124,6 @@ I49
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp379
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I46
-sg18
-Nsg19
 Nsbssg21
 S'The passageways up the mountain split off in three directions here: to the east, to the west, and to the south.'
 sg22
@@ -5041,10 +5201,23 @@ sg9
 I0
 sg10
 (dp386
-I6
+I8
 (iCogObjects
 DirectionObject
 (dp387
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I22
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp388
 g13
 Nsg14
 Nsg15
@@ -5057,7 +5230,7 @@ Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp388
+(dp389
 g13
 S'You step around the space between the boulder and the wall of the passageway that has been cut into the cliff. You continue walking up the path to the north until the passageway terminates, and two other passages lead off to the west and to the east.'
 sg14
@@ -5071,20 +5244,8 @@ I48
 sg18
 S''
 sg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp389
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I22
-sg18
-Nsg19
-Nsbssg21
+S'3'
+sbssg21
 S"You are now standing before the southern face of a the island's largest mountain. What appears to be a passageway leading up the mountain has been cut sheerly into the rockface. As you run your hand along one side of the passage way, you marvel at how very smooth the surface plane feels to your touch."
 sg22
 S'You can walk East along the cliff, South to the northern side of the largest tree in the forest, or North into the passageway leading up into the mountain.'
@@ -5160,7 +5321,7 @@ sg9
 I0
 sg10
 (dp395
-I4
+I8
 (iCogObjects
 DirectionObject
 (dp396
@@ -5170,7 +5331,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I57
+I29
 sg18
 Nsg19
 NsbsI2
@@ -5190,7 +5351,7 @@ I128
 sg18
 S''
 sg19
-NsbsI8
+NsbsI4
 (iCogObjects
 DirectionObject
 (dp398
@@ -5200,7 +5361,7 @@ Nsg15
 Nsg16
 I0
 sg17
-I29
+I57
 sg18
 Nsg19
 Nsbssg21
@@ -5226,10 +5387,27 @@ sg9
 I0
 sg10
 (dp400
-I6
+I11
 (iCogObjects
 DirectionObject
 (dp401
+g13
+S''
+sg14
+S''
+sg15
+S''
+sg16
+I0
+sg17
+I87
+sg18
+S''
+sg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp402
 g13
 Nsg14
 Nsg15
@@ -5242,23 +5420,6 @@ Nsg19
 NsbsI4
 (iCogObjects
 DirectionObject
-(dp402
-g13
-S''
-sg14
-S''
-sg15
-S''
-sg16
-I0
-sg17
-I86
-sg18
-S''
-sg19
-NsbsI11
-(iCogObjects
-DirectionObject
 (dp403
 g13
 S''
@@ -5269,7 +5430,7 @@ S''
 sg16
 I0
 sg17
-I87
+I86
 sg18
 S''
 sg19
@@ -5351,7 +5512,7 @@ sg17
 I28
 sg18
 Nsg19
-NsbsI4
+NsbsI2
 (iCogObjects
 DirectionObject
 (dp411
@@ -5364,11 +5525,11 @@ S''
 sg16
 I0
 sg17
-I43
+I78
 sg18
 S''
 sg19
-NsbsI2
+NsbsI4
 (iCogObjects
 DirectionObject
 (dp412
@@ -5381,7 +5542,7 @@ S''
 sg16
 I0
 sg17
-I78
+I43
 sg18
 S''
 sg19
@@ -5527,23 +5688,10 @@ sg17
 I40
 sg18
 Nsg19
-NsbsI3
-(iCogObjects
-DirectionObject
-(dp424
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I32
-sg18
-Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp425
+(dp424
 g13
 S''
 sg14
@@ -5557,6 +5705,19 @@ I37
 sg18
 S''
 sg19
+NsbsI3
+(iCogObjects
+DirectionObject
+(dp425
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I32
+sg18
+Nsg19
 Nsbssg21
 S'You are now facing north, towards a small volcano, watching as heat overflowing from the top bends and waves the the air into strange patterns. Behind you roars the ocean, as the rockface begins to drop off towards the crashing sea below.'
 sg22
@@ -5661,10 +5822,36 @@ sg9
 I0
 sg10
 (dp434
-I4
+I11
 (iCogObjects
 DirectionObject
 (dp435
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I7
+sg18
+Nsg19
+NsbsI8
+(iCogObjects
+DirectionObject
+(dp436
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I32
+sg18
+Nsg19
+NsbsI4
+(iCogObjects
+DirectionObject
+(dp437
 g13
 S''
 sg14
@@ -5678,32 +5865,6 @@ I37
 sg18
 S''
 sg19
-NsbsI11
-(iCogObjects
-DirectionObject
-(dp436
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I7
-sg18
-Nsg19
-NsbsI8
-(iCogObjects
-DirectionObject
-(dp437
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I32
-sg18
-Nsg19
 Nsbssg21
 S'You are now standing upon the rocky terraign between the volcano and the cliffs that overhang the sandy beaches below. There are a few scragly bushes and other plants that have managed to grow here between the loose pebbles and stones, including a few thin trees, which mostly consist of dead wood.'
 sg22
@@ -6067,23 +6228,10 @@ sg17
 I25
 sg18
 Nsg19
-NsbsI4
-(iCogObjects
-DirectionObject
-(dp468
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I30
-sg18
-Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp469
+(dp468
 g13
 S''
 sg14
@@ -6097,6 +6245,19 @@ I44
 sg18
 S''
 sg19
+NsbsI4
+(iCogObjects
+DirectionObject
+(dp469
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I30
+sg18
+Nsg19
 Nsbssg21
 S'You are at the southern shore of a lagoon that glimmers in the sunlight. Far ahead lies a rope bridge that crosses it.'
 sg22
@@ -6120,10 +6281,23 @@ sg9
 I0
 sg10
 (dp471
-I6
+I11
 (iCogObjects
 DirectionObject
 (dp472
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I41
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp473
 g13
 S''
 sg14
@@ -6137,19 +6311,6 @@ I26
 sg18
 S''
 sg19
-NsbsI11
-(iCogObjects
-DirectionObject
-(dp473
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I41
-sg18
-Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
@@ -6460,23 +6621,10 @@ sg9
 I0
 sg10
 (dp496
-I6
+I10
 (iCogObjects
 DirectionObject
 (dp497
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I21
-sg18
-Nsg19
-NsbsI10
-(iCogObjects
-DirectionObject
-(dp498
 g13
 S'You climb up the rope tied to your grappling hook.'
 sg14
@@ -6485,6 +6633,19 @@ Nsg16
 I0
 sg17
 I0
+sg18
+Nsg19
+NsbsI6
+(iCogObjects
+DirectionObject
+(dp498
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I21
 sg18
 Nsg19
 NsbsI2
@@ -6527,23 +6688,19 @@ sg9
 I0
 sg10
 (dp501
-I4
+I8
 (iCogObjects
 DirectionObject
 (dp502
 g13
-S''
-sg14
-S''
-sg15
-S''
-sg16
+Nsg14
+Nsg15
+Nsg16
 I0
 sg17
-I22
+I13
 sg18
-S''
-sg19
+Nsg19
 NsbsI9
 (iCogObjects
 DirectionObject
@@ -6557,19 +6714,23 @@ sg17
 I17
 sg18
 Nsg19
-NsbsI8
+NsbsI4
 (iCogObjects
 DirectionObject
 (dp504
 g13
-Nsg14
-Nsg15
-Nsg16
+S''
+sg14
+S''
+sg15
+S''
+sg16
 I0
 sg17
-I13
+I22
 sg18
-Nsg19
+S''
+sg19
 Nsbssg21
 S'The road forks here, in two directions.'
 sg22
@@ -7106,19 +7267,23 @@ sg9
 I0
 sg10
 (dp546
-I6
+I10
 (iCogObjects
 DirectionObject
 (dp547
 g13
-Nsg14
-Nsg15
-Nsg16
+S''
+sg14
+S''
+sg15
+S''
+sg16
 I0
 sg17
-I116
+I120
 sg18
-Nsg19
+S''
+sg19
 NsbsI4
 (iCogObjects
 DirectionObject
@@ -7136,23 +7301,19 @@ I127
 sg18
 S''
 sg19
-NsbsI10
+NsbsI6
 (iCogObjects
 DirectionObject
 (dp549
 g13
-S''
-sg14
-S''
-sg15
-S''
-sg16
+Nsg14
+Nsg15
+Nsg16
 I0
 sg17
-I120
+I116
 sg18
-S''
-sg19
+Nsg19
 Nsbssg21
 S'You cast your gaze to the south as you walk along the cliffs, only to discover a smooth staircase, hand-carved into the bare rock of a small mountain.'
 sg22
@@ -7243,23 +7404,10 @@ sg17
 I2
 sg18
 Nsg19
-NsbsI3
-(iCogObjects
-DirectionObject
-(dp558
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I20
-sg18
-Nsg19
 NsbsI1
 (iCogObjects
 DirectionObject
-(dp559
+(dp558
 g13
 S''
 sg14
@@ -7273,6 +7421,19 @@ I3
 sg18
 S''
 sg19
+NsbsI3
+(iCogObjects
+DirectionObject
+(dp559
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I20
+sg18
+Nsg19
 Nsbssg21
 S'There is a piece of indistinguishable wreckage being pushed up and down the beach by the waves here. A strange shadow of deju va overcasts your mind as you watch it wash up and down the coastline.'
 sg22
@@ -7470,7 +7631,7 @@ I5
 sg4
 S'You are in a shady spot.'
 sg5
-S'First Transition Text:\n\nYou slowly work you way up the side of the hill, along the rock slide. As you near the top of the rock slide you see a rope that is dangling down from the clifftop above you. You grab for the rope as you begin to lose your footing, only to hear a loud snapping sound above, followed by the rope and the dead branch it was tied to falling to the ground just in front of you. You end up sliding back down the hill for a short distance, but finally regain control of your equilibrium and reach the top of the rockslide, where the rope and dried-out tree branch are now laying.'
+S'First Transition Text:\012\012You slowly work you way up the side of the hill, along the rock slide. As you near the top of the rock slide you see a rope that is dangling down from the clifftop above you. You grab for the rope as you begin to lose your footing, only to hear a loud snapping sound above, followed by the rope and the dead branch it was tied to falling to the ground just in front of you. You end up sliding back down the hill for a short distance, but finally regain control of your equilibrium and reach the top of the rockslide, where the rope and dried-out tree branch are now laying.'
 sg6
 Nsg7
 S'Cycon-Room(005).jpg'
@@ -7565,23 +7726,10 @@ sg9
 I0
 sg10
 (dp583
-I4
+I3
 (iCogObjects
 DirectionObject
 (dp584
-g13
-Nsg14
-Nsg15
-Nsg16
-I0
-sg17
-I126
-sg18
-Nsg19
-NsbsI3
-(iCogObjects
-DirectionObject
-(dp585
 g13
 Nsg14
 Nsg15
@@ -7594,7 +7742,7 @@ Nsg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp586
+(dp585
 g13
 S'You walk up the beach until you reach the point where the forest overhangs the sand.'
 sg14
@@ -7608,6 +7756,19 @@ I5
 sg18
 S''
 sg19
+NsbsI4
+(iCogObjects
+DirectionObject
+(dp586
+g13
+Nsg14
+Nsg15
+Nsg16
+I0
+sg17
+I126
+sg18
+Nsg19
 Nsbssg21
 S'You are standing along the edge of the beach, in front of a small alcove, formed in the space between the cliff and a large rock. To the west looms a sharply inclined cliff.'
 sg22
@@ -7789,15 +7950,14 @@ Nsg7
 S'Cycon-Room(001).jpg'
 sg8
 S'Beachfront'
-p600
 sg9
 I0
 sg10
-(dp601
+(dp600
 I7
 (iCogObjects
 DirectionObject
-(dp602
+(dp601
 g13
 Nsg14
 Nsg15
@@ -7810,7 +7970,7 @@ Nsg19
 NsbsI3
 (iCogObjects
 DirectionObject
-(dp603
+(dp602
 g13
 S''
 sg14
@@ -7827,7 +7987,7 @@ sg19
 NsbsI2
 (iCogObjects
 DirectionObject
-(dp604
+(dp603
 g13
 S'As you step into the shade of the forest, your eyes take a moment to adjust to the dim light.'
 sg14
@@ -7844,7 +8004,7 @@ sg19
 NsbsI9
 (iCogObjects
 DirectionObject
-(dp605
+(dp604
 g13
 Nsg14
 Nsg15
@@ -7857,7 +8017,7 @@ Nsg19
 NsbsI1
 (iCogObjects
 DirectionObject
-(dp606
+(dp605
 g13
 S''
 sg14
@@ -7874,7 +8034,7 @@ sg19
 Nsbssg21
 S'You are standing on a large beachfront. In front of you looms a great forest, populated with a wide assortment of trees, including a few abnormally tall ones. You notice that the western portion of this island is made up of a series of cliffs and rocky terrain that gently slopes down towards the lush green portions of the island to the east.'
 sg22
-S'You can see a shady spot to under a tree the NorthWest, a forest starts to the NorthEast, and the beach extends both SouthWest and SouthEast. There is also a path that leads into the forest to the North.'
+S'You can see a shady spot under a tree to the NorthWest, a forest starts to the NorthEast, and the beach extends both SouthWest and SouthEast. There is also a path that leads into the forest to the North.'
 sbs.(dp1
 I83
 (iCogObjects
@@ -7912,7 +8072,8 @@ p12
 I0
 sS'icon_graphic_url'
 p13
-NsS'weight'
+S'Cycon-Item-Icon(083).jpg'
+sS'weight'
 p14
 I0
 sS'description'
@@ -8253,7 +8414,8 @@ I0
 sg7
 S'Skinned Meat (with Dagger)'
 sg13
-Nsg17
+S'Cycon-Item-Icon(072).jpg'
+sg17
 NsbsI71
 (iCogObjects
 ItemObject
@@ -8284,7 +8446,8 @@ I0
 sg7
 S'Skinned Meat'
 sg13
-Nsg17
+S'Cycon-Item-Icon(071).jpg'
+sg17
 NsbsI70
 (iCogObjects
 ItemObject
@@ -8828,7 +8991,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(053).jpg'
+sg14
 I0
 sg15
 S"This is a perfectly sphereical crystaline orb about the size of your hand, if you spread your fingers out wide. The orb glows slightly with a red light that eminates from it's center."
@@ -8860,7 +9024,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(052).jpg'
+sg14
 I0
 sg15
 S"This is a perfectly sphereical crystaline orb about the size of your hand, if you spread your fingers out wide. The orb glows slightly with a blue light that eminates from it's center."
@@ -8892,7 +9057,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(051).jpg'
+sg14
 I0
 sg15
 S"This is a perfectly sphereical crystaline orb about the size of your hand, if you spread your fingers out wide. The orb glows slightly with a black light that eminates from it's center."
@@ -8924,7 +9090,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(050).jpg'
+sg14
 I0
 sg15
 S"This is a perfectly sphereical crystaline orb about the size of your hand, if you spread your fingers out wide. The orb glows slightly with a white light that eminates from it's center."
@@ -9049,7 +9216,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(046).jpg'
+sg14
 I0
 sg15
 S'This is a small metal flask that is currently filled with a luminescent liquid.'
@@ -9080,7 +9248,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(045).jpg'
+sg14
 I0
 sg15
 S'This curved, exotic seashell is made from a material that is both translucent and highly reflective at the same time. The seashell is currently filled with a pungent-smelling, luminescent liquid that glows very brightly inside of the shell. The curved, translucent surface of the shell manginfies and concentrates the light eminating from within the shell, effectively creating a very handy portabel light source.'
@@ -9140,7 +9309,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(032).jpg'
+sg14
 I-1
 sg15
 S'This is a very heavy fat metal pot, suspended above a small firepit. The cauldron currently contains a mixture of phosphorescent fungi and pungent-smelling, unknown liquid. The mixture is ready to be heated.'
@@ -9170,7 +9340,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(032).jpg'
+sg14
 I-1
 sg15
 S'This is a very heavy fat metal pot, suspended above a small firepit. The cauldron currently contains a small amount of unknown liquid.'
@@ -9200,7 +9371,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(032).jpg'
+sg14
 I-1
 sg15
 S'This is a very heavy fat metal pot, suspended above a small firepit. The cauldron currently contains a small quantity of phosphorescent fungi that seem to glow with their own inner light.'
@@ -9231,7 +9403,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(040).jpg'
+sg14
 I0
 sg15
 S'This is a small pouch, handsewn from the hide of an animal not totally unlike a deer. It is currently filled with a form of phosphoresant fungi that seem to glow with their own inner light. You have to be careful when handling the fungi however, as they seem to instantly break apart into spores whenever you try to touch them with your bare hands.'
@@ -9292,7 +9465,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(038).jpg'
+sg14
 I-1
 sg15
 S'You have spread the broken up piece of a dry tree branch over the coals of the small firepit, and covered the wood with dry forest leaves. The firepit is now prepared to be lit.'
@@ -9324,7 +9498,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(037).jpg'
+sg14
 I-1
 sg15
 S'You have spread out dry forest leaves across the small firepit. You will still need to add wood to burn if you want to start a fire.'
@@ -9359,7 +9534,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(036).jpg'
+sg14
 I0
 sg15
 S'This is as small pile of dry forest leaves.'
@@ -9390,7 +9566,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(035).jpg'
+sg14
 I-1
 sg15
 S'You have broken up a dry tree branch over the coals of the small firepit. You will still need to add something to get the fire initially started if you want to start a fire.'
@@ -9423,7 +9600,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(034).jpg'
+sg14
 I0
 sg15
 S'This is a small pouch that has been hand-sewed from the hide of an animal not totally unlike a deer.'
@@ -9457,7 +9635,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(033).jpg'
+sg14
 I-1
 sg15
 S'This is just the burn remaining of a firepit someone had once used for their campsite.'
@@ -9491,7 +9670,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(032).jpg'
+sg14
 I-1
 sg15
 S'This is a very heavy fat metal pot, suspended above a small firepit.'
@@ -9522,7 +9702,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(031).jpg'
+sg14
 I0
 sg15
 S'This is a long, dried out tree branch.'
@@ -9535,9 +9716,9 @@ ItemObject
 g3
 S'Rock, Stone'
 sg4
-I400
+I390
 sg5
-I293
+I273
 sg6
 S'0'
 sg7
@@ -9553,14 +9734,14 @@ S'Dagger was underneath the rock.'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(030).jpg'
+sg14
 I-1
 sg15
 S'This is a large rock, no different from the many others laying around on the sand.'
 sg16
 Nsg17
-S'Cycon-Item-Environment(030).jpg'
-sbsI29
+NsbsI29
 (iCogObjects
 ItemObject
 (dp93
@@ -9678,7 +9859,8 @@ S'Hidden in the Dark Woods (Room 12) Use it to Unlock Gate'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(026).jpg'
+sg14
 I0
 sg15
 S'This is a rather large, shiny, brass key, that sparkles in the light.'
@@ -9699,6 +9881,7 @@ S'108'
 p101
 sg7
 S'Brick'
+p102
 sg8
 I0
 sg9
@@ -9710,7 +9893,8 @@ S'Used as a counter-weight for'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(025).jpg'
+sg14
 I0
 sg15
 S'This is a large, greyish-white brick, that has seen many years abuse from the elements.'
@@ -9719,9 +9903,10 @@ Nsg17
 NsbsI24
 (iCogObjects
 ItemObject
-(dp102
+(dp103
 g3
 S'Spear'
+p104
 sg4
 I0
 sg5
@@ -9749,16 +9934,17 @@ Nsg17
 NsbsI23
 (iCogObjects
 ItemObject
-(dp103
+(dp105
 g3
 S'coin'
+p106
 sg4
 I370
 sg5
 I100
 sg6
 S'115'
-p104
+p107
 sg7
 S'Golden Coin'
 sg8
@@ -9772,19 +9958,18 @@ S''
 sg12
 I0
 sg13
-S''
+S'Cycon-Item-Icon(023).jpg'
 sg14
 I0
 sg15
 S'This is a small shiny golden coin just slightly smaller than your palm. There are only the faintest of outlines what may have once been printed or etched on the surface. The markings are far too faded for you to make out clearly.'
 sg16
-S''
-sg17
+Nsg17
 S'Cycon-Item-Environment(023).gif'
 sbsI22
 (iCogObjects
 ItemObject
-(dp105
+(dp108
 g3
 S'Plant, Flower'
 sg4
@@ -9793,9 +9978,10 @@ sg5
 I0
 sg6
 S'30'
-p106
+p109
 sg7
 S'Oxoplant'
+p110
 sg8
 I0
 sg9
@@ -9803,7 +9989,7 @@ S'Cycon-Item-CloseUp(022).jpg'
 sg10
 I22
 sg11
-S"Allows you to breath underwater\n\nCurrently, equipping the oxoplant doesn't seem to be working properly - 2001.06.17"
+S"Allows you to breath underwater\012\012Currently, equipping the oxoplant doesn't seem to be working properly - 2001.06.17"
 sg12
 I0
 sg13
@@ -9816,18 +10002,20 @@ Nsg17
 NsbsI21
 (iCogObjects
 ItemObject
-(dp107
+(dp111
 g3
 S'Hammer'
+p112
 sg4
 I0
 sg5
 I0
 sg6
 S'79'
-p108
+p113
 sg7
 S'Sledgehammer'
+p114
 sg8
 I0
 sg9
@@ -9847,7 +10035,7 @@ Nsg17
 NsbsI20
 (iCogObjects
 ItemObject
-(dp109
+(dp115
 g3
 S'Flask, liquid'
 sg4
@@ -9869,7 +10057,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(020).jpg'
+sg14
 I0
 sg15
 S'This is a small metal flask that is currently filled with an unknown, pungent liquid.'
@@ -9879,9 +10068,10 @@ S'Cycon-Item-Environment(020).gif'
 sbsI19
 (iCogObjects
 ItemObject
-(dp110
+(dp116
 g3
 S'Flask'
+p117
 sg4
 I0
 sg5
@@ -9901,7 +10091,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(019).jpg'
+sg14
 I0
 sg15
 S'Its an emtpty metal flask.'
@@ -9910,9 +10101,10 @@ Nsg17
 NsbsI18
 (iCogObjects
 ItemObject
-(dp111
+(dp118
 g3
 S'Hook'
+p119
 sg4
 I0
 sg5
@@ -9941,7 +10133,7 @@ Nsg17
 NsbsI17
 (iCogObjects
 ItemObject
-(dp112
+(dp120
 g3
 S''
 sg4
@@ -9951,7 +10143,7 @@ I0
 sg6
 S'0'
 sg7
-S'Hook'
+g119
 sg8
 I0
 sg9
@@ -9963,7 +10155,8 @@ S'Combine with Rope to form Grappling Hook'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(017).jpg'
+sg14
 I0
 sg15
 S'This is a long, triple-pronged metal hook with a loop on one end.'
@@ -9972,7 +10165,7 @@ Nsg17
 NsbsI16
 (iCogObjects
 ItemObject
-(dp113
+(dp121
 g3
 S'Cable, loop, end'
 sg4
@@ -9994,7 +10187,8 @@ S'Needed for Red Gem.'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(016).jpg'
+sg14
 I0
 sg15
 S'This is a very strong cable, made from a metal that very closely resembles steel, although it is far lighter. There is a loop on end of the cable.'
@@ -10003,7 +10197,7 @@ Nsg17
 NsbsI15
 (iCogObjects
 ItemObject
-(dp114
+(dp122
 g3
 S'Toolbox, box'
 sg4
@@ -10025,7 +10219,8 @@ S'Contains hook and steel cable'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(015).jpg'
+sg14
 I-1
 sg15
 S'This is a small box, made from a very heavy and durable metal. The box is so heavy in fact, that you cannot even muster the strength to pick it up. The box is currently unlocked and open.'
@@ -10035,7 +10230,7 @@ S'Cycon-Item-Environment(015).gif'
 sbsI14
 (iCogObjects
 ItemObject
-(dp115
+(dp123
 g3
 S'Toolbox, box'
 sg4
@@ -10057,7 +10252,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(014).jpg'
+sg14
 I-1
 sg15
 S'This is a small box, made from a very heavy and durable metal. The box is so heavy in fact, that you cannot even muster the strength to pick it up. The box is currently closed, but unlocked.'
@@ -10067,7 +10263,7 @@ S'Cycon-Item-Environment(014).gif'
 sbsI13
 (iCogObjects
 ItemObject
-(dp116
+(dp124
 g3
 S'Box, Lock, Toolbox'
 sg4
@@ -10089,7 +10285,8 @@ S'You must use the small metal key to open the lock.'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(013).jpg'
+sg14
 I-1
 sg15
 S'This is a small box, made from a very heavy and durable metal. The box is so heavy in fact, that you cannot even muster the strength to pick it up. The box is currently locked shut, with a small keyhole just above where the lid opens.'
@@ -10099,16 +10296,17 @@ S'Cycon-Item-Environment(013).gif'
 sbsI12
 (iCogObjects
 ItemObject
-(dp117
+(dp125
 g3
 S'Key'
+p126
 sg4
 I0
 sg5
 I0
 sg6
 S'54'
-p118
+p127
 sg7
 S'Small Key'
 sg8
@@ -10122,7 +10320,8 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(012).jpg'
+sg14
 I0
 sg15
 S'This is a small shiny metal key.'
@@ -10131,7 +10330,7 @@ Nsg17
 NsbsI11
 (iCogObjects
 ItemObject
-(dp119
+(dp128
 g3
 S'Shell, Seashell'
 sg4
@@ -10140,7 +10339,7 @@ sg5
 I240
 sg6
 S'31'
-p120
+p129
 sg7
 S'Exotic Seashell'
 sg8
@@ -10154,19 +10353,20 @@ S''
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(011).jpg'
+sg14
 I0
 sg15
-S"This is an extremely exotic seashell, you've never seen anything quite like it in your entire life. The shell itself is rather large, about three times the size of your fist. The shape is vaguely conical, but at the same time it is so curved that is almost spherical at the same time. The material of the shell is both translucent and highly reflective at the same time, and the sun's rays dance across its surface."
+S"This is an extremely exotic seashell, you've never seen anything quite like it in your entire life. The shell itself is rather large, about three times the size of your fist. The shape is vaguely conical at the top, and spherical near the bottom. The material of the shell is both translucent and reflective. The sun's rays dance across its surface."
 sg16
 Nsg17
 S'Cycon-Item-Environment(011).gif'
 sbsI10
 (iCogObjects
 ItemObject
-(dp121
+(dp130
 g3
-S'Knothole, Grappling Hook, Hole, hook'
+S'Knothole, Grappling Hook, Hole, hook, tree'
 sg4
 I0
 sg5
@@ -10194,9 +10394,9 @@ Nsg17
 NsbsI9
 (iCogObjects
 ItemObject
-(dp122
+(dp131
 g3
-S'Hole'
+S'Hole, tree'
 sg4
 I0
 sg5
@@ -10205,6 +10405,7 @@ sg6
 S'22, 19'
 sg7
 S'Knothole'
+p132
 sg8
 I0
 sg9
@@ -10224,7 +10425,7 @@ Nsg17
 NsbsI8
 (iCogObjects
 ItemObject
-(dp123
+(dp133
 g3
 S'Arrow, Tree, Stump, Tree Stump, rope'
 sg4
@@ -10254,7 +10455,7 @@ Nsg17
 NsbsI7
 (iCogObjects
 ItemObject
-(dp124
+(dp134
 g3
 S'Tree, Stump'
 sg4
@@ -10285,7 +10486,7 @@ S'ObstructionTemplate(Orange).jpg'
 sbsI6
 (iCogObjects
 ItemObject
-(dp125
+(dp135
 g3
 S'Arrow, rope'
 sg4
@@ -10307,7 +10508,8 @@ S'You shoot this at the tree stump overhanding the cliff in order to reach the c
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(006).jpg'
+sg14
 I0
 sg15
 S'You have tied a length of rope to the end of an arrow.'
@@ -10316,7 +10518,7 @@ Nsg17
 NsbsI5
 (iCogObjects
 ItemObject
-(dp126
+(dp136
 g3
 S''
 sg4
@@ -10327,6 +10529,7 @@ sg6
 S'7'
 sg7
 S'Rope'
+p137
 sg8
 I0
 sg9
@@ -10338,7 +10541,8 @@ S'Can be tied to the arrow or to the hook'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(005).jpg'
+sg14
 I0
 sg15
 S'This rope apears to have been handwoven from extremely resiliant natural fibers. Though it is not very thick in circumference, you are fairly certain that it could at least hold your own weight.'
@@ -10347,7 +10551,7 @@ Nsg17
 NsbsI4
 (iCogObjects
 ItemObject
-(dp127
+(dp138
 g3
 S''
 sg4
@@ -10358,6 +10562,7 @@ sg6
 S'0'
 sg7
 S'Arrow'
+p139
 sg8
 I0
 sg9
@@ -10369,7 +10574,8 @@ S'For use with bow, attach rope, offensive'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(004).jpg'
+sg14
 I0
 sg15
 S'This arrow is very long, with a special razor-sharp point. The only odd thing about it is the small notch behind the plume.'
@@ -10379,7 +10585,7 @@ S'Cycon-Item-Environment(004).gif'
 sbsI3
 (iCogObjects
 ItemObject
-(dp128
+(dp140
 g3
 S''
 sg4
@@ -10390,6 +10596,7 @@ sg6
 S'0'
 sg7
 S'Bow'
+p141
 sg8
 I0
 sg9
@@ -10401,7 +10608,8 @@ S'Carried by Savage, kill him with knife to retrieve this.'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(003).jpg'
+sg14
 I0
 sg15
 S'This long, strong, and obvoiusly powerful bow feels comfortable in your grip.'
@@ -10411,18 +10619,20 @@ S'Cycon-Item-Environment(003).gif'
 sbsI2
 (iCogObjects
 ItemObject
-(dp129
+(dp142
 g3
 S'Stone'
+p143
 sg4
 I400
 sg5
 I240
 sg6
 S'126'
-p130
+p144
 sg7
 S'Rock'
+p145
 sg8
 I0
 sg9
@@ -10434,7 +10644,8 @@ S'Dagger is underneath the rock.'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(002).jpg'
+sg14
 I-1
 sg15
 S'This is a large rock, no different from the many others laying around on the sand.'
@@ -10444,17 +10655,19 @@ S'Cycon-Item-Environment(002).gif'
 sbsI1
 (iCogObjects
 ItemObject
-(dp131
+(dp146
 g3
 S'Knife'
+p147
 sg4
-I380
+I390
 sg5
 I240
 sg6
 S'0'
 sg7
 S'Dagger'
+p148
 sg8
 I0
 sg9
@@ -10466,13 +10679,14 @@ S'Found under the rock in room #7'
 sg12
 I0
 sg13
-Nsg14
+S'Cycon-Item-Icon(001).jpg'
+sg14
 I0
 sg15
 S'This dagger is heavier than you might expect; it seems to be made of a strong and smooth metal that is a blueish-grey and does not shine, unlike any you have ever seen before. The grip is wrapped in some sort of animal hide. This dagger feels very good in your hand.'
 sg16
 Nsg17
-S'Cycon-Item-Environment-A-(001).jpg'
+S'Cycon-Item-Environment-A-(001).gif'
 sbs.(dp1
 I13
 (iCogObjects
@@ -10481,146 +10695,157 @@ ObstructionObject
 S'aliases'
 p3
 S'fish, enemy'
-sS'visible'
-p4
-I1
 sS'environment_graphic_Ypos'
-p5
+p4
 I0
 sS'environment_graphic_Xpos'
-p6
+p5
 I0
+sS'number'
+p6
+I13
 sS'name'
 p7
 S'Shark'
 p8
-sS'locations'
+sS'visible'
 p9
-S''
+I1
 sS'closeup_graphic_url'
 p10
-NsS'number'
+NsS'locations'
 p11
-I13
+S''
 sS'notes'
 p12
 S''
 sS'description'
 p13
 S"This is the largest shark you've ever seen in your life. So far it doesn't seem to have noticed your presence. You're afraid however that if you tried to swim further Down in the water, you might draw its attention."
-sS'environment_graphic_url'
+sS'icon_graphic_url'
 p14
-NsS'type'
+S''
+sS'environment_graphic_url'
 p15
+NsS'type'
+p16
 S''
 sbsI12
 (iCogObjects
 ObstructionObject
-(dp16
+(dp17
 g3
 S'stone, wall'
 sg4
-I1
+I0
 sg5
 I0
 sg6
-I0
+I12
 sg7
 S'Stone Wall'
 sg9
-S''
+I1
 sg10
 Nsg11
-I12
+S''
 sg12
 S''
 sg13
 S'This stone wall blocks your passage though the tunnel leaded upwards.'
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 S''
 sbsI11
 (iCogObjects
 ObstructionObject
-(dp17
+(dp18
 g3
 S'door, stone'
 sg4
-I1
+I0
 sg5
 I0
 sg6
-I0
+I11
 sg7
 S'Stone Door'
 sg9
-S''
+I1
 sg10
 Nsg11
-I11
+S''
 sg12
 S''
 sg13
 S'This is a large door, made of stone. It is far too heavy for you to budge.'
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 S''
 sbsI10
 (iCogObjects
 ObstructionObject
-(dp18
+(dp19
 g3
 S'troll face gateway, troll face gate, troll gate, face gate, gate, troll, lock, brass gate, tongue, face, mouth, open mouth'
 sg4
-I1
+I0
 sg5
 I0
 sg6
-I0
+I10
 sg7
 S'Troll Gate (Closed)'
 sg9
-S''
+I1
 sg10
 Nsg11
-I10
+S''
 sg12
 S''
 sg13
 S"Your route across the bridge is blocked by a thick brass gate. In the middle of the gate is situated a piece of wood, carved into the shape of the face of a troll. Strangly, the face looks exactly how you had pictured the troll from a storybook your were read when you were very young. The troll's face has its eyes closed, it's mouth open, and it's tognue sticking out."
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 S''
 sbsI9
 (iCogObjects
 ObstructionObject
-(dp19
+(dp20
 g3
 S'rocks, cave in, cave, obstacle, block, obstruction'
 sg4
-I1
+I0
 sg5
 I0
 sg6
-I0
+I9
 sg7
 S'Cave-In'
 sg9
-S''
+I1
 sg10
 Nsg11
-I9
+S''
 sg12
 S'How does the player remove the cave in? This is, afterall, a key moment in the game... you enter this room and place the orbs on the pedestools to remove the boulder, but how do you remove the cavein? the sledgehammer? (most likely)'
 sg13
 S"This is a large pile of boulders and debris, which must have resulted from part of the tunnel collapsing. You can't tell how long ago the cave-in occured, and there's no way you'd be able to remove it by hand, the rocks are simply too big to budge."
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 S''
 sbsI8
 (iCogObjects
 ObstructionObject
-(dp20
+(dp21
 g3
 S''
 sg4
@@ -10628,73 +10853,79 @@ I0
 sg5
 I0
 sg6
-I0
+I8
 sg7
 S'Underwater (Requires Oxoplant)'
 sg9
-S'128-11, 52-11, 68-11, 114-11'
+I0
 sg10
 Nsg11
-I8
+S'128-11, 52-11, 68-11, 114-11'
 sg12
 S''
 sg13
 S"You can't breathe underwater!"
 sg14
-Nsg15
-NsbsI7
-(iCogObjects
-ObstructionObject
-(dp21
-g3
-S'gate, lock, unlocked gate'
-sg4
-I1
-sg5
-I0
-sg6
-I0
-sg7
-S'Unlocked Gate (Closed)'
-sg9
-Nsg10
-Nsg11
-I7
-sg12
 S''
-sg13
-S'This is a huge metalic gate with a very large lock positioned in the center of the gate. The gate is currently closed, but it is unlocked.'
-sg14
-Nsg15
-NsbsI6
+sg15
+Nsg16
+NsbsI7
 (iCogObjects
 ObstructionObject
 (dp22
 g3
-S'gate, lock, locked gate'
+S'gate, lock, unlocked gate'
 sg4
-I1
+I0
 sg5
 I0
 sg6
+I7
+sg7
+S'Unlocked Gate (Closed)'
+sg9
+I1
+sg10
+Nsg11
+Nsg12
+S''
+sg13
+S'This is a huge metalic gate with a very large lock positioned in the center of the gate. The gate is currently closed, but it is unlocked.'
+sg14
+S''
+sg15
+Nsg16
+NsbsI6
+(iCogObjects
+ObstructionObject
+(dp23
+g3
+S'gate, lock, locked gate'
+sg4
 I0
+sg5
+I0
+sg6
+I6
 sg7
 S'Locked Gate (Closed)'
 sg9
-S'85-6'
+I1
 sg10
 Nsg11
-I6
+S'85-6'
 sg12
 S''
 sg13
 S'This is a huge metalic gate with a very large lock positioned in the center of the gate. The gate is currently closed and locked shut.'
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 NsbsI5
 (iCogObjects
 ObstructionObject
-(dp23
+(dp24
 g3
 S''
 sg4
@@ -10702,132 +10933,136 @@ I0
 sg5
 I0
 sg6
-I0
+I5
 sg7
 S'Darkness'
-p24
+p25
 sg9
-S'110-8'
+I0
 sg10
 Nsg11
-I5
+S'110-8'
 sg12
 S'This "obstruction" could have been implemented in the same manner as (for instance) the distance from the ledge over the river that runs through the mountains to the tree trunk on top of the mountain, but I felt that since the situation in which one needs a portable light source comes up so often, and is sovled by having a certain item as opposed to performing a different task, that implementing Darkness as an invisible obstacle my be better suited than setting up a series of Modifying ToWhichRoom Directional Objects. Implenting Darkness in this way was actually the orginal way in which all such problems where address, and I also wanted to show that there are many different ways to accomplish basically the same thing by mastering the Event Grammar of the COG Engine. By using this implementation, an ObstructedCompassGraphic will show that someone is capable of entering the darkness, but they currently cannot. If such a technique was used in the case of the tree stump example, the player would be given a hint that there must be *some* way to get up there.'
 sg13
 S"You can't see in the dark, you need light!"
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 NsbsI4
 (iCogObjects
 ObstructionObject
-(dp25
+(dp26
 g3
 S'bridge, rope bridge'
 sg4
-I1
+I0
 sg5
 I0
 sg6
-I0
+I4
 sg7
 S'Rope Bridge (Broken)'
 sg9
-S'83-4, 116-6'
+I1
 sg10
 Nsg11
-I4
+S'83-4, 116-6'
 sg12
 S'You use the grappling hook on this from the western side to fix it.'
 sg13
 S'This bridge once spanned a gulf between two cliffs. It is currently hanging down on the Eastern side. It must have become detached somehow on the Western side.'
 sg14
-Nsg15
+S''
+sg15
+Nsg16
 S'Obstacle'
-p26
+p27
 sbsI3
 (iCogObjects
 ObstructionObject
-(dp27
+(dp28
 g3
 S''
 sg4
-I1
-sg5
 I170
-sg6
+sg5
 I190
+sg6
+I3
 sg7
 S'Boulder'
-p28
 sg9
-S'46-2'
+I1
 sg10
 Nsg11
-I3
+S'46-2'
 sg12
 S'You have to use the analog (natural) computer, powered by all four Orbs, to remove this.'
 sg13
 S'This large boulder blocks all passage to the North.'
 sg14
-S'ObstructionTemplate(Orange).jpg'
-sg15
-g26
+Nsg15
+Nsg16
+g27
 sbsI2
 (iCogObjects
 ObstructionObject
 (dp29
 g3
 S'Sign'
-p30
 sg4
-I1
-sg5
 I170
-sg6
+sg5
 I190
+sg6
+I2
 sg7
 S'Under Construction Sign'
 sg9
-S'8-2, 3-2'
+I1
 sg10
 Nsg11
-I2
+S'8-2, 3-2'
 sg12
 S'Originally Posted At : Room(8)Direction[North], Room(3)Direction[North]'
 sg13
 S"You have reached the halfway point of the Cycon Odyssey. You can't go any further right now, but keep an eye on the News page from the CogEngine [http://cogengine.sourceforge.net/news.html] and watch for updates!"
 sg14
+Nsg15
 S'ObstructionTemplate(Orange).jpg'
-sg15
+sg16
 NsbsI1
 (iCogObjects
 ObstructionObject
-(dp31
+(dp30
 g3
 S'Savage, Enemy'
 sg4
-I1
-sg5
 I110
-sg6
+sg5
 I170
+sg6
+I1
 sg7
 S'Stranger'
-p32
 sg9
-S'5-4, 7-6'
+I1
 sg10
 Nsg11
-I1
+S'5-4, 7-6'
 sg12
-S'Use the Dagger to attack him, and he will leave the Bow and one Arrow behind.'
+S'Use the Dagger to attack him, and he will leave the Bow and one Arrow behind.\012\012Icon Graphic: Cycon-Obstruction-Icon(001).jpg'
 sg13
 S'This crude, fierce looking individual appears to have every intent of killing you.'
 sg14
-S'Cycon-Obstruction-Environment(001).gif'
+S'Cycon-Obstruction-Icon(001).jpg'
 sg15
+S'Cycon-Obstruction-Environment(001).gif'
+sg16
 S'Antagonist'
-p33
+p31
 sbs.(dp1
 I9
 (iCogObjects
@@ -10874,7 +11109,7 @@ g9
 sg10
 I0
 sg11
-S'Removes Item(1) from Inventory and Adds Item(1) to CurrentRoom and Modifies Item(30) Environment_GraphicURL[Cycon-Item-Environment(030).png] and Modifies Item(1) Environment_GraphicURL[Cycon-Item-Environment-B-(001).jpg] and Modifies Item(30) Environment_Graphic_Pos( 240, 380 )'
+S'Removes Item(1) from Inventory and Adds Item(1) to CurrentRoom and Modifies Item(30) Environment_GraphicURL[] and Modifies Item(1) Environment_GraphicURL[Cycon-Item-Environment-B-(001).gif] and Modifies Item(30) Environment_Graphic_Pos( 293, 380 )'
 sg12
 S'(Requires Room(126)IsCurrentRoom)'
 sg13
@@ -10975,18 +11210,18 @@ sg12
 S'(Requires Room(112)IsCurrentRoom) and (Requires Obstruction(13)ExistsInRoom(112))'
 sg13
 Nsg14
-NsbssS'notes'
+NsbssS'name'
 p22
-S''
-sS'name'
-p23
 g9
-sS'total_events'
-p24
-I1
+sS'notes'
+p23
+S''
 sS'number'
-p25
+p24
 I9
+sS'total_events'
+p25
+I1
 sbsI8
 (iCogObjects
 VerbObject
@@ -11024,7 +11259,7 @@ g30
 sg10
 I0
 sg11
-S'Adds Item(1) to Inventory and Removes Item(1) from CurrentRoom and Modifies Item(30) Environment_GraphicURL[Cycon-Item-Environment(030).png] and Modifies Item(30) Environment_Graphic_Pos( 293, 400 ) and Modifies Item(1) Environment_GraphicURL[]'
+S'Adds Item(1) to Inventory and Removes Item(1) from CurrentRoom and Modifies Item(30) Environment_GraphicURL[Cycon-Item-Environment(030).gif] and Modifies Item(30) Environment_Graphic_Pos( 293, 400 ) and Modifies Item(1) Environment_GraphicURL[]'
 sg12
 S'(Requires Room(126)IsCurrentRoom)'
 sg13
@@ -11247,13 +11482,13 @@ S'(Requires Item(34)InInventory)'
 sg13
 Nsg14
 Nsbssg22
-S''
-sg23
 g30
+sg23
+S''
 sg24
-I5
-sg25
 I8
+sg25
+I5
 sbsI7
 (iCogObjects
 VerbObject
@@ -11262,14 +11497,14 @@ g3
 S''
 sg4
 (dsg22
-S''
-sg23
 S'Search'
 p47
+sg23
+S''
 sg24
-I0
-sg25
 I7
+sg25
+I0
 sbsI6
 (iCogObjects
 VerbObject
@@ -11310,13 +11545,13 @@ sg12
 Nsg13
 Nsg14
 Nsbssg22
-S''
-sg23
 g51
+sg23
+S''
 sg24
-I2
-sg25
 I6
+sg25
+I2
 sbsI5
 (iCogObjects
 VerbObject
@@ -11357,13 +11592,13 @@ sg12
 Nsg13
 Nsg14
 Nsbssg22
-S''
-sg23
 g56
+sg23
+S''
 sg24
-I2
-sg25
 I5
+sg25
+I2
 sbsI4
 (iCogObjects
 VerbObject
@@ -11389,19 +11624,19 @@ sg12
 Nsg13
 Nsg14
 Nsbssg22
-S''
-sg23
 g61
+sg23
+S''
 sg24
-I1
-sg25
 I4
+sg25
+I1
 sbsI3
 (iCogObjects
 VerbObject
 (dp62
 g3
-S'Subtract, Break, Dissect, Divide, untie, remove, extract'
+S'Subtract, Break, Dissect, Divide, untie, remove, extract, empty'
 sg4
 (dp63
 I8
@@ -11531,13 +11766,13 @@ sg12
 Nsg13
 Nsg14
 Nsbssg22
-S''
-sg23
 g65
+sg23
+S''
 sg24
-I2
-sg25
 I3
+sg25
+I2
 sbsI2
 (iCogObjects
 VerbObject
@@ -11652,9 +11887,9 @@ S'Item(17)'
 sg14
 g79
 sbssg22
-S''
-sg23
 g76
+sg23
+S''
 sg24
 I2
 sg25
@@ -12880,11 +13115,11 @@ S'Obstruction(1)'
 sg14
 g79
 sbssg22
-S''
-sg23
 g87
+sg23
+S''
 sg24
-I29
-sg25
 I1
+sg25
+I29
 sbs.
