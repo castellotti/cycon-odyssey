@@ -1,0 +1,92 @@
+COG Engine Game Module - Direction List File
+--------------------------------------------
+File Last Modified : 22.4.99
+
+Direction # : int				[Required]
+Direction Name : String				[Required]
+Direction Abbreviation : String			[Optional]
+CompassGraphicURL [Available] :			[Optional]
+CompassGraphicURL [Unavailable] :		[Optional]
+CompassGraphicURL [Special] :		  	[Optional]
+
+Note : The COG Engine is case-insensitive to Direction Names and Abbreviations
+
+-----------------------------------------
+
+Direction # : 1
+Direction Name : NorthWest
+Direction Abbreviation : NW
+CompassGraphicURL [Available] : Images/COG-Compass-Available(NW).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(NW).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(NW).jpg
+
+Direction # : 2
+Direction Name : North
+Direction Abbreviation : N
+CompassGraphicURL [Available] : Images/COG-Compass-Available(N).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(N).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(N).jpg
+
+Direction # : 3
+Direction Name : NorthEast
+Direction Abbreviation : NE
+CompassGraphicURL [Available] : Images/COG-Compass-Available(NE).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(NE).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(NE).jpg
+
+Direction # : 4
+Direction Name : West
+Direction Abbreviation : W
+CompassGraphicURL [Available] : Images/COG-Compass-Available(W).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(W).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(W).jpg
+
+Direction # : 5
+Direction Name : Center
+Direction Abbreviation : C
+CompassGraphicURL [Available] : Images/COG-Compass-Available(Center).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(Center).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Special(Center).jpg
+
+Direction # : 6
+Direction Name : East
+Direction Abbreviation : E
+CompassGraphicURL [Available] : Images/COG-Compass-Available(E).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(E).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(E).jpg
+
+Direction # : 7
+Direction Name : SouthWest
+Direction Abbreviation : SW
+CompassGraphicURL [Available] : Images/COG-Compass-Available(SW).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(SW).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(SW).jpg
+
+Direction # : 8
+Direction Name : South
+Direction Abbreviation : S
+CompassGraphicURL [Available] : Images/COG-Compass-Available(S).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(S).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(S).jpg
+
+Direction # : 9
+Direction Name : SouthEast
+Direction Abbreviation : SE
+CompassGraphicURL [Available] : Images/COG-Compass-Available(SE).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(SE).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(SE).jpg
+
+Direction # : 10
+Direction Name : Up
+Direction Abbreviation : U
+CompassGraphicURL [Available] : Images/COG-Compass-Available(Up).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(Up).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(Up).jpg
+
+Direction # : 11
+Direction Name : Down
+Direction Abbreviation : D
+CompassGraphicURL [Available] : Images/COG-Compass-Available(Down).jpg
+CompassGraphicURL [Unavailable] : Images/COG-Compass-Unavailable(Down).jpg
+CompassGraphicURL [Special] : Images/COG-Compass-Obstructed(Down).jpg
+

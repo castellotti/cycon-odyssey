@@ -1,9 +1,0 @@
-11/18/94 - First Line of Code Written
-11/23/94 - Room Describing Sequence Completed
-11/23/94 - Door.Sys Name Info Module Completed
-11/24/94 - Sequence to Load a Saved Player's Info Completed
-11/24/94 - Sequence to Save a Player's Info Completed
-11/24/94 - Verbs: Look, Read, Save, Load
-11/24/94 - First Alpha Release
-11/25/94 - First Time Online
-11/25/94 - Verbs: Help, VerbList

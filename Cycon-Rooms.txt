@@ -1,0 +1,1618 @@
+COG Engine Game Module - Rooms File
+------------------------------------
+Future Revision Notes : 
+	 - Add 1st visit/transitionary field(s)
+	 - Work out licensing issues regarding game modules ... Emacs rebuttal? PGP CryptInputStreams!
+	
+Room # : int                      [Required]
+Room Name : String                [Required]
+GraphicURL : URL                  [Required (Or all three Text Descriptions)]
+Text Description (Long) : String
+Text Description (Short) : String
+Directions Description : String
+Directions : String               [Required]
+Items : [String]                  [Optional]
+Directional Object : String       [Optional, Multiple]
+ Obstruction : [String]           [At least one, as many as all of these fields]
+ Transition (Text) : String
+ First Transition (Text) : String
+ Transition (Graphic) : URL
+ First Transition (Graphic) : URL
+Notes : String                    [Optional]
+
+------------------------------------
+
+Room # : 1
+Room Name : Beachfront
+GraphicURL : Images/Cycon-Room(001).jpg
+Text Description (Long) : You are standing on a large beachfront. In front of you
+ looms a great forest, populated with a wide assortment of trees, including a few
+ abnormally tall ones. You notice that the western portion of this island is made
+ up of a series of cliffs and rocky terrain that gently slopes down towards the
+ lush green portions of the island to the east.
+Text Description (Short) : You are on a beachfront.
+Direction Description : You can see a shady spot to under a tree the NorthWest, a
+ forest starts to the NorthEast, and the beach extends both SouthWest and SouthEast.
+ There is also a path that leads into the forest to the North.
+Directions : North(8), NorthEast(3), NorthWest(5), SouthEast(2), SouthWest(4)
+Directional Object : North
+ Transition (Text) : As you step into the shade of the forest, your eyes take a moment to
+ adjust to the dim light. 
+
+Room # : 2
+Room Name : Walking Along Beach
+GraphicURL : Images/Cycon-Room(002).jpg
+Text Description (Long) : You are walking along the beach, the waves crashing to the south.
+Text Description (Short) : You are on a beach.
+Direction Description : You can see the beginning of a forest to the North, and the
+ beach extends both NorthEast and NorthWest.
+Directions : North(3), NorthEast(9), NorthWest(1)
+
+Room # : 3
+Room Name : Front of Large Oak
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : There is a large oak tree here, one of the largest in
+ the forest. 
+Text Description (Short) : You are at the base of a large oak.
+Direction Description : The wind blows, russling the branches on the North side of the tree.
+ Towards the East you can see the sun casting shadows on the ground, and the beach
+ runs SouthWest and South East of here.
+Directions : North(14), South(2), West(5), SouthEast(9), SouthWest(1)
+Directional Object : North
+ Obstruction : Obstruction[Under Construction Sign]
+
+Room # : 4
+Room Name : Outside Alcove
+GraphicURL : Images/Cycon-Room(004).jpg
+Text Description (Long) : You are standing along the edge of the beach, in front of a small
+ alcove, formed in the space between the cliff and a large rock. To the west looms a sharply
+ inclined cliff.
+Text Description (Short) : You are standing in front of a small alcove.
+Direction Description : You can venture West into the alcove, NorthEast along the
+ coastline, or North towards a shady spot.
+Directions : North(5), NorthEast(1), West(126)
+Directional Object : North
+ Transition (Text) : You walk up the beach until you reach the point where the forest
+ overhangs the sand.
+
+Room # : 5
+Room Name : Savage
+GraphicURL : Images/Cycon-Room(005).jpg
+Text Description (Long) : The many limbs of the trees that hang far above you
+ block out the sun and cools the hot sand, comforting your feet.
+Text Description (Short) : You are in a shady spot.
+Direction Description : The beach ends to the South and continues to the SouthEast.
+ There is a huge oak tree to the East, and an old rock slide lies just West of here.
+Directions : South(4), East(3), West(7), SouthEast(1)
+Directional Object : West
+ Obstruction : Obstruction[Savage]
+ First Transition (Text) : You slowly work you way up the side of the hill, along the rock slide. As you
+ near the top of the rock slide you see a rope that is dangling down from the clifftop above you. You grab
+ for the rope as you begin to lose your footing, only to hear a loud snapping sound above, followed by the
+ rope and the dead branch it was tied to falling to the ground just in front of you. You end up sliding back down
+ the hill for a short distance, but finally regain control of your equilibrium and reach the top of the rockslide,
+ where the rope and dried-out tree branch are now laying.
+
+Room # : 6
+Room Name : Impassible Cliff
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The ocean's waves are crashing justbelow you, painting patches
+ of slick aglae around the already loose footing. You'd like to leave this area as
+ soon as possible.
+Text Description (Short) : You walking along a cliff above the ocean.
+Direction Description : You may only work your way along the cliff to the North.
+Directions : North(7)
+
+Room # : 7
+Room Name : Rope
+GraphicURL : Images/Cycon-Room(007).jpg
+Text Description (Long) : Apparently there once was a rock-slide here some time
+ ago, making for loose footing. It is impossible to continue up the cliff from this direction.
+Text Description (Short) : You are on top of a rockslide.
+Direction Description : You have the choice of either working your way along
+ the edge of the rockslide Southward, or sliding East and down to the shady spot below.
+Directions : South(6), East(5)
+Items : Item[Rope], Item[Tree Branch]
+Directional Object : East
+ Obstruction : Obstruction[Savage]
+
+Room # : 8
+Room Name : Start of Path
+GraphicURL : Images/Cycon-Room(008).jpg
+Text Description (Long) : You are at the start of a long path that winds through
+ the forest which now surrounds you on both sides.
+Text Description (Short) : You are at the start of a path.
+Direction Description : You can either go South to the beach, or follow the path to the North.
+Directions : North(10), South(1)
+Directional Object : North
+ Obstruction : Obstruction[Under Construction Sign]
+
+Room # : 9
+Room Name : Wash-Up
+GraphicURL : Images/Cycon-Room(009).jpg
+Text Description (Long) : There is a piece of indistinguishable wreckage
+ being pushed up and down the beach by the waves here. A strange
+ shadow of deju va overcasts your mind as you watch it wash up and down the coastline.
+Text Description (Short) : You are on the beach.
+Direction Description : The beach continues SouthWest and NorthEast, and there
+ is a large tree to the NorthWest.
+Directions : NorthEast(20), NorthWest(3), SouthWest(2)
+
+Room # : 10
+Room Name : Path
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The trees and foliage on either side of the path are very
+ dennse, alowing very little light through.
+Text Description (Short) : You are on a path.
+Direction Description : Rather than wander away, you'd prefer to stay on the
+ path; therefore you may go either North or South.
+Directions : North(13), South(8)
+
+Room # : 11
+Room Name : Bottom of Temple
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You cast your gaze to the south as you walk along the cliffs,
+ only to discover a smooth staircase, hand-carved into the bare rock of a small mountain.
+Text Description (Short) : You are at the bottom of a hand-carved staircase.
+Direction Description : Your choices are either walking Up the steps to the top of
+ the mountain, East to one end of a rope bridge, or West along the northern cliffs of the island.
+Directions : East(116), West(127), Up(120)
+
+Room # : 12
+Room Name : Dark Woods
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : It is very dark here, since most of the light is blocked out by the trees.
+ You find it very difficult to even see your own person, let alone the trees all about you.
+Text Description (Short) : You are surrounded by trees.
+Direction Description : The only direction to go is East, where there is more light.
+Directions : East(10)
+Notes : The Gate Key is hidden here, in the darkness. You mush Search for it.
+
+Room # : 13
+Room Name : Three Forks
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : Another path intersects here, allowing you to travel in any of four directions.
+Text Description (Short) : You are at an intersection of paths.
+Direction Description : You can either head West towards the largest tree in the forest,
+ North to where the path forks, or follow the path to the East or South.
+Directions : North(21), South(10), East(17), West(16)
+
+Room # : 14
+Room Name : Behind Large Oak
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are on the northern side of a large oak tree.
+Text Description (Short) : You are behind the large oak tree.
+Direction Description : You may climb Up the tree by making use of the various branches within your reach, or
+ you may head South to the other side of the tree.
+Directions : South(3), Up(33)
+Items : Item[Leaves]
+
+Room # : 15
+Room Name : Lower Branch
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on one of the lower branches of
+ the tree, overhanging a shady cove just below you.
+Text Description (Short) : You are on a low branch.
+Direction Description : All of the other branches are too far above you to climb to,
+ so you will have to climb Down.
+Directions : Down(12)
+
+Room # : 16
+Room Name : Huge Tree
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : An enormous tree is growing in the middle of the path here,so you can not
+ continue in this direction. Your glance follows the trunk up towards the forest canopy, and
+ something catches your eye in the branches high above your head. It is too far up
+ and there is too little light to be sure, but it appears to be a small wooden platform.
+Text Description (Short) : You are at the base of an enormous tree.
+Direction Description : You may only go East.
+Directions : East(13)
+
+Room # : 17
+Room Name : Bend in Path
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : Here the path running through the forest bends into a Y-shape. An open field stretches
+ out before you, spilling down the light that is blocked by the canopy of the forest's enormous trees.
+Text Description (Short) : You are on the bend of a path.
+Direction Description : The path ends to the North, continues to the West and NorthWest,
+ and there is an open field to the East.
+Directions : North(24), East(23), West(13), NorthWest(21)
+
+Room # : 18
+Room Name : Small Wooden Platform
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing on a small, well-weathered, wooden platform
+ built in the cleft where two branches extend from the forest's largest tree. When you peer
+ over the edge of the platform, you immediately notice just how far away the ground lies
+ below you, and your mind reels with the height.
+Text Description (Short) : You are on a small wooden platform.
+Direction Description : You can work you way out North or South along
+ either of the branches.
+Directions : North(19), South(27)
+
+Room # : 19
+Room Name : Branch - Knothole
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This long and wide branch which extends out from the tree,
+ just below the place where a large knothole has formed. To the south of you a small
+ wooden platform has been in the cleft where two branches grow from the tree's vast trunk.
+Text Description (Short) : You are on a large branch.
+Direction Description : You can try to climb Down the tree, or
+ work your way over to the small platform, just South of here.
+Directions : South(18)
+Items : Item[Knothole]
+Directional Object : Down
+ Transition (Text) : You climb down the rope tied to your grappling hook.
+
+Room # : 20
+Room Name : More Beach
+GraphicURL : Images/Cycon-Room(020).jpg
+Text Description (Long) : You are near the end of the beach.
+Text Description (Short) : You are on a beach.
+Direction Description : The beach extends both South and SouthWest, and ends off to the East.
+Directions : South(31), East(35), SouthWest(9)
+
+Room # : 21
+Room Name : Two Forks
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The road forks here, in two directions.
+Text Description (Short) : You are at a fork in the road.
+Direction Description : You can follow the trail to the West, South, or SouthEast.
+Directions : South(13), West(22), SouthEast(17)
+
+Room # : 22
+Room Name : Behind Tree (Knothole)
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are on the north side of the largest tree in the forest. Glancing up at the
+ branches swaying in the cool breeze, you spot a large knothole far above your head.
+Text Description (Short) : You are behind the huge tree.
+Direction Description : Being such a large tree, even the lowest of its branches are out of your reach,
+ so you may not climb Up the tree. You can however, go East to a fork in the road, or North towards
+ a huge boulder.
+Directions : North(46), East(21)
+Items : Item[Knothole]
+Directional Object : Up
+ Transition (Text) : You climb up the rope tied to your grappling hook.
+Notes : You have to use the grappling hook to catch the knothole higher up
+ in the tree to move upward.
+
+Room # : 23
+Room Name : Open Field
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing in an open field, to the north of the island's expansive forest.
+Text Description (Short) : You are standing in an open field.
+Direction Description :  The many trees of the forest grow to close together to allow you to move
+south or the east of here, so you can only head West along a winding path, or North across the field.
+Directions : North(25), West(17)
+
+Room # : 24
+Room Name : End of Path
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You have come to the end of the path, where it becomes surrounded
+ by groups of trees huddled very close together. Just north of the trees you can see a few of
+ the many huge cliffs and other mountainous regions that make up the western and northern
+ portions of the island.
+Text Description (Short) : You are at the end of the path.
+Direction Description : You have to go back to the South.
+Directions : South(17)
+
+Room # : 25
+Room Name : Sight of Lagoon
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The field begins to break down into sand, and you can
+ see a lagoon off in the distance.
+Text Description (Short) : You are within sight of a lagoon.
+Direction Description : There is a sandbank to the North, the southern shore of a
+ lagoon to the NorthEast, and a field that spreads out to the South.
+Directions : North(30), South(23), NorthEast(29)
+
+Room # : 26
+Room Name : Far Limb
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You climb over onto one of the farther limbs of the tree. Since the wind
+ keeps shaking the end of the beach, you'd like to continue on your journey just as soon as possible.
+ There is a branch that overhangs a stone wall to the north of you, and another down below you, although
+ you're not certain that you'd be able to make it back up to this branch once you climbed down.
+Text Description (Short) : You are on a far limb.
+Direction Description : You can go back to the North, or climb Down to a lower branch.
+Directions : North(28), Down(15)
+
+Room # : 27
+Room Name : Swaying Branch
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are hugging the trunk of a large tree, as you carefully
+ maintain you balance atop a thick branch that is swaying violently in the breeze.
+ This constant motion so high above the ground is making you feel quite queezy, so you would
+ like to continue moving as soon as possible. To the north of you a small wooden platform
+ has been erected in the cleft where two branches grow out from the tree, and to the
+ south a rather long and low-hanging limb extends out over the top of a stone wall.
+Text Description (Short) : You are standing atop a swaying branch.
+Direction Description : You can work your way North over to the platfrom or South to where another branch
+ extends over the top of a stone wall.
+Directions : North(18), South(28)
+
+Room # : 28
+Room Name : Overhanging Stone Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now perched upon a long, low-hanging limb that extends over
+ the eastern end of a thick stone wall. You can't see what is below the wall from here, but
+ the top should be wide enough for you to stand upon.
+Text Description (Short) : You are on a branch that overhangs a stone wall.
+Direction Description : You can leap Down onto the top of the stone wall below you, or climb over
+ to a branch above you to the North, or below you to the South.
+Directions : North(27), South(26), Down(41)
+
+Room # : 29
+Room Name : South of Lagoon
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are at the southern shore of a lagoon that glimmers
+ in the sunlight. Far ahead lies a rope bridge that crosses it.
+Text Description (Short) : You are south of a lagoon.
+Direction Description : You can go North to the edge of the water, West towards a sandbank,
+ or SouthWest towards a field.
+Directions : North(44), West(30), SouthWest(25)
+
+Room # : 30
+Room Name : Sand Bank
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on a sandbank which is home to many exotic species of flora.
+Text Description (Short) : You are on a sandbank.
+Direction Description : You can head North to the southwestern bank of the lagoon, East to
+ the it's southern bank, South towards a field, or West towards one of this island's many cliffs.
+Directions : North(57), South(25), East(29), West(45)
+Items : Item[Oxoplant]
+
+Room # : 31
+Room Name : Water's Edge
+GraphicURL : Images/Cycon-Room(031).jpg
+Text Description (Long) : You have come to the water's edge. The soft wind, bringing in all of the smells of the ocean,
+ feels cool across your face.
+Text Description (Short) : You are at the water's edge.
+Direction Description : You can only go North.
+Directions : North(20)
+Items : Item[Exotic Seashell]
+
+Room # : 32
+Room Name : Ledge
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You have come to the legde extending out over the edge of the cliff, and are enjoying a spectacular
+ view of the ocean crashing upon the beaches below.
+Text Description (Short) : You are at on a ledge.
+Direction Description : You may either walk North or SouthWest along the cliff.
+Directions : North(36), SouthWest(38)
+
+Room # : 33
+Room Name : Entrance to Tree
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The tree has a large knothole in it here, probably even large
+ enough for you to crawl into. The hole leads downward through the trunk, which you now
+ realize has been hollowed out. A branch extends from the tree just below you, not too
+ far from the ground.
+Text Description (Short) : You are at the entrance to the tree.
+Direction Description : You can go South and into the hollow trunk, or out and Down the branch
+ to the ground below.
+Directions : South(34), Down(14)
+Notes : insert a transitional text between climbing up and down from the tree, and through the knothole as well.
+
+Room # : 34
+Room Name : Inside Knothole
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are at the bottom of the large hollow tree; the entrance to
+ a series of underground tunnels. Light pours in through a knothole in the tree, which
+ has somehow been enlargened through physical means to the point where you would be
+ able to crawl out of it.
+Text Description (Short) : You are inside a large hollow tree.
+Direction Description : You may follow the tunnel to the North, or climb Up through the tree
+ and out the widened knothole.
+Directions : North(47), Up(33)
+
+Room # : 35
+Room Name : Eastern End of Beach
+GraphicURL : Images/Cycon-Room(035).jpg
+Text Description (Long) : You have reached the eastern end of the beach. The broken
+ remains of various seashells lie scattered amoung the rocks.
+Text Description (Short) : You are standing admist many seashells.
+Direction Description : You can only go West along the beach.
+Directions : West(20)
+
+Room # : 36
+Room Name : Rocky Terraign
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing upon the rocky terraign between the volcano and the
+ cliffs that overhang the sandy beaches below. There are a few scragly bushes and other plants
+ that have managed to grow here between the loose pebbles and stones, including a few thin trees,
+ which mostly consist of dead wood.
+Text Description (Short) : You are standing on rocky terraign.
+Direction Description : You may go South to the edge of the cliff, or West
+ towards a pathway that climbs up and around the face of the volcano. You may also work your
+ way Down the loose rocky terraign towards a rockslide that had occured some time ago, but
+ it is unlikely that you would be able to climb back up.
+Directions : South(32), West(37), Down(7)
+Items : Item[Multi-Coloured Berries]
+
+Room # : 37
+Room Name : Pathway up Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are on a pathway that leads up and around a small volcano.
+ Just a little ways up the volcano, above from the path, you can see what appears to be
+ a small dugout emerging from the southern face of the volcano.
+Text Description (Short) : You are on a pathway up the volcano.
+Direction Description : You can climb Up to the small dugout, around
+ the path to the NorthEast, down to the South where the pathway ends, or East away from
+ the path to where the terraign becomes more rocky as it begins to slope
+ down towards the west.
+Directions : South(38), East(36), NorthEast(39), Up(118)
+
+Room # : 38
+Room Name : Drop-off Point
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now facing north, towards a small volcano, watching as heat overflowing from
+ the top bends and waves the the air into strange patterns. Behind you roars the ocean, as the rockface begins
+ to drop off towards the crashing sea below.
+Text Description (Short) : You are south of a looming volcano.
+Direction Description : You can head North to where a pathway begins to wrap its
+ way around to the top of the volcano, or follow
+ the cliff to the NorthEast or SouthWest.
+Directions : North(37), NorthEast(32), SouthWest(40)
+
+Room # : 39
+Room Name : Pathway Around Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are walking along a pathway that corkscrews as it climbs around the small volcano that
+ makes up the southwestern portion of the island.
+Text Description (Short) : You are on a path that climbs around a volcano.
+Direction Description : You may follow the path up and around to the NorthWest, or down to the SouthWest.
+Directions : NorthWest(122), SouthWest(37)
+
+Room # : 40
+Room Name : Ocean View
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : Your current position allows you to gaze out across
+ the ocean, and relish the magnificent view.
+Text Description (Short) : You are walking along the southern cliffs.
+Direction Description : You can go West to the southwestern tip of the
+ island, or NorthWest towards a steep drop-off point.
+Directions : NorthEast(38), West(103)
+Notes : The original game allowed the conch shell to take you to room 50 when blown here.
+
+Room # : 41
+Room Name : On Top of Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on the eastern end of a long wall that
+ divides the western portion of the island, in the shade of a long branch
+ that extends over the wall. From here you can see that the southwestern portion
+ of the island is very rocky, the most prominant feature of which appears to be a small volcano.
+ The northwestern portion of the island is far more flat and green, with a large grassy pasture stretching out
+ to the horizon. Below you to the south is nothing but gnarled weeds and thorned foliage, to the north another wall
+ splits off of the one you are standing on, forming a T shape.
+Text Description (Short) : You are on top of a wall, in the shade of a large tree.
+Direction Description : You can walk North where to where another wall splits off,
+ West along the current wall, or climb Up onto a branch that hangs over this end of the wall.
+Directions : North(78), West(43), Up(28)
+
+Room # : 42
+Room Name : Campsite
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You have come across an area that looks as though someone has
+ recently camped here.
+Text Description (Short) : You are at a campsite.
+Direction Description : You may only go back East, to the edge of the cliff.
+Directions : East(104)
+Items : Item[Locked Box], Item[Flask (Filled with Unknown Liquid)], Item[Cauldron], Item[Firepit], Item[Animal-Skin Pouch]
+
+Room # : 43
+Room Name : Breaking Area
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This particular portion of the wall seems rather weak to you, so you take
+ special care and make sure of you footing as you balance on top of the wall. The ground below you to the
+ south has sloped rapidly into a rocky terraign leading away from the volcano, and down to the southern
+ beaches where your journey began. On the north side of the wall, a large green pasture has risen up to
+ form a hill that meets with the wall.
+Text Description (Short) : You are on top of a weak part of a wall.
+Direction Description : You can go East into the shade of tree branch, West to the western
+ edge of the wall, or jump Down towards the pasture below you to the north.
+Directions : East(41), West(86), Down(87)
+
+Room # : 44
+Room Name : Edge of Water
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the water's edge. The lagoon smells strongly of salt-water, meaning
+ that you will have to search elsewhere for a place to find something to drink.
+Text Description (Short) : You are at the edge of the water.
+Direction Description : You could go West to the southwest corner of the lagoon, South to where the 
+ sand meets a large open pasture, or you could swim North across the lagoon, under the bridge
+ towards a coral reef on the other side.
+Directions : North(128), South(29), West(57)
+
+Room # : 45
+Room Name : Route between boulder and sandbank
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing next to a large cliff, which blocks all passages to the north.
+Text Description (Short) : You are next to a large cliff.
+Direction Description : You can go either East to a sandbank at the edge of a lagoon, or West
+ along the rockface.
+Directions : East(30), West(46)
+
+Room # : 46
+Room Name : Boulder
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing before the southern face of a the island's largest mountain. What appears
+ to be a passageway leading up the mountain has been cut sheerly into the rockface. As you run your hand along one side of the
+ passage way, you marvel at how very smooth the surface plane feels to your touch.
+Text Description (Short) : You are in front of a passageway through the cliffs.
+Direction Description : You can walk East along the cliff, South to the northern side of the largest tree in the forest, or
+ North into the passageway leading up into the mountain.
+Directions : North(48), South(22), East(45)
+Directional Object : North
+ Obstruction : Obstruction[Boulder]
+ Transition (Text) : You step around the space between the boulder and the wall of the passageway that has been cut
+ into the cliff. You continue walking up the path to the north until the passageway terminates, and two other passages
+ lead off to the west and to the east.
+Notes : You must collect the four orbs to power the underground analog computer in order to remove the boulder.
+
+Room # : 47
+Room Name : Roots and Tunnel
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are crawling through a tunnel system that leads underground through
+ a hollow tree. The roots of the tree surround you, with a few small sprouts poking through the ceiling and
+ dangling in front of your face. Brushing tbhis curtain of vegetative matter aside, you can just barely
+ see that the tunnel actually forks ahead to the north.
+Text Description (Short) : You are surrounded by roots.
+Direction Description : You can crawl to the North where the tunnel forks, or South
+ towards the hollowed trunk of a large tree.
+Directions : North(69), South(34)
+
+Room # : 48
+Room Name : Path Leading Upwards
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The passageways up the mountain split off in three directions
+ here: to the east, to the west, and to the south.
+Text Description (Short) : The passageways up the mountin split here.
+Direction Description : You can either follow the Eastern, the Western, or the Southern passage way, which leads down to the
+ foot of the mountain.
+Directions : South(46), East(51), West(49)
+
+Room # : 49
+Room Name : Ledge Over Cave
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The western passageway up the volcano ends abruptly here, after turning south and overhanging
+ a large alcove that has been cut into the rock below you. You can neither see nor hear anything that may be down there,
+ and if you were to jump down there you probably wouldn't break any bones, but you most certainly would not be able to
+ climb back up to this passageway.
+Text Description (Short) : You are on a ledge overhanging a mountain alcove.
+Direction Description : You can either return East to where the three passways diverge, or you can chance jumping Down and finding out
+ (for better or for worse) what lies within the aclove below you.
+Directions : East(48), Down(125)
+
+Room # : 50
+Room Name : Wings of Pegasus
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : After you place your lips around the small end of the
+ conch, you close your eyes and blow. You think that you can hear something and
+ your eyelids snap open. Before you stands a huge winged unicorn. It doesn't look
+ frightened, so you walk over, pet its long mane, and climb up onto its back. You
+ are now riding on the back of a beautiful winged unicorn. It reminds you of the
+ mythological creature 'Pegasus'. You can see most of the island from up here.
+ Apparently the western part of the island drops off about 100 feet or so, and
+ most of the plant life is on the lower and eastern half. You can see a lagoon on
+ the northeastern part of the island, and a volcano on the southwestern portion.
+ The unicorn is descending now. (Please return your seats to an upright position)
+Text Description (Short) : You are on the back of a winged unicorn.
+Direction Description : 
+Directions : East(40), West(31)
+Notes : Removed from the original game.
+
+Room # : 51
+Room Name : Unclimbable Hill
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The eastern passageway that has been etched into the mountain has apparantly
+ not been finished in this direction, so you will have to head back the way you came.
+Text Description (Short) : You are at the end of the eastern passageway.
+Direction Description : You can only go back to the West.
+Directions : West(48)
+
+Room # : 52
+Room Name : Octopus / Boomerang Sword
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : It feels as though this area has a magical aura all around it. The sun's
+ rays of light shining down into the water seem to cause everything to sparkle.
+ It's a shame that the saltwater hurts your eyes so much.
+Text Description (Short) : You are underwater.
+Direction Description : You can barely make out what appears to be an underwater cave, far below you.
+You can swim Down and into it, or up to the edge of the water.
+Directions : Up(128), Down(114)
+Directional Object : Down
+ Obstruction : Obstruction(8)
+Notes : The boomerang sword used to be here, as did the octopus.
+ Also, insert a DO(D) here detailing information about the cave.
+
+Room # : 53
+Room Name : Ground Caves In
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are walking to the southeastern  end of the lagoon when come across a large hole
+ where the ground has caved in. It looks as though this was once a trap made to catch unsuspecting creatures. A makeshift ladder
+ leads into the depths of the pit.
+Text Description (Short) : You are in front of a pitfall.
+Direction Description : You can climb Down the ladder, and into the pit, or return North to where the long wooden bridge
+ crosses the lagoon.
+Directions : North(55), Down(54)
+Directional Object : Down
+ Transition (Text) : You carefully make your way down the makeshift ladder, into the pit below.
+
+Room # : 54
+Room Name : Ladder and Key
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the bottom of a large pit that was probably once used to capture unsuspecting
+ creatures offguard. The dark grey bones of several such victims are strewn about in varying degrees of disarry.
+Text Description (Short) : You are at the bottom of a pit.
+Direction Description : You may only climb back Up the ladder.
+Directions : Up(53)
+Items : Item[Small Key]
+Notes : You can't get here until you've past the Troll
+
+Room # : 55
+Room Name : Opposite Bank
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This side of the lagoon is far less attractive that the opposite bank. The sand is very
+ wet here, and degenerates into swampland to the east. You are afraid to wander very far from the side of the lagoon,
+ out of fear of getting stuck in a patch of quicksand.
+Text Description (Short) : You are on the east side of the bridge that crosses the lagoon.
+Direction Description : You are afraid of towards the swampland east of here, so sou may only
+ go West across the bridge, or North or South along the east shore of the lagoon.
+Directions : North(60), South(53), West(56)
+
+Room # : 56
+Room Name : Bridge
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are in the middle of a long wooden bridge that crosses the 
+lagoon. You stare down at the water, to try to see what's at the bottom, but its too murky
+and there is too much reflection from the sun for you to be able to see much of anything.
+Text Description (Short) : You are in the middle of a long rope bridge.
+Direction Description : The bridge extends both East and West across the lagoon. You could also
+dive Down into the waters of the lagoon below you.
+Directions : East(55), West(59), Down(62)
+
+Room # : 57
+Room Name : Soutwest Bank
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are at the southwest bank of a lagoon. To the west of you, stretching northwards to the horizon
+ runs a series of cliffs that divide the eastern and western portions of the island.
+Text Description (Short) : You are at the southwest bank of the lagoon.
+Direction Description : You can go Northalong the cliffs, South to a sandbank, or East to the edge of the water.
+Directions : North(58), South(30), East(44)
+
+Room # : 58
+Room Name : Sand
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : Walking alongside the cliffs, you shuffle your feet in sandy terraign.
+ The lagoon shimmers in the sun's rays to the west of you, dazzling your peripheral vision.
+Text Description (Short) : You are west of the lagoon.
+Direction Description : You can go South along the cliffs,
+ or North towards a bridge that crosses the middle of the lagoon.
+Directions : North(59), South(57)
+Notes : description assumes first approach
+
+Room # : 59
+Room Name : Troll Gatekeeper
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing next to a long wooden bridge that spans the
+ width of the lagoon. It appears to be the only way across the lagoon. There is a gate at the entrance
+  to the bridge, with a gnarled face of something that looks like a troll in it's center.
+Text Description (Short) : You are standing next to the rope bridge.
+Direction Description : You can go North along the shore of the lagoon, cross the bridge by
+ going East, or walk alongside fo the cliff to the South.
+Directions : North(61), South(58), East(56)
+
+Room # : 60
+Room Name : East Shore
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are on the northeast shore of the lagoon. To the north and
+ east the wet patches of sand and swampland wrap around to surround you on those sides. A
+ beautiful coral reef is situated to the west of you, also preventing you from continuing in
+ that direction.
+Text Description (Short) : You are on the east shore of the lagoon.
+Direction Description : You may only go South to the east end of the long wooden bridge.
+Directions : South(55)
+
+Room # : 61
+Room Name : West Shore
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The cliffs part to the west here, allowing you access to a small river
+ that has eroded its way through the stone over the ages. The river feeds from the ocean far ahead to the north, and
+ weaves its way through the mountainside to the south, where it takes a turn westward. To the north the wind has gathered
+ sand from the lagoon's shore into a small sand dune, and to the east of you an exotic coral reef stretches across the lagoon.
+Text Description (Short) : You are on the northwest shore of the lagoon.
+Direction Description : You can head West to where a group of rocks cross the river,
+ North to the small sand dune, or South to where the long wooden bridge that crosses the lagoon.
+Directions : North(63), South(59), West(90)
+
+Room # : 62
+Room Name : Coral Reef
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : A small coral reef has formed at the northern end of the lagoon, blocking
+ you ability to swim in that direction. It is covered by a colorful assortment of coral and
+ shellfish. The lagoon was probably a part of the ocean at one time, which would explain the saltwater.
+Text Description (Short) : You are treading water in front of a coral reef.
+Direction Description : You can only swim to the South because the coral reef blocks further passage to the North.
+Directions : South(128)
+
+Room # : 63
+Room Name : Small Dune
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The sand in this area has piled up to create a small dune. You are
+ standing on the southern side of the dune gazing out over the lagoon to the southwest.
+Text Description (Short) : You are standing on the south side of a small sand dune.
+Direction Description : You can go North to the other side of the dune,
+ East along the north shore of the lagoon, or South along it's west shore.
+Directions : North(67), South(61), East(64)
+
+Room # : 64
+Room Name : North Shore
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The majority of the northern beach of the lagoon is taken up by a small
+ coral reef that stretches across this side of the lagoon. To the east grows a thick patch of reeds
+ that becomes less and less dense as it wraps around to the north. Beyond the reeds to the north, the beach extends
+ towards the ocean.
+Text Description (Short) : You are on the north shore of the lagoon.
+Direction Description : You can go North towards the ocean, West to a small sand dune,
+ or East to where a patch of reeds are growing in the sand.
+Directions : North(66), East(65), West(63)
+
+Room # : 65
+Room Name : Reeds
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing in the middle of a thick patch of reeds and other knee-high
+ plants. The soil is very wet and marshy in this area, a trend that continues off to the east, where the earth
+ becomes very swamplike. You have absolutely no desire to trudge through a swamp in you current condition, so
+ heading east would be out of the question.
+Text Description (Short) : You are standing in a thick patch of reeds.
+Direction Description : You can go West to the north shore of the lagoon, or NorthWest across the reeds, towards the ocean.
+Directions : West(64), NorthWest(66)
+Notes : What used to be here?
+
+Room # : 66
+Room Name : Edge of Beach
+GraphicURL : Images/Cycon-Room(100).jpg
+Text Description (Long) : The sand on this beach is very gritty, with many weeds growing in patches that thicken
+ to the south. The ocean washes up gently along the shoreline, the waves having already been broken by a small peninsula that
+ extends from the island east of here, terminating in a wooden dock just north of you, across the water.
+Text Description (Short) : You are on the end of the beach.
+Direction Description : You can go South to the north shore of the lagoon, or
+ SouthEast into a dense patch of reeds.
+Directions : South(64), SouthEast(65)
+
+Room # : 67
+Room Name : Behind Dune (Doors)
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on the north side of a small sand dune. Beyond the dune, a small peninsula
+ extends from the island, out over the deep blue sea.
+Text Description (Short) : You are behind the sand dune.
+Direction Description : You can go North to the peninsula, or South to the other side of the dune.
+Directions : North(80), South(63)
+Notes : After you use the sledgehammer to destroy the cement wall at the northern end of the underground tunnel,
+ sand will pour down into the tunnel, revealing a staircase that leads up to this side of the sand dune. Down(105)
+
+Room # : 68
+Room Name : Shark
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are treading water next to a short wooden dock.
+Text Description (Short) : You are treading water.
+Direction Description : You climb Up onto the dock, or you might consider swimming Down into the ocean
+ depths, if only you had a little more confidents in your ability to hold your breathe underwater.
+Directions : Up(100), Down(112)
+Directional Object : Down
+ Obstruction : Obstruction(8)
+
+Room # : 69
+Room Name : Tunnel Forks
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : As you continue to crawl through the tunnel, you pause for a moment to take a closer
+ look at the walls of this passageway. The entire tunnel system is dimly lit, though there is no single source
+ of origin for the light. Examinging the soil in detail, you can see what appears to be millions of tiny phosphorus
+ fungi that appear to glow with a yellowish inner light. This is very fortunate for you, as you would otherwise
+ be totally unable to find your way around by using your naked eyes alone. Taking another moment to better orient
+ yourself, you see that the underground tunnel system forks here in three directions.
+Text Description (Short) : You are at a point where the underground tunnel forks.
+Direction Description : One passage continues North and heads at a slightly downward tilted
+angle, another goes NorthEast, and the last passage continues to the South.
+Directions : North(70), South(47), NorthEast(72)
+Notes : Original Text :
+ As you continue to crawl through the tunnel, it occurs to you that
+ although you can still see, you should have run out of light a long time ago. You simply dismiss
+ it, and continue. After a few feet you notice that the tunnel's ceiling is getting almost high
+ enough for you to stand up straight and walk. You stop moving when you see reach a point where the tunnel forks.
+
+Room # : 70
+Room Name : Lowering Passage
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are crawling along an underground passageway that
+ declines to the north. The light cast by the fungi growing in the soil appears to grow strong the further down
+ into the earth you continue. Ahead to the north you just make out that this particular tunnel appears to terminate
+ as it enters a small subterraignian chamber. To the south, the tunnel rises to a point where it forks into three
+ directions.
+Text Description (Short) : You are in an underground tunnel that leads downward.
+Direction Description : You can go North to the room at the end of the tunnel, or South to where the tunnel forks.
+Directions : North(71), South(69)
+
+Room # : 71
+Room Name : Glowing Spear
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The underground tunnel leading downwards widens out here into a small subterrainian
+ chamber. The small species of funges that grows in the soil of these tunnel seems to grow in a slightly larger
+ form all around the walls of this chamber, creating a much higher level of light than is present in the
+ narrow passageways. In the center of this room sits a small stone pedestool, which is covered with various
+ forms of bizarre pictures and markings, whose possible meaning utterly eludes you.
+Text Description (Short) : You are in a small subterrainian chamber at the end of an underground passageway.
+Direction Description : The only direction that you can go is back South through the tunnel that led you here.
+Directions : South(70)
+Items : Item[Luminescent Fungi], Item[Ornate Spear (Imbeded in Decorated Stone Pedestool)]
+Notes : Original Text :
+ The walls of this room themselves cast an eerie glow,
+ perhaps from either a bizarre element imbedded in the rock, or some sort of
+ phosphorous fungus. That eerie glow is what has been providing you with light.
+ There is a large stone placed in the middle of the room.
+
+Room # : 72
+Room Name : Wall Painting
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This branch of the underground tunnel system is somewhat wider than the
+ tunnel the southwest, allowing you just enough room to stand up fully erect. The walls of the this
+ tunnel are far more solid as well. On the eastern wall of this particular section a large, flat, stone
+ surface has been inlade. On the surface of the stone are various markings and pictures of human-shaped
+ creatures involved in what appears to be a ritual of some sort, but that is about all that you can make
+ out for certain. The tunnel continues to the north and to the south, and connects with a smaller tunnel
+ system to the southwest.
+Text Description (Short) : You are standing in an underground tunnel, which is inlade with a stone surface on one wall.
+Direction Description : You can either follow the Northern, Southern, or SouthWestern tunnels.
+Directions : North(74), South(73), SouthWest(69)
+
+Room # : 73
+Room Name : Cave-In
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This tunnel, which continues to the south has been blocked by some sort of cave-in
+ not long ago. A few large boulders and pieces of debris have fallen from above, in such a fashion that could
+ not be removed by hand.
+Text Description (Short) : You are standing in and underground tunnel, in front of a cave-in.
+Direction Description : You can follow the tunnel to the North where it forks, or to the South,
+ should you be able to remove the rubble left behind by the cave-in.
+Directions : North(72), South(76)
+Notes : Insert cave-in obstruction
+
+Room # : 74
+Room Name : Sounds to the North
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The tunnel to the north here, to the point where the fungi growing in the soil are insufficient
+ to provide enough light for you to make your way through the tunnel system with nothing but the naked eye. Unless you can
+ provide an additional source of light, it is too dark for you to continue following the tunnel to the north.
+Text Description (Short) : You are in an underground tunnel that widens to the north.
+Direction Description : The tunnel leads North into the darkness, and South to where it forks and meets up with
+ another tunnel system.
+Directions : North(75), South(72)
+
+Room # : 75
+Room Name : Giant Worm
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The tunnel spreads out into an immense room here. There's a slab of flat stone in the
+ middle, with a deep pit behind it. There is a large pile of dirt caked around the corner of an enormous tunnel at the northwestern
+ corner of the room. A foul stench seems to be eminating from the pit behind the stone slab.
+Text Description (Short) : You are at the southern end of an immense underground room.
+Direction Description :  You can head North across the large room, or South into a series of underground tunnels.
+Directions : North(95), South(74)
+Notes : It is possible that the second game could be connected to the first by means of this pit. The foul reek and stench
+ could be from the remains of previous sacrifices, something which the player discovers at some point during a later quest.
+
+Room # : 76
+Room Name : Organic/Analog Comuter Room
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You have removed the cave-in left behind in the tunnel to the south of you, and followed it
+ into an enormous underground cavern, something that presents a spectacle unlike anything that you've ever seen before.
+ The tunnel leads out onto a ledge that reached halfway out into the cavern. Far above your head are various holes in the
+ stone ceiling of the cavern, which filter in shafts of light that fall at obscure angles onto various locations throughout
+ the entire area. The far wall of the cavern reaches down from the top of the ceiling to far beyond your range of vision,
+ down into the depths below. There is a steady stream of water cascading down this far wall, and in certain areas small
+ mechanisms which recognize the balance of a scale capture some of the streams running down the rockface in small cups, which
+ cause the opposite sides of the balance to rise and pour water into other devices. The reaction is that when water
+ runs down a certain area of the wall, a chain reaction between the devices in enacted in one direction, and then as the water
+ spills out from the cups, a new chain reaction develops across another portion of the large chamber. The air is fill with the
+ sound of gushing water, and the rapid clicking of many of this such devices, as their cups fill and the balances switch to the
+ other side. In a few places, some sort of crystal is places upon the top of the balance, and if the water falls in a particular
+ pattern, the crystal will cross into the path of a beam of light that falls from the ceiling above, causing new rays of light to
+ refract in other directions, sometimes touching other scales, and sometimes refracting off stationary crystals imbeded directly
+ into the various walls of the cavern. Such activities continue all the way down the far cavern wall, for as far as your eye can 
+ see. To the across the abyss below you lies another platform to the west. On this ledge a series of gears and levers are imbeded
+ into the rock, perhaps to control the flow of the water above, and therefore the visual patterns created by the balances and
+ beams of light.The overall effect of this grandeous machincal process quickly begins to overwhelm you senses with a sense of awe
+ and appriciation for the machine's beauty. At the end of the platform on which you are standing four differnt pedestools, of
+ a consistent height approximately equal to the level of your shoulders. There is a beam of light falling from the ceiling above
+ that crosses just above the top of each of these pedestools, at varying angles. Each of the pedestools is of a slightly
+ differnt hue, one white, one black, one blue, and one red.
+Text Description (Short) : You are in the middle of a huge cavern.
+Direction Description : You may only return North, to the area where the cave-in took place.
+Directions : North(73)
+Items : Item[Pedestool]
+Notes : Original Text:
+ You have uncovered a tunnel that leads downward, to a large cavern. You slowly
+ crawl through it, and upon reaching the end, your eyes widen and you feel you jaw almost hit the floor.
+ Much to your amazement, there is a huge flat wooden platform ahead of you. On top of the platform is a
+ wide assortment of gears and switches and levers. Behind and above the panels is a huge plate of glass.
+ Astonished and amazed at finding something resembling a computer on an island that seemed so primal you
+ step forward and pull the red handle in front of you...
+
+Room # : 77
+Room Name : River
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on a small strip of soggy land in the middle of
+ a river that draws it's water from the ocean. The river has eroded its way south through the
+ rockface.
+Text Description (Short) : You are in the middle of a river.
+Direction Description : You can wade North towards the mouth of the river, or South towards
+ a small rock formation that crosses the river.
+Directions : North(99), South(90)
+
+Room # : 78
+Room Name : High Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You edge your way along the portion of the wall that splits off to the north.
+ The ground below you drops off rather rapidly. As you face north, there is a pasture far below
+ to the left, and to the right lies the remains of a small building.
+Text Description (Short) : You are on top of a high wall.
+Direction Description : Since the wall is much too high on either side for you to jump down,
+ and to the north the top of the wall ends where a gate begins, you can only go back to the South.
+Directions : South(41)
+
+Room # : 79
+Room Name : Stubble - Sledge
+GraphicURL : Images/Cycon-Room(079).jpg
+Text Description (Long) : You are standing admist the ruins of an old, small building.
+ It would appear that it was once an old toolshed, but simply crumbled from lack of upkeep.
+ Many tools are stewn about the wreckage, of various shapes, sizes, and usages with which you
+ are entirely unfamiliar. Some of the tools have decayed and rusted to point of utter uselesness,
+ some other are in only slightly better condition.
+Text Description (Short) : You are standing admist the ruins of an old toolshed.
+Direction Description : You may only go back North along the cobblestone road.
+Directions : North(92)
+Items : Item[Sledgehammer]
+
+Room # : 80
+Room Name : Penninsula
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You're standing at the southern tip of a peninsula
+ that extends from the northeastern end of the island. The peninsula bends to the east
+ just north of here, where it continues for a short distance before terminating in a wooden dock.
+ Text Description (Short) : You are standing on a peninsula.
+Direction Description : You can go to the North where the peninsula bends eastward, or South to the
+ northern face of a sand dune.
+Directions : North(81), South(67)
+
+Room # : 81
+Room Name : Soft Sand
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The peninsula bends to the east here, leading out towards a
+ wooden dock extends out over the water.
+Text Description (Short) : You are on a peninsula.
+Direction Description : You may head East to the start of a wooden dock, or South, to the
+ start of the peninsula.
+Directions : South(80), East(82)
+
+Room # : 82
+Room Name : Start of Dock
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The peninsula ends where a wooden dock stretches out over the water.
+Text Description (Short) : You are at the start of a wooden dock.
+Direction Description : You can either go East onto the dock, Down into the water, or West to where the
+ peninsula turns south.
+Directions : East(100), West(81), Down(68)
+
+Room # : 83
+Room Name : Start of Rope Bridge
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : A rope bridge begins at the top of the hill here, spaning a deep gully far below you.
+Text Description (Short) : You are at the start of a rope bridge.
+Direction Description : You can travel West to cross the rope bridge, or East down the slope
+ of a riverbank.
+Directions : East(109), West(119)
+Directional Object : West
+ Obstruction : Obstruction[Rope Bridge (Broken)]
+
+Room # : 84
+Room Name : Death
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : Oops! You know you must have done *something* wrong once
+ the rigor mortis begins to set in.
+Text Description (Short) : You are dead.
+Direction Description : For some reason you just feel like lying here for awhile.
+Directions : 
+Notes : Not used in the final game.
+
+Room # : 85
+Room Name : Gate
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on the northeastern side of a low hill that gently
+ slopes its way down to a green pasture. There are two long walls running east-west and north-south across the top of the hill.
+ You are standing in front of a large metal gate that has been built into the wall that runs north-south across the hill.
+ There is an enormous and elaborately-decorate lock with a large keyhole centered in the middle of the gate. You can
+ see a cobblestone path leading towards the immense ruins of a once great manor on the other side of the gate.
+Text Description (Short) : You are in front of a large metal gate.
+Direction Description : You can go SouthWest along the top of the hill, or East through the gate, if it is opened.
+Directions : East(92), SouthWest(87)
+Directional Object : East
+ Obstruction : Obstruction[Locked Gate (Closed)]
+
+Room # : 86
+Room Name : Western End of Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : As the wall approaches the the cliffs at the edge of the western portion of the island, the top winds
+ around to the south and sinks into the ground in the form of a staircase. The bottom of this "staircase" leads into the northern
+ face of the volcano that makes up the south western portion of the island.
+Text Description (Short) : You are at the western end of a large wall.
+Direction Description : You can travel Down the staircase, or East along the top of the wall.
+Directions : East(43), Down(93)
+
+Room # : 87
+Room Name : Pasture
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are on the top of a large hill that gently slopes its way down through
+ a pasture to the north of you. To the south and east of you a greyish-white wall wraps its way around you.
+ To the west the hill ends and a cliff drops down to the crashing ocean below.
+Text Description (Short) : 
+Direction Description : You can go walk North down the hill, NorthEast to a gate built into the
+ wall to the east, or climb Up onto the top of the wall behind you.
+Directions : North(88), NorthEast(85), Up(43)
+
+Room # : 88
+Room Name : Down Hill
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are walking down a gentle hill that slopes its way through
+ a green pasture. At the bottom of the hill a barely perceptable path gently eases its way northward.
+Text Description (Short) : You are on a hill, in a pasture.
+Direction Description : You can either go North to the bottom of the hill, or walk South
+ to the top of it.
+Directions : North(89), South(87)
+
+Room # : 89
+Room Name : Bottom of Hill
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the bottom of a hill in a large pasture.
+ A light path leads to the northeast here.
+Text Description (Short) : You are at the bottom of a hill.
+Direction Description : You can go NorthEast along the path that leads to a well, or walk up the hill to the South.
+Directions : NorthEast(91), South(88)
+
+Room # : 90
+Room Name : Rock Steps
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing in the middle of a small formation of rocks that lead across the river.
+ This river, after years of constant pressure, has eroded a small passway through the huge cliffs that
+ make up most of the northern and western portions of the island. The river takes water in from
+ the ocean and follows a winding route through the rock to the south.
+Text Description (Short) : You are standing on a rock formation in the middle of a river.
+Direction Description : You can go North or South along the river, or carefully step across the rocks to reach
+ the Eastern or Western banks of the river.
+Directions : North(77), South(96), East(61), West(109)
+Directional Object : North
+ Transition (Text) : You wade your way against the rivers current to a small patch of
+ soggy ground just north of where you started.
+
+Room # : 91
+Room Name : South of Hole (Well)
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing in the middle of a soft path that lightly weaves its way across a wide-open
+ green pasture. To the north of you stands a small well, and the path works its way towards the bottom of a gentle hill
+ to the southwest.
+Text Description (Short) : You are south of a well.
+Direction Description : You can go North to the well, or SouthWest along the path to the bottom of a hill.
+Directions : North(107), SouthWest(89)
+
+Room # : 92
+Room Name : Ruins of the Manor
+GraphicURL : Images/Cycon-Room(092).jpg
+Text Description (Long) : You are standing on a cobblestone path that leads in between a tall greyish-white wall and the immense
+ ruins of a once-great manor. The odor of decaying wood drifts radiates through the air from the remains of the old building
+ to the east. You have absolutely no desire to crawl around that dirty heap of debris. The cobblestone path continues south,
+ towards the partial remains of a much smaller building, nestled in between the wall and a few bushes, overgrown with weeds.
+Text Description (Short) :	You are standing in front of the remains of a once great manor.
+Direction Description : You can exit through the gate to the west, or follow the path to the south, towards the remains of the
+ smaller building.
+Directions : South(79), West(85)
+
+Room # : 93
+Room Name : Stairs Leading Into Top of Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on a set of stairs that rotate to the east, where they merge into the
+ top of a long wall. At the bottom, the staircase merges into the northern face of a small volcano.
+Text Description (Short) : You are on a staircase that leads into the top of a wall.
+Direction Description : You can either go Down to the bottom of the stairs, or Up to where they lead
+ into the top of a wall.
+Directions : Up(86), Down(106)
+
+Room # : 94
+Room Name : Tunnel (Need Flashlight)
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are in an underground tunnel, formed by a river that eroded its way
+ through the cliffs that make up most of the western portion of the island. The current is pulling
+ you away from the entrance.
+Text Description (Short) : You are in an underground tunnel.
+Direction Description : You may travel deeper into the tunnel by moving West, or out into the light
+ by going East.
+Directions : East(101), West(102)
+
+Room # : 95
+Room Name : Altar of the Black Orb
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : This end of the large underground room is mainly taken up by a large stone statue of
+ a human skeleton that is bonded to an ornate alter of some sort. The statue is place upright against the wall of the room,
+ giving the impression that you were floating in space above the remains of the victim's body. Apparently this room was
+ once used for some form of human sacrifice, the flat stone slab must have been the altar, and perhaps the offering was
+ made to the giant earthworm whose own remains are now rotting away in the tunnel to the northwest, thanks to your own
+ valiant efforts. At the northeastern end of this room stands a smaller tunnel appears to have been closed off by the
+ building of a stone wall.
+Text Description (Short) : You are at the northern end of an immense underground room.
+Direction Description : You can head either South across this large underground room, or NorthEast towards the stone-off tunnel
+ passage.
+Directions : South(75), NorthEast(105)
+Items : Item[The Black Orb]
+Notes : This room TL may have to be dynamically modified after the stone wall is broken, as will room 67.
+
+Room # : 96
+Room Name : Undergrowth
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : As you wade along the river, you notice that the undergrowth is growing
+ thicker here. To the south, the river takes a bends west. The cliffs above you are begining to incline
+ the farther along the river you go.
+Text Description (Short) : You are wading along a river.
+Direction Description : You can go South to where the river turns, or North where a set of rocks crosses it.
+Directions : North(90), South(97)
+
+Room # : 97
+Room Name : Turning of River
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : At this point, the river turns sharply to the west. You can also see a
+ tunnel further down to the west, where the river must go underground.
+Text Description (Short) : You are at a point where the river turns.
+Direction Description : You can follow the river North or West.
+Directions : North(96), West(98)
+
+Room # : 98
+Room Name : Runs Through Mountains
+GraphicURL : Images/Cycon-Room(098).jpg
+Text Description (Long) : As you glance upwards at the cliffs on the north side of the river, you
+ notice that they're somewhat lower than the ones on the south side. A ledge juts out from the cliff
+ above you to the north, providing a place for you to rest and dry off, if you so desired.
+Text Description (Short) : You are in the river that runs through the mountains.
+Direction Description : You can climb Up to the ledge above you, or you can follow the
+ river to the East where it bends northward, or to the West where it goes underground.
+Directions : East(97), West(101), Up(129)
+
+Room # : 99
+Room Name : Mouth of River
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The river takes in its water from the sea here. The current is a bit
+ stronger than before, and it pushes you backwards.
+Text Description (Short) : You are at the mouth of a river.
+Direction Description : Since the current is so strong, you may only go South.
+Directions : South(77)
+
+Room # : 100
+Room Name : Dock
+GraphicURL : Images/Cycon-Room(100).jpg
+Text Description (Long) : You are standing on a wooden dock that stretches out over the ocean.
+ You glance out across the sea as the waves crash all around you. You can't help but to feel a
+ little homesick as the sun's rays dazzle your eyes with gleaming reflections.
+Text Description (Short) : You are standing on a wooden dock.
+Direction Description : You may dive Down into the water, or head West to where the dock
+ extends from the land.
+Directions : West(82), Down(68)
+Notes : "across the sea"?
+
+Room # : 101
+Room Name : Leads Into Tunnel
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The river enters a tunnel here. You can hear the echo of the water
+ trickling within. Inside of the tunner it is pitch black, and you can't see any light at the end.
+Text Description (Short) : You are standing in a river, at the entrance to a tunnel.
+Direction Description : It's far too dark for you to venture East into the tunnel with your unaided eyes,
+ so you will have to turn against the current to the West.
+Directions : East(98), West(94)
+
+Room # : 102
+Room Name : Middle of Tunnel
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are wading hip-deep through a cold underground river, feeling
+ your way along the walls of the tunnel, which are slick with strange subterraignean plantlife
+ that somehow manage to thrive without light between the rock and saltwater. The river bends here,
+ with the water flowing from in from the east and continuing on to the north.
+Text Description (Short) : You are in a river that runs through an underground tunnel.
+Direction Description : The tunnel turns both North and East here.
+Directions : North(110), East(94)
+Notes : The Black Orb used to be here
+
+Room # : 103
+Room Name : Craggy Rocks Below
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the southwestern point of the island, taking in the
+ magnificent view. Below you the waves crash against the craggy rocks. Your gaze out over the deep blue water
+ until you decide that you've had enough sight-seeing and that it is time to move on.
+Text Description (Short) : You are at the southwestern-most point of the island.
+Direction Description : You can only return to the East.
+Directions : East(40)
+
+Room # : 104
+Room Name : Top of Cliff
+GraphicURL : Images/Cycon-Room(104).jpg
+Text Description (Long) : After all of that climbing to get up here, you realize that this would be a
+ perfect place to take a short rest. Apparently, someone else had the same idea, for there is a small
+ campsite off to the east. In the meantime, you sit back and relax, taking in the view.
+Text Description (Short) : You are on top of a cliff
+Direction Description : You can either go East to a campsite, or Down to the ledge below.
+Directions : East(42)
+Items : Item[Tree Stump]
+
+Room # : 105
+Room Name : Stone Wall/Steps
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : There is the beginning of a tunnel that leads upwards from this large underground room, but
+ you cannot enter it as it has been blocked off by a stone wall.
+Text Description (Short) : You are standing in front of a tunnel that has been blocked off by a stone wall.
+Direction Description : The stone wall blocking the tunnel leading Upwards prevents
+ you from being able to move in any other direction but South.
+Directions : South(95), Up(67)
+Notes : This room with have to been remodified after the destruction of the stone wall.
+
+Room # : 106
+Room Name : Twisting Stairs
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the bottom of a staircase that twists to the east as it rises from the
+ northern face of a small volcano. To the north, the staircase has merged into a long wall that run east across this half
+ of the island. To the east lies the northern face of a small volcano that forms the majority of the south western island.
+Text Description (Short) : You are on a twisting staircase.
+Direction Description : You can either go Up the staircase, North towards the wall that stretches across the western portion
+ of the island, or East towards the northern face of the volcano.
+Directions : North(108), East(111), Up(93)
+
+Room # : 107
+Room Name : Waterhole (Well)
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : There is a small uncovered well here, in the middle of the green pasture. You can
+ hear water flowing at the bottom, and the smell of saltwater hangs in the air. Wide cliffs overhang the ocean below
+ to the north, while to the south a light path through the pasture gentle twists it's way uphill. A small wooden
+ structure is built into the well, with a crank system for raising an lowering a bucket into the water below.
+Text Description (Short) : You are in front of a well.
+Direction Description : From the well, you can travel North towards the northern cliffs of the island, or south along
+ the faint path that works its way uphill across the pasture. If you were to use the crank to lower the rope to the bottom
+ of the well, there's no reason that you couldn't climb Down into the water below.
+Directions : North(127), South(91), Down(115)
+Items : Item[Bucket], Item[Crank]
+Notes : The rope and bucket will later be detatchable, the crank will not. Bucket Starts UP!
+
+Room # : 108
+Room Name : The Wall
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now facing the southern side of a long wall that divides the western half of the
+ island. This particular section of the wall has begun to fall into disrepare, after what appears to be many years
+ of neglect. Some of the bricks have become somewhat loose, and you feel a little wary of anything that might fall from
+ above, causing you to glance up towards the top of the wall repeatedly. To the west of you the wall twists to the south
+ and forms a staircase that leads into the northern face of a small volcano. To the east the ground drops off sharply, and
+ nothing but weeds and thorned bushes cover the land.
+Text Description (Short) : You are facing a large wall.
+Direction Description : Between the wall in front of you and the poor terraign to the east, you may only return South, to
+ the bottom of the the twisting staircase.
+Directions : South(106)
+Items : Item[Brick]
+
+Room # : 109
+Room Name : Opposite Bank
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing on the western bank of a river, behind a large cliff.
+ This bank of the river inclines sharply into the distance to the west.
+Text Description (Short) : You are on the western bank of a river.
+Direction Description : You can either go West up the large hill, or East across the river.
+Directions : East(90), West(83)
+
+Room # : 110
+Room Name : Light to the East
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The tunnel banks gently here, with the water flowing from the south and moving
+ eastward, where a gentle light filters down from a hole in the ceiling. The waterlevel is deeper to
+ the south, changing from hip level to knee deep as the water flows. The water flows out of complete darkness,
+ to the point where moving south would be an impossible task with nothing but the naked eye.
+Text Description (Short) : You are in an underground river.
+Direction Description : You can go East towards the light, or deeper into the tunnel to the South.
+Directions : South(102), East(115)
+Directional Object : South
+ Obstruction : Obstruction(5)
+Notes : Might want to change direction river flows. Too many turns.
+        Can't go South unless you have the flashlight
+
+Room # : 111
+Room Name : Behind Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing on the northern side of a large volcano
+ that takes up the majority of the southwestern portion of the island.
+Text Description (Short) : You are behind volcano.
+Direction Description : You can either go Up to the top of the volcano, or East towards
+ a set of winding stairs.
+Directions : West(106), Up(122)
+
+Room # : 112
+Room Name : Underwater/Shark
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are swimming underwater. The sun's rays of light bounce off the water's
+ surface, shimmering above you.
+Text Description (Short) : You are swimming underwater.
+Direction Description : You can either swim Up to the water's surface, or Down to the ocean floor.
+Directions : Up(68), Down(113)
+Notes : Dock level(100) -> Water Suface(68) -> Underwater/Shark(112) -> Ocean floor(113)
+
+Room # : 113
+Room Name : Bottom of Ocean
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are swimming along the bottom of the ocean, observing
+ various species of fish that you have never seen before. Many exotic forms of		
+ coral grow here as well.
+Text Description (Short) : You are swimming along the bottom of the ocean.
+Direction Description : You can only swim back towards the surface.
+Directions : Up(112)
+Items : Item[The Blue Orb]
+
+Room # : 114
+Room Name : Passway
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing ankle-deep in a river that flows from the west
+ to the east through an underground tunnel. The ceiling and floor of the underground
+ tunnel declines to about knee-height in the direction the water flows,
+ while the waterlevel remains approximately the same. You would have to hold
+ your breath for a very long period of time if you wanted to follow
+ the river to the east, since you would have to be swimming underwater. You certainly wouldn't want to risk being
+ trapped underground, in a water-filled tunnel, struggling against the current trying to find the surface! To the west
+ of you the river is bathed in complete darkness, something which would dare not venture into with nothing
+ but the unaided eye.
+Text Description (Short) : You are standing ankle-deep in an underground river.
+Direction Description : You are in a very precarious situation, as you would need light to be able to move to the West, and you
+ dare not rely on your ability to hold your breath if you wanted to swim Down under the water.
+Directions : West(130), Down(52)
+Directional Object : Down
+ Obstruction : Obstruction(8)
+Notes : There needs to be a descriptive DO(D) here between 114 and 52.
+ Also insert anoher Obstruction in regards to the light situation.
+
+Room # : 115
+Room Name : Bottom of Waterhole
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You now standing knee-deep in an underground river that flows through
+ an underground tunnel. The air smells strongly of dank rock and saltwater. A gentle light
+ drifts down from the end of a long circular shaft in the ceiling of the tunnel. The light is
+ sufficient for you to see around you, but only dim enough to permit black and white night vision.
+ Just below the surface of the water you can see many flat round objects that are made out of a metal
+ that has rusted away to nothing but delicate wafers. If they were once coins they are most certainly useless now, as they
+ completely flake apart whenever you try to pick one up for a closer examination.
+Text Description (Short) : You are standing under a small shaft of light, knee-deep in a river that flows through an underground tunnel.
+Direction Description : You may travel East or West through the tunnel, though you can't see very far in either
+ direction because the light from above doesn't help to illuminate very far to either side of you. The walls of the shaft
+ leading Up through the ceiling are too slick for you climb up with your bare hands.
+Directions : East(130), West(115), Up(107)
+Items : Item[Golden Coin]
+Notes : Add a DO(D) to 107.
+
+Room # : 116
+Room Name : Western Side of Chasm
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : In front of you is one end of a rope bridge that spans a deep gulley far below you.
+Text Description (Short) : You are at one end of a rope bridge.
+Direction Description : You may go West between the mountains and northern cliffs of the island,
+ or East across the rope bridge.
+Directions : East(119), West(11)
+Directional Object : East
+ Obstruction : Obstruction[Rope Bridge (Broken)]
+
+Room # : 117
+Room Name : Top of Large Steps
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing at the highest point of the northwestern end of the island. Below you a series of
+ ledges drop off at intervals towards the craggy rocks below, forming a sort of natural "staircase" leading down to the crashing
+ waves below.
+Text Description (Short) : You are a the highest point of the northwester end of the island.
+Direction Description : You try to climb Down the series of ledges to where the cliffs meet the ocean, or head back along
+ the top of the cliffs to the East.
+Directions : East(127), Down(123)
+
+Room # : 118
+Room Name : Cave Entrance
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : What appeared to be a small dugout from the path below you actually turns out to be a carefully
+ carved cave leading into the heart of the volcano. Heat from the molten lava within the depts of the volcano rolls out across
+ your face, a distinctly different sensation from the cool ocean breeze blowing across your back. The walls of the cave are
+ perfectly smooth, and the shape of the cave has been prefectly rounded. The cave continues to the north, where a small ledge juts
+ out from the volcano's interior wall.
+Text Description (Short) : You are in the entrance to a volcanic cave.
+Direction Description : You can walk North towards the heart of the fiery volcano, or climb back Down to the back
+ that winds around it's southern face.
+Directions : North(124), Down(37)
+Notes : Original Text went as follows:
+ You are resting inside a naturally-formed dugout, probably shaped
+ and molded by the lava the last time the volcano erupted. The dugout resemble a very small
+ cave, about seven feet deep into the volcano, six feet high, and six feet wide. Its deep
+ enough to block out the sun, but wide enough to let in the refreshing sea breeze.
+
+Room # : 119
+Room Name : Middle of Bridge
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now walking across a rickety rope bridge. Below you is a deep
+ gulley with the ocean's waves crashing at the bottom.
+Text Description (Short) : You are in the middle of a rope bridge.
+Direction Description : The bridge goes East and West.
+Directions : East(83), West(116)
+
+Room # : 120
+Room Name : Exterior of the Temple of the White Orb
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing at the top of the hand-carved staircase that leads up the side of a mountain.
+ You have reached a wide open, flat, circular area which is covered with square stone tiles, with pilliars of various
+ heights and widths placed against the rock. At the center of the circle, on the ground are four larger stone tiles,
+ shaped into quarter-circles, providing a stark geometric contrast to the square tiles. In the middle of the four
+ quarter-circle tiles stands another circular pillar, this one much thicker than the others that encircle this area.
+ On top of each of the pillars that line the area are situated various three-dimensional geometric shapes that have been
+ carved out of either glass or crystal, something which you can not be sure about due to the way in which they tower over your
+ head. Regardless of the material, each work is an elaborate and beautiful piece, whose delicate curves catch and reflect the sun's
+ light, casting light and rainbows of varying hues all about this area, but especially upon the center pillar.
+ In the center of the large center pillar, a large sphereical container (made from a material similar to the geomtric shapes
+ that line the other pillarss) is half-filled with a clear liquid that glissens in the rays of light. Directly before you is a
+ short and stubby cylindrical column with extremely elaborate marks and patterns etched onto its surface. Behind you to the south,
+ the hand-carved staircase leads Down the mountain to the clifftops below.
+Text Description (Short) : You are at the top of a hand-carved staircase that leads up the side of a mountain.
+Direction Description :
+Directions : North(131), Down(11)
+Items : Item[Column]
+
+Room # : 121
+Room Name : Lower Ledge Inside Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You have decended down the metal cable, down even closer to the already
+ unbearable heat of the volcano. You are now standing on yet another ledge inside the volcano, on the verge
+ of collapse from heat stroke. Your head is reeling with the warmth of the molten lava splashing below you.
+Text Description (Short) : You are on the lower ledge inside of a volcano.
+Direction Description : You may only climp back Up the way you came.
+Directions : 
+Items : Item[The Red Orb]
+Notes : The Red Orb is here. You need to have to bucket in order to pick it up.
+
+Room # : 122
+Room Name : Top of Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You now stand on the top of a volcano, peering down at the lava
+ flowing deep within it. The heat emanating from within the bowels of the earth blast your face
+ with a ferousity that causes you to snap your head back. Before averting you eyes, you happen to glance
+ a certain dark splotch off to the side of the volcano's interior.
+Text Description (Short) : You are on top of a volcano.
+Direction Description : You can go down the North side of the volcano,
+ or SouthEast down a path that wraps around to the other side.
+Directions : North(111), SouthEast(39)
+Notes : In eariler versions of the game the metal rod was just randomly poking out of the ground here.
+
+Room # : 123
+Room Name : Large Steps
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are able to climb about halfway down the series of ledges before the intervals
+ between ledges becomes too great for you to work your way down any further. There are are many large birds
+ flying around lazily, some of which have roosted in spaces where small crags jut out from the cliff.
+Text Description (Short) : You are on a ledge, at the northwestern corner of the island.
+Direction Description : You may only climb back Up to the top of the cliff.
+Directions : Up(117)
+
+Room # : 124
+Room Name : Upper Ledge of Volcano
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now standing on a ledge that juts out of the interior wall of
+ a volcano. The heat here is intense beyond explanation or comprehension, and you feel dizzy with
+ the heat. Adding curiousity to this exotic locale, a large grey metal ring hangs from the ceiling at
+ the end of the hand-carved volcanic cave.
+Text Description (Short) : You on a ledge inside of a volcano.
+Direction Description : You have no interest in jumping Down into the lava below you, so you may
+ only return to North, and to the cool ocean air at the other end of the volcanic cave.
+Directions : North(118)
+Items : Item[Metal Rung]
+Notes : You need to tie the metal cable onto the metal ring to reach the ledge below you.
+ This room was completely modified later to better round out the game.
+
+Room # : 125
+Room Name : CAVE
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You now stand before a huge cave entrance that leads
+ underground. You hear some sort of mechanism shirring and clicking deep below
+ the earth. You sigh, take a deep breathe, and step forward. You've come a long
+ way, and there's no turning back now.
+Text Description (Short) : You are at the end of the game.
+Direction Description : This concludes the first chapter of The Cycon Oddyssey.
+ You have sucessfully overcome many obstacles and mental challanges. I regret that you had
+ to come so far, and you still don't know where you are, how you go here, why
+ you were brought here, or even what the name means. You don't even know where
+ 'here' is. If you enjoyed this game (or even if you didn't) look for The Cycon
+ Odyssey II, 'Tracing Roots', possibly coming soon to a server near you.
+Directions :
+Notes : The last of the original rooms. All of the following rooms have been added to The Cycon
+ Odyssey in order to better balance the game.
+
+Room # : 126
+Room Name : Inside Alcove
+GraphicURL : Images/Cycon-Room(126).jpg
+Text Description (Long) : You are standing inside a small alcove, along the southern shore
+ of the island. This small space between the rocks blocks you from the ocean winds, and
+ keeps out the spray of crashing waves. You sit here and take a few minutes to gather up
+ your thoughts.
+Text Description (Short) : You are inside an alcove.
+Direction Description : You may only return to the East.
+Directions : East(4)
+Items : Item[Rock]
+Notes : The first of the new rooms, added to the original game in order to provide better balance.
+
+Room # : 127
+Room Name : North-North-West Portion of Island
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are walking along the cliffs that make up the northern portion of the island.
+Text Description (Short) : You are walking along the cliffs.
+Direction Description : You may travel South to a well, or West or East along the cliff.
+Directions : South(107), East(11), West(117)
+
+Room # : 128
+Room Name : Water under the bridge
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are now treading water underneath the bridge that crosses the lagoon. 
+ There are many reeds and slimy plants growing between you and the eastern shore of the lagoon, 
+ so you wouldn't be able to swim that way.
+Text Description (Short) : You are treading water under a bridge.
+Direction Description : You may swim North towards a small coral reef, South to the water's edge,
+ or if you were better at holding your breathe under water, you might
+ consider swimming down below the water's surface.
+Directions : North(62), South(44), Down(52)
+Directional Object : Down
+ Obstruction : Obstruction(8)
+
+Room # : 129
+Room Name : Ledge over Mountain River
+GraphicURL : Images/Cycon-Room(098).jpg
+Text Description (Long) : You are now standing on a small ledge that juts out from the cliff on
+ the northern side of the river. Glancing up, you can see a tree stump
+ just barely overhanging the edge of the cliff, far above your head. You'd be willing to bet that
+ there would be an excellent view from up there, but you couldn't possibly climb up there with just
+ your bare hands. 
+Text Description (Short) : You are on a ledge overhanging the river.
+Direction Description : You can't climb Up the cliff with your bare hands, so you will have to climb
+ back Down from the ledge, into the river.
+Directions : Down(98)
+Items : Item[Tree Stump]
+
+Room # : 130
+Room Name : Between Waterhole and Decline
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : You are standing shin-deep in an underground river that flows through a tunnel
+ from the west to the east. To the west a soft, gentle light filters down from a hole in the ceiling, whereas
+ to the east is nothing but the pitch-blackness of an enternal subterraignian night.
+Text Description (Short) : You are standing shin-deep in an underground river.
+Direction Description : You would not be able to travel any further East away from the light spiling down from the
+ hole in the ceiling to the West without anything but the un-aided naked eye.
+Directions : East(114), West(115)
+Notes : Add DO(E) in regards to light
+
+Room # : 131
+Room Name : Entrance to the Temple of the White Orb
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The interior of this temple is a smooth, square tunnel leading deeper north into the heart of the
+ mountain. Shafts of light slice down from long long shaft cut through the ceiling of the tunnel, illuminating ancient dust
+ particles that rise into the air with your every footstep. The floor, ceiling, and walls of the tunnel are a dull white, dulled
+ and greyed by the the ravages of time and thick films of dust. To the north of you a circular doorway leads deeper into the temple.
+Text Description (Short) : You are in the entrance to a temple.
+Direction Description : You can travel deeper into the temple by heading North through the circular doorway,
+ or walk up the stairs and out into the light by moving South.
+Directions : North(132), South(120)
+Notes : Add DO(N) to 120.
+
+Room # : 132
+Room Name : Inner Chamber of the Temple of the White Orb
+GraphicURL : Images/CyconTemplate.jpg
+Text Description (Long) : The circular doorway opens up into a large spherical chamber. From the lowest dip of the curved
+ floor a cylindrical pedestool rises up, terminating at the exact center of the room, where four metal spokes rise from the top
+ and curve inward in proportion to the rest of the rooms dimensions.
+Text Description (Short) : You are standing in a large spherical chamber.
+Direction Description : The only exit to this room leads to the South.
+Directions : South(131)
+Items : Item[The White Orb]
+Notes : Add DO-O(S) here.

@@ -1,0 +1,54 @@
+COG Engine Game Module - Info File
+----------------------------------
+File Last Modified : 2000.03.13
+----------------------------------
+
+Game Title : The Cycon Odyssey
+Version Number : <None>
+Game Designer : Steven M. Castellotti
+Game Designer's Email Address : SteveC@innocent.com
+Last Update : March 14, 2000
+DebugMode : true
+Game URL : http://cogengine.linuxbox.com/CogEngine/CogEngine.html
+Database URL : http://cogengine.linuxbox.com/CogEngine/Cycon-COG.dat
+Total Directions : 11
+Total Rooms : 132
+Total Items : 63
+Total Obstructions : 8
+Total Verbs : 9
+Show All Verbs : true
+Introduction Graphic : Images/CyconTemplate.jpg
+Introduction (Text) : You awaken and everything is blurry. You sit up,
+ rub your eyes and notice that you somehow have arrived in the middle
+ of a beach. Your clothes are torn, and your throat is a little sore.
+ Slowly you get up to your feet and look around. This is the start of
+ long and wonderful journey. You must use logic, as well as wits and
+ courage. You don't know how you got here, but maybe you can get home.
+
+
+Layout Defaults
+---------------
+
+Preferred Room Graphic Dimensions (x,y) : 640, 480
+Show Statistal Display : true
+Show Inventory Display : true
+Show Command Line : true
+Show Compass : true
+Center Button Indicates Items : true
+
+
+Player Defaults
+---------------
+
+Name : Player
+Initial Room # : 1
+Initial Inventory Items :
+Experience : -1
+Health Points (HP) : -1
+Magic Points (MP) : -1
+Strength (Str) : -1
+Intelligence : -1
+Armor Level : -1
+Max Weight : -1
+Max Bulk : -1
+
