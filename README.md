@@ -4,8 +4,7 @@ README - Cycon Odyssey 0.98.2
 
                                 Version 0.98.2
 
-                   Copyright (C) 1999-2002 Steven M. Castellotti
-                            <SteveC@innocent.com>
+                   Copyright (C) 1999-2002 Steven Castellotti
 
 
 The Cycon Odyssey is a video game created for use with Cog Engine,
