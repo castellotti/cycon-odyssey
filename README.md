@@ -28,24 +28,25 @@ the time. See the section "Reporting Bugs" Below for more information.
 Quick Installation Instructions
 -------------------------------
 
-	The Cycon Odyssey is a game module for the Cog Engine Program. 
-
-	This release is to be used with the Development releases of the 
+The Cycon Odyssey is a game module for the Cog Engine Program. 
+This release is to be used with the Development releases of the 
 Cog Engine and the Cog Development Application, version 1.1.6 or greater.
 
-	You will need to download and install one of those application 
+You will need to download and install one of those application 
 from the Cog Engine website (address listed below). 
 
 
-FOR MORE INFORMATION
+For More Information
 --------------------
 
-Website:           <http://cogengine.sourceforge.net/>.
-Developement site: <http://sourceforge.net/projects/cogengine/>.
-Mailing lists:     <http://lists.sourceforge.net/lists/listinfo/cogengine-devel>.
+Website:           <http://cogengine.sourceforge.net/>
+
+Developement site: <http://sourceforge.net/projects/cogengine/>
+
+Mailing lists:     <http://lists.sourceforge.net/lists/listinfo/cogengine-devel>
  
 
-REPORTING BUGS
+Reporting Bugs
 --------------
 
 Feedback from users is an essential part of the open source model of
