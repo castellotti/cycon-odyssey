@@ -15,15 +15,7 @@ itself.
 Cog Engine documentation is an ongoing project. Please check the
 homepage at http://cogengine.sourceforge.net for more information.
 
-
-No Warranty
------------
-
-The Cog Engine comes with ABSOLUTELY NO WARRANTY.  See the COPYING file
-for details. The Cog Engine is software under heavy development. This 
-means that while it will work most of the time, it will not work all of 
-the time. See the section "Reporting Bugs" Below for more information.
-
+![developer_guide-20-notebook_map](https://github.com/user-attachments/assets/3d07a0e2-c434-491a-ae57-7a9cfa78af93)
 
 Quick Installation Instructions
 -------------------------------
@@ -54,3 +46,11 @@ software development.  If you would like to report a bug, please access
 the development website for The Cog Engine, hosted by SourceForge.net at:
 
 http://sourceforge.net/projects/cogengine/
+
+No Warranty
+-----------
+
+The Cog Engine comes with ABSOLUTELY NO WARRANTY.  See the COPYING file
+for details. The Cog Engine is software under heavy development. This 
+means that while it will work most of the time, it will not work all of 
+the time. See the section "Reporting Bugs" Below for more information.
