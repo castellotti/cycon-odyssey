@@ -15,8 +15,6 @@ itself.
 Cog Engine documentation is an ongoing project. Please check the
 homepage at http://cogengine.sourceforge.net for more information.
 
-![developer_guide-20-notebook_map](https://github.com/user-attachments/assets/3d07a0e2-c434-491a-ae57-7a9cfa78af93)
-
 Quick Installation Instructions
 -------------------------------
 
